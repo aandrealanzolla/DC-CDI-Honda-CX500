@@ -1,0 +1,94 @@
+Change Component Comment : Designator=Q1 Old Comment=IPD035N06L3 G New Comment=IPD600N25N3
+Added Component: Designator=Q5(INF-PG-TO252-3-11_A_L)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.infineon.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.infineon.com/dgdl/IPD035N06L3_Rev2.3.pdf?folderId=db3a304313b8b5a60113cee8763b02d7&fileId=db3a30431b3e89eb011b4558ed7f7d14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.infineon.com/dgdl/IPD160N04L_rev1.0.pdf?folderId=db3a3043163797a6011643468e7505a4&fileId=db3a3043163797a60116436401cf05cf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 2.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Green"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Halogen-free"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ID (max)"; Value = "90 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IDpuls (max)"; Value = "360 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Infineon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "3-Pin Plastic (Green) Transistor Single Outline Package, 6.57 x 6.1 mm Body, 2.29 mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "PG-TO252-3-11"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev. 02, 03/2007"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "IPD035N06L3 G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarity"; Value = "N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ptot (max)"; Value = "167 W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QG"; Value = "59 nC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RDS (on) (max)"; Value = "3.5 mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RDS (on) (max) (@4.5V)"; Value = "5.5 mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rth"; Value = "0.9 K/W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RthJA (max)"; Value = "62 K/W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RthJC (max)"; Value = "0.9 K/W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VDS (max)"; Value = "60 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VGS(th) (max)"; Value = "2.2 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VGS(th) (min)"; Value = "1.2 V"; VariantName = "[No Variations]"
+Added Component: Designator=Q6(INF-PG-TO252-3-11_A_L)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.infineon.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.infineon.com/dgdl/IPD035N06L3_Rev2.3.pdf?folderId=db3a304313b8b5a60113cee8763b02d7&fileId=db3a30431b3e89eb011b4558ed7f7d14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.infineon.com/dgdl/IPD160N04L_rev1.0.pdf?folderId=db3a3043163797a6011643468e7505a4&fileId=db3a3043163797a60116436401cf05cf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 2.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Green"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Halogen-free"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ID (max)"; Value = "90 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IDpuls (max)"; Value = "360 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Infineon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "3-Pin Plastic (Green) Transistor Single Outline Package, 6.57 x 6.1 mm Body, 2.29 mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "PG-TO252-3-11"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev. 02, 03/2007"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "IPD035N06L3 G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarity"; Value = "N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ptot (max)"; Value = "167 W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QG"; Value = "59 nC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RDS (on) (max)"; Value = "3.5 mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RDS (on) (max) (@4.5V)"; Value = "5.5 mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rth"; Value = "0.9 K/W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RthJA (max)"; Value = "62 K/W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RthJC (max)"; Value = "0.9 K/W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VDS (max)"; Value = "60 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VGS(th) (max)"; Value = "2.2 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VGS(th) (min)"; Value = "1.2 V"; VariantName = "[No Variations]"
+Added Component: Designator=R50(RESC1608X55X25ML10T15)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.yageo.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_04.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 4, 02/2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.8 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "0603"; VariantName = "[No Variations]"
+Added Component: Designator=R51(RESC1608X55X25ML10T15)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.yageo.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_04.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 4, 02/2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.8 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "0603"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+12 Pin=Q5-3
+Added Pin To Net: NetName=NetP4_2 Pin=Q6-1
+Added Pin To Net: NetName=GND Pin=Q6-3
+Added Pin To Net: NetName=NetP4_2 Pin=R50-1
+Change Net Name : Old Net Name=+12 New Net Name=NetC1_2
+Added Pin To Net: NetName=+12 Pin=Q5-2
+Added Pin To Net: NetName=+12 Pin=R50-2
+Added Pin To Net: NetName=+12 Pin=R51-2
+Added Net: Name=+12
+Added Pin To Net: NetName=NetQ5_1 Pin=Q5-1
+Added Pin To Net: NetName=NetQ5_1 Pin=Q6-2
+Added Pin To Net: NetName=NetQ5_1 Pin=R51-1
+Added Net: Name=NetQ5_1
+Added Member To Class: ClassName=input_output Member=Component Q5 IPD600N25N3
+Added Member To Class: ClassName=input_output Member=Component Q6 IPD600N25N3
+Added Member To Class: ClassName=input_output Member=Component R50 RC0603FR-07470KL
+Added Member To Class: ClassName=input_output Member=Component R51 RC0603FR-07470KL

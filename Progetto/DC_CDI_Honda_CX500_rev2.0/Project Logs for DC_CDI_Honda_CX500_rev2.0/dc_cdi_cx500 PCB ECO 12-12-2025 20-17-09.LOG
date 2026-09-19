@@ -1,0 +1,135 @@
+Removed Pin From Net: NetName=GND Pin=C12-1
+Removed Pin From Net: NetName=GND Pin=C13-1
+Removed Pin From Net: NetName=GND Pin=C16-1
+Removed Pin From Net: NetName=GND Pin=C17-1
+Removed Pin From Net: NetName=GND Pin=C18-1
+Removed Pin From Net: NetName=GND Pin=C19-1
+Removed Pin From Net: NetName=GND Pin=C20-1
+Removed Pin From Net: NetName=GND Pin=C21-2
+Removed Pin From Net: NetName=GND Pin=C35-2
+Removed Pin From Net: NetName=GND Pin=C36-2
+Removed Pin From Net: NetName=GND Pin=C45-2
+Removed Pin From Net: NetName=GND Pin=C46-1
+Removed Pin From Net: NetName=GND Pin=C47-2
+Removed Pin From Net: NetName=GND Pin=C48-2
+Removed Pin From Net: NetName=GND Pin=C49-2
+Removed Pin From Net: NetName=GND Pin=C50-2
+Removed Pin From Net: NetName=GND Pin=C51-2
+Removed Pin From Net: NetName=GND Pin=D7-2
+Removed Pin From Net: NetName=GND Pin=D8-2
+Removed Pin From Net: NetName=GND Pin=D9-2
+Removed Pin From Net: NetName=GND Pin=J1-2
+Removed Pin From Net: NetName=GND Pin=J1-5
+Removed Pin From Net: NetName=GND Pin=J1-7
+Removed Pin From Net: NetName=GND Pin=J2-2
+Removed Pin From Net: NetName=GND Pin=J3-1
+Removed Pin From Net: NetName=GND Pin=Q1-3
+Removed Pin From Net: NetName=GND Pin=Q2-3
+Removed Pin From Net: NetName=GND Pin=R21-1
+Removed Pin From Net: NetName=GND Pin=R25-1
+Removed Pin From Net: NetName=GND Pin=R26-1
+Removed Pin From Net: NetName=GND Pin=R27-1
+Removed Pin From Net: NetName=GND Pin=R28-1
+Removed Pin From Net: NetName=GND Pin=R32-2
+Removed Pin From Net: NetName=GND Pin=R45-1
+Removed Pin From Net: NetName=GND Pin=R48-2
+Removed Pin From Net: NetName=GND Pin=R49-1
+Removed Pin From Net: NetName=GND Pin=R50-1
+Removed Pin From Net: NetName=GND Pin=R52-1
+Removed Pin From Net: NetName=NetQ3_3 Pin=R52-2
+Removed Pin From Net: NetName=GND Pin=R53-1
+Removed Pin From Net: NetName=NetQ4_3 Pin=R53-2
+Removed Pin From Net: NetName=GND Pin=T1-P$12
+Removed Pin From Net: NetName=GND Pin=T2-P$1
+Removed Pin From Net: NetName=GND Pin=U4-5
+Removed Pin From Net: NetName=GND Pin=U4-11
+Removed Pin From Net: NetName=GND Pin=U5-5
+Removed Pin From Net: NetName=GND Pin=U5-11
+Removed Member From Class: ClassName=HV_power Member=R52
+Removed Member From Class: ClassName=HV_power Member=R53
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Change component parameters: Designator = "R57" ("R57"); Footprint = "0603_FP"; UniqueID = "\XZDVKRHP" ("\XZDVKRHP")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "20"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R58" ("R58"); Footprint = "0603_FP"; UniqueID = "\ASWZXSTZ" ("\ASWZXSTZ")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "20"; VariantName = "[No Variations]"
+Added Component: Designator=RJ1(SHORT10_8MIL-FP)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=RJ2(SHORT10_8MIL-FP)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=RJ2-2
+Change Net Name : Old Net Name=GND New Net Name=DGND
+Added Pin To Net: NetName=GND Pin=C46-1
+Added Pin To Net: NetName=GND Pin=C47-2
+Added Pin To Net: NetName=GND Pin=C48-2
+Added Pin To Net: NetName=GND Pin=C49-2
+Added Pin To Net: NetName=GND Pin=C50-2
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=GND Pin=J1-5
+Added Pin To Net: NetName=GND Pin=J1-7
+Added Pin To Net: NetName=GND Pin=J2-2
+Added Pin To Net: NetName=GND Pin=J3-1
+Added Pin To Net: NetName=GND Pin=R32-2
+Added Pin To Net: NetName=GND Pin=R45-1
+Added Pin To Net: NetName=GND Pin=RJ1-2
+Added Pin To Net: NetName=GND Pin=RJ2-1
+Added Net: Name=GND
+Added Pin To Net: NetName=PGND Pin=C12-1
+Added Pin To Net: NetName=PGND Pin=C13-1
+Added Pin To Net: NetName=PGND Pin=C16-1
+Added Pin To Net: NetName=PGND Pin=C17-1
+Added Pin To Net: NetName=PGND Pin=C18-1
+Added Pin To Net: NetName=PGND Pin=C19-1
+Added Pin To Net: NetName=PGND Pin=C20-1
+Added Pin To Net: NetName=PGND Pin=C21-2
+Added Pin To Net: NetName=PGND Pin=C35-2
+Added Pin To Net: NetName=PGND Pin=C36-2
+Added Pin To Net: NetName=PGND Pin=C45-2
+Added Pin To Net: NetName=PGND Pin=C51-2
+Added Pin To Net: NetName=PGND Pin=D7-2
+Added Pin To Net: NetName=PGND Pin=D8-2
+Added Pin To Net: NetName=PGND Pin=D9-2
+Added Pin To Net: NetName=PGND Pin=Q1-3
+Added Pin To Net: NetName=PGND Pin=Q2-3
+Added Pin To Net: NetName=PGND Pin=R21-1
+Added Pin To Net: NetName=PGND Pin=R25-1
+Added Pin To Net: NetName=PGND Pin=R26-1
+Added Pin To Net: NetName=PGND Pin=R27-1
+Added Pin To Net: NetName=PGND Pin=R28-1
+Added Pin To Net: NetName=PGND Pin=R48-2
+Added Pin To Net: NetName=PGND Pin=R49-1
+Added Pin To Net: NetName=PGND Pin=R50-1
+Added Pin To Net: NetName=PGND Pin=RJ1-1
+Added Pin To Net: NetName=PGND Pin=T1-P$12
+Added Pin To Net: NetName=PGND Pin=T2-P$1
+Added Pin To Net: NetName=PGND Pin=U4-5
+Added Pin To Net: NetName=PGND Pin=U4-11
+Added Pin To Net: NetName=PGND Pin=U5-5
+Added Pin To Net: NetName=PGND Pin=U5-11
+Added Net: Name=PGND
+Added Member To Class: ClassName=input_output Member=Component RJ1 Net Tie 0.6x1.4mm
+Added Member To Class: ClassName=input_output Member=Component RJ2 Net Tie 0.6x1.4mm
+Added Member To Class: ClassName=logic Member=Component U8 STM32F411CEU6
+Added Rule: Name=Schematic Supply Nets_2
+Added Rule: Name=Schematic Supply Nets_6

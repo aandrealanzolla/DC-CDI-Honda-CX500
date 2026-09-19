@@ -1,0 +1,32 @@
+Removed Pin From Net: NetName=GND Pin=C46-1
+Removed Pin From Net: NetName=VBAT Pin=C46-2
+Change Component Footprint: Designator=C46 Old Footprint=FP-FTF-MFG New Footprint=WCAP-ASLI_D12.5H14
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Change Component Comment : Designator=C46 Old Comment=EEEFT1E471AP New Comment=865080462016
+Change Managed Component Library Link : Designator=C46 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=01E2A892-3643-4064-82F3-DA90796E47DC New ItemGUID=512C0868-1DDF-4448-AD3B-2459F7083D97 Old RevisionGUID=22FA3713-E680-47DB-9D4E-D4E8C9DF4AC1 New RevisionGUID=9FC5050D-B0E3-4EEB-A467-04303042DD80
+Change component parameters: Designator = "C46" ("C46"); Footprint = "FP-FTF-MFG"; UniqueID = "\WWOOKYQI" ("\WWOOKYQI")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "1mF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "Radial"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Diameter"; Value = "12.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ESR (Equivalent Series Resistance)"; Value = "67.2683mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "14mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height - Seated (Max)"; Value = "13.9954mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Impedance"; Value = "80mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Resistance"; Value = "100kO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Leakage Current"; Value = "250µA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "14mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Life (Hours)"; Value = "2000hours"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Polarity"; Value = "Polar"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ripple Current"; Value = "1.1A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ripple Current (AC)"; Value = "1.1A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "25V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating (DC)"; Value = "25V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "13mm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VBAT Pin=C46-1
+Added Pin To Net: NetName=GND Pin=C46-2

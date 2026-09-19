@@ -1,0 +1,8 @@
+Change Net Name : Old Net Name=NetJ1_4 New Net Name=SWDIO
+Change Net Name : Old Net Name=NetJ1_6 New Net Name=SWCLK
+Change Net Name : Old Net Name=NetJ1_13 New Net Name=UART_DEBUG_RX
+Change Net Name : Old Net Name=NetJ1_14 New Net Name=UART_DEBUG_TX
+Change Net Name : Old Net Name=NetJ5_9 New Net Name=EXT_SENSOR3_SPI_MISO
+Change Net Name : Old Net Name=NetJ5_10 New Net Name=EXT_SENSOR3_SPI_MOSI
+Change Net Name : Old Net Name=NetJ5_11 New Net Name=EXT_SENSOR3_SPI_SCK
+Change Net Name : Old Net Name=NetJ5_12 New Net Name=EXT_SENSOR3_SPI_NSS

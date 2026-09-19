@@ -1,0 +1,172 @@
+/*
+**   Date   : Sun Mar  2 19:18:08 2025
+**
+**   Nets   : NetC10_1_NetC10_2_NetD2_2_NetQ4_1_NetR10_1_NetR13_2
+*/
+
+LIBRARY {
+	MODEL {
+		MODEL_9 : MOD_STRUC = 0;
+		PAR_FILE = #___HC_040_S0_out.mac;
+
+		MODEL_11 : MOD_STRUC = 0;
+		PAR_FILE = #___HC_000_S0_in.mac;
+
+		MODEL_13 : MOD_STRUC = 0;
+		PAR_FILE = #___HCT_000_S0_in.mac;
+
+	}
+	DIODE {
+		MODEL_3 : PAR_FILE = #___SIE_BAS40_dio.mac;
+	}
+	BJT {
+		MODEL_5 : PAR_FILE = #___SIE_BC846_bjt.mac;
+	}
+}
+NETLIST {
+	AREA ZONE_1 {
+		/* Layer: 1, Width: 0.254 mm */
+		LINE = 0;
+		DIM  = 1;
+		LEN  = 1.8349 CM;
+		LMAT ( 1245.43 ) NH/M;
+		CMAT ( 14.8596 ) PF/M;
+	}
+	AREA ZONE_2 {
+		/* Layer: 1, Width: 0.254 mm */
+		LINE = 0;
+		DIM  = 1;
+		LEN  = 3.29413 CM;
+		LMAT ( 1245.43 ) NH/M;
+		CMAT ( 14.8596 ) PF/M;
+	}
+	AREA ZONE_3 {
+		/* Layer: 1, Width: 0.254 mm */
+		LINE = 0;
+		DIM  = 1;
+		LEN  = 1.03403 CM;
+		LMAT ( 1245.43 ) NH/M;
+		CMAT ( 14.8596 ) PF/M;
+	}
+	AREA ZONE_4 {
+		/* Layer: 1, Width: 0.254 mm */
+		LINE = 0;
+		DIM  = 1;
+		LEN  = 1.54661 CM;
+		LMAT ( 1245.43 ) NH/M;
+		CMAT ( 14.8596 ) PF/M;
+	}
+	AREA ZONE_5 {
+		/* Layer: 1, Width: 0.254 mm */
+		LINE = 0;
+		DIM  = 1;
+		LEN  = 5.48919 CM;
+		LMAT ( 1245.43 ) NH/M;
+		CMAT ( 14.8596 ) PF/M;
+	}
+	AREA ZONE_6 {
+		/* Layer: 4, Width: 0.254 mm */
+		LINE = 0;
+		DIM  = 1;
+		LEN  = 0.01143 CM;
+		LMAT ( 1251.03 ) NH/M;
+		CMAT ( 14.8352 ) PF/M;
+	}
+	AREA ZONE_7 {
+		/* Layer: 4, Width: 0.53848 mm */
+		LINE = 0;
+		DIM  = 1;
+		LEN  = 0.254254 CM;
+		LMAT ( 1120.62 ) NH/M;
+		CMAT ( 14.3363 ) PF/M;
+	}
+	AREA ZONE_8 {
+		/* Layer: 1, Width: 2.52984 mm */
+		LINE = 0;
+		DIM  = 1;
+		LEN  = 0.70739 CM;
+		LMAT ( 823.634 ) NH/M;
+		CMAT ( 16.1793 ) PF/M;
+	}
+	AREA ZONE_9 {
+		/* Layer: 4, Width: 0.254 mm */
+		LINE = 0;
+		DIM  = 1;
+		LEN  = 25.1755 CM;
+		LMAT ( 1251.03 ) NH/M;
+		CMAT ( 14.8352 ) PF/M;
+	}
+	AREA ZONE_10 {
+		/* Layer: 4, Width: 0.254 mm */
+		LINE = 0;
+		DIM  = 1;
+		LEN  = 0.202438 CM;
+		LMAT ( 1251.03 ) NH/M;
+		CMAT ( 14.8352 ) PF/M;
+	}
+	AREA ZONE_11 {
+		/* Layer: 4, Width: 0.254 mm */
+		LINE = 0;
+		DIM  = 1;
+		LEN  = 0.329438 CM;
+		LMAT ( 1251.03 ) NH/M;
+		CMAT ( 14.8352 ) PF/M;
+	}
+	AREA ZONE_12 {
+		/* Layer: 4, Width: 0.254 mm */
+		LINE = 0;
+		DIM  = 1;
+		LEN  = 33.6738 CM;
+		LMAT ( 1251.03 ) NH/M;
+		CMAT ( 14.8352 ) PF/M;
+	}
+	STIM stimulus_0 {
+		START_LEV = 0;
+		IMP_NR    = 1;
+		IMP_PAIR    ( 1e-08, 6e-08; ) SEC;
+	}
+	TERM C2_C10_1_2 {
+		/*
+		** Type:        Cap
+		** ID:          C10
+		** Name:        CMP-00030-39758189-1
+		** Vendor:      UK
+		** Designator:  C10
+		*/
+		NODE_NR = 2;
+		CAP cap_1 (
+			ANODE = 1;
+			BNODE = 2;
+			VALUE = 1e-10;
+		)
+	}
+	TERM C2_C11_1_2 {
+		/*
+		** Type:        Cap
+		** ID:          C11
+		** Name:        CMP-00131-19048049-1
+		** Vendor:      UK
+		** Designator:  C11
+		*/
+		NODE_NR = 2;
+		CAP cap_2 (
+			ANODE = 1;
+			BNODE = 2;
+			VALUE = 0.32672;
+		)
+	}
+	TERM D2_D2_1_2 {
+		/*
+		** Type:        Diode
+		** ID:          D2
+		** Name:        CMP-240925-000041-3
+		** Vendor:      UK
+		** Designator:  D2
+		*/
+		NODE_NR = 2;
+		DIODE diode_1 (
+			PNODE = 2;
+			NNODE = 1;
+			MODEL = MODEL_3;
+		)
+	}

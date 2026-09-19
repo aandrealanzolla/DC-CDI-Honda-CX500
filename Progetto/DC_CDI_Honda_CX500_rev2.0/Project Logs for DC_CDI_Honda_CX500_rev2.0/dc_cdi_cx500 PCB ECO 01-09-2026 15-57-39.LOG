@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=LEFT_PULSE_3V3 Pin=U3-18
+Removed Pin From Net: NetName=RIGHT_PULSE_3V3 Pin=U3-21
+Added Pin To Net: NetName=LEFT_PULSE_3V3 Pin=U3-39
+Added Pin To Net: NetName=RIGHT_PULSE_3V3 Pin=U3-40

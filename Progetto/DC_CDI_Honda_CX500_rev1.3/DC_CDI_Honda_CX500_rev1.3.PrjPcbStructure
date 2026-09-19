@@ -1,0 +1,6 @@
+Record=TopLevelDocument|FileName=cd_switching.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=cd_switching.SchDoc|FileName=HV_power.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=cd_switching.SchDoc|FileName=input_output.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=cd_switching.SchDoc|FileName=input_signal_conditioning.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=cd_switching.SchDoc|FileName=logic.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=cd_switching.SchDoc|FileName=LV_power.SchDoc|SheetNumber=6

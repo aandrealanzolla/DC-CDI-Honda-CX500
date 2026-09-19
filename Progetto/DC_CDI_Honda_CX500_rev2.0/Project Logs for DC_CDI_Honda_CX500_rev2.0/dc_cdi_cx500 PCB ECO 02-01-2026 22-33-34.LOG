@@ -1,0 +1,5 @@
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Added Component: Designator=C46(FP-FTG-MFG)
+Added Pin To Net: NetName=GND Pin=C46-1
+Added Pin To Net: NetName=VBAT Pin=C46-2
+Added Member To Class: ClassName=input_output Member=Component C46 EEE-FT1E102UP

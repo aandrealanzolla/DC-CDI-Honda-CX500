@@ -1,0 +1,19 @@
+Add component: Footprint Not Found ONSC-SOT-23-3-318-08_V
+Added Component: Designator=R7(0402_fp)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R9(0402_fp)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "12 kO"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin Q8-1
+Add Pin To Net: Unknown Pin: Pin Q8-2
+Add Pin To Net: Unknown Pin: Pin Q8-3
+Added Pin To Net: NetName=VR_SENSOR_IN1- Pin=R7-1
+Added Pin To Net: NetName=GND Pin=R7-2
+Added Pin To Net: NetName=VR_SENSOR_IN1+ Pin=R9-1
+Added Pin To Net: NetName=IN1+ Pin=R9-2
+Add Class Member: Failed to add class member : Component Q8 MGSF1N03LT1G
+Added Member To Class: ClassName=input_signal_conditioning Member=Component R7 Resistor_0402
+Added Member To Class: ClassName=input_signal_conditioning Member=Component R9 Resistor_0402

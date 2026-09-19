@@ -1,0 +1,19 @@
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Change component parameters: Designator = "C5" ("C5"); Footprint = "0402_fp"; UniqueID = "\VVWVXFDT" ("\VVWVXFDT")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100 nF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C8" ("C8"); Footprint = "0402_fp"; UniqueID = "\IYYZHGMP" ("\IYYZHGMP")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4.7 nF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C15" ("C15"); Footprint = "0402_fp"; UniqueID = "\CYJREHDF" ("\CYJREHDF")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4.7 nF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R7" ("R7"); Footprint = "0402_fp"; UniqueID = "\ROHWXNKO" ("\ROHWXNKO")
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10 kO"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R14" ("R14"); Footprint = "0402_fp"; UniqueID = "\WAXOWZHT" ("\WAXOWZHT")
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10 kO"; VariantName = "[No Variations]"

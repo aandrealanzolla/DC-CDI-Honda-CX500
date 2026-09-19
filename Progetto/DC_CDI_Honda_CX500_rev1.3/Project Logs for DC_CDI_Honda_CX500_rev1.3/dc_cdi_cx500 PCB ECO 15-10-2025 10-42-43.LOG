@@ -1,0 +1,69 @@
+Change Component Footprint: Designator=R17 Old Footprint=FP-MCS0402-IPC_A New Footprint=FP-MCS0402-MFG
+Change Component Footprint: Designator=R19 Old Footprint=FP-MCS0402-IPC_A New Footprint=FP-MCS0402-MFG
+Change Component Footprint: Designator=R47 Old Footprint=FP-MCS0402-IPC_A New Footprint=FP-MCS0402-MFG
+Change Component Footprint: Designator=R49 Old Footprint=FP-MCS0402-IPC_A New Footprint=FP-MCS0402-MFG
+Change Component Footprint: Designator=R39 Old Footprint=FP-RMCF0402-IPC_B New Footprint=RESC1005X40X25LL05T05
+Change Component Footprint: Designator=R51 Old Footprint=FP-RMCF0402-IPC_B New Footprint=RESC1005X40X25LL05T05
+Change Component Comment : Designator=R17 Old Comment=MCS04020D1503BE000 New Comment=MCS04020D1003BE000
+Change Component Comment : Designator=R19 Old Comment=MCS04020D1503BE000 New Comment=MCS04020D1003BE000
+Change Component Comment : Designator=R47 Old Comment=MCS04020D1503BE000 New Comment=MCS04020D1003BE000
+Change Component Comment : Designator=R49 Old Comment=MCS04020D1503BE000 New Comment=MCS04020D1003BE000
+Change Component Comment : Designator=R39 Old Comment=RMCF0402FT365K New Comment=CRCW0402165KFKED
+Change Component Comment : Designator=R51 Old Comment=RMCF0402FT365K New Comment=CRCW0402165KFKED
+Change Managed Component Library Link : Designator=R17 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=5207F0C5-2BA1-483A-B888-5204DD5FD051 New ItemGUID=46D15E79-FF85-4383-9E9A-974AC9E2603E Old RevisionGUID=A063CEB6-1300-4582-8214-D9ACF6BB67E6 New RevisionGUID=100FE209-D3BD-4CA1-8891-E72F4FC265D6
+Change Managed Component Library Link : Designator=R19 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=5207F0C5-2BA1-483A-B888-5204DD5FD051 New ItemGUID=46D15E79-FF85-4383-9E9A-974AC9E2603E Old RevisionGUID=A063CEB6-1300-4582-8214-D9ACF6BB67E6 New RevisionGUID=100FE209-D3BD-4CA1-8891-E72F4FC265D6
+Change Managed Component Library Link : Designator=R39 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=84930E06-3A0F-49F6-8745-FC2ED4A3EEA4 New ItemGUID=C13FDB79-ABC3-4F01-A31B-5390314F4B4D Old RevisionGUID=ED9AD39E-C41F-4AF4-9D7E-910C0FB8E12F New RevisionGUID=529712F0-4C77-429F-B84B-8138997485EF
+Change Managed Component Library Link : Designator=R47 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=5207F0C5-2BA1-483A-B888-5204DD5FD051 New ItemGUID=46D15E79-FF85-4383-9E9A-974AC9E2603E Old RevisionGUID=A063CEB6-1300-4582-8214-D9ACF6BB67E6 New RevisionGUID=100FE209-D3BD-4CA1-8891-E72F4FC265D6
+Change Managed Component Library Link : Designator=R49 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=5207F0C5-2BA1-483A-B888-5204DD5FD051 New ItemGUID=46D15E79-FF85-4383-9E9A-974AC9E2603E Old RevisionGUID=A063CEB6-1300-4582-8214-D9ACF6BB67E6 New RevisionGUID=100FE209-D3BD-4CA1-8891-E72F4FC265D6
+Change Managed Component Library Link : Designator=R51 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=84930E06-3A0F-49F6-8745-FC2ED4A3EEA4 New ItemGUID=C13FDB79-ABC3-4F01-A31B-5390314F4B4D Old RevisionGUID=ED9AD39E-C41F-4AF4-9D7E-910C0FB8E12F New RevisionGUID=529712F0-4C77-429F-B84B-8138997485EF
+Change component parameters: Designator = "R17" ("R17"); Footprint = "FP-MCS0402-IPC_A"; UniqueID = "\FEDMPOSW" ("\FEDMPOSW")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Composition"; Value = "Thin Film"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "100kR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "25ppm/°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "0.1%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R19" ("R19"); Footprint = "FP-MCS0402-IPC_A"; UniqueID = "\FSWIDKTD" ("\FSWIDKTD")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Composition"; Value = "Thin Film"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "100kR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "25ppm/°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "0.1%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R39" ("R39"); Footprint = "FP-RMCF0402-IPC_B"; UniqueID = "\FUURYRLW" ("\FUURYRLW")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Vishay Dale"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CRCW0402165KFKED"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R47" ("R47"); Footprint = "FP-MCS0402-IPC_A"; UniqueID = "\ZONDOGEN" ("\ZONDOGEN")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Composition"; Value = "Thin Film"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "100kR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "25ppm/°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "0.1%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R49" ("R49"); Footprint = "FP-MCS0402-IPC_A"; UniqueID = "\DOBMPMZT" ("\DOBMPMZT")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Composition"; Value = "Thin Film"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "100kR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "25ppm/°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "0.1%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R51" ("R51"); Footprint = "FP-RMCF0402-IPC_B"; UniqueID = "\QDBVUHHW" ("\QDBVUHHW")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Vishay Dale"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CRCW0402165KFKED"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=HV_power Member=Component R19 MCS04020D1003BE000

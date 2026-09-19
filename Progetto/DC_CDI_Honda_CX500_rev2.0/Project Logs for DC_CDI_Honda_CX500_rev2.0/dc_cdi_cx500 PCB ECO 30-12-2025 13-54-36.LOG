@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=R_HV Pin=C4-1
+Removed Pin From Net: NetName=R_COIL Pin=C4-2
+Removed Member From Class: ClassName=cd_switching Member=C4
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Change Component Designator: OldDesignator=C? NewDesignator=C1
+Added Pin To Net: NetName=L_HV Pin=C1-1
+Added Pin To Net: NetName=L_COIL Pin=C1-2

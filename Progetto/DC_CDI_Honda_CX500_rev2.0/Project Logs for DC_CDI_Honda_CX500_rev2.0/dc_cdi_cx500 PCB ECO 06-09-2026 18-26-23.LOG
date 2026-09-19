@@ -1,0 +1,7 @@
+Change Footprint: Footprint Not Found FP-0402-SOD-923F-MFG
+Added Pin To Net: NetName=UART_DEBUG_TX Pin=J2-10
+Added Pin To Net: NetName=UART_DEBUG_RX Pin=J2-18
+Change Net Name : Old Net Name=KILL_SWITCH New Net Name=POWER_ON
+Added Pin To Net: NetName=KILL_SWITCH Pin=J2-2
+Added Pin To Net: NetName=KILL_SWITCH Pin=U4-11
+Added Net: Name=KILL_SWITCH

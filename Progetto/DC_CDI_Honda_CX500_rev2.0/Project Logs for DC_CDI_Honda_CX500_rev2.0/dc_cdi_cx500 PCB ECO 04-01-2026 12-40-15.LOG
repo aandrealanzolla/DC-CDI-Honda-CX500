@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=PGND Pin=J2-1
+Removed Pin From Net: NetName=R_COIL Pin=J2-2
+Removed Pin From Net: NetName=L_COIL Pin=J2-4
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Added Pin To Net: NetName=L_COIL Pin=J2-1
+Added Pin To Net: NetName=PGND Pin=J2-2
+Added Pin To Net: NetName=R_COIL Pin=J2-4

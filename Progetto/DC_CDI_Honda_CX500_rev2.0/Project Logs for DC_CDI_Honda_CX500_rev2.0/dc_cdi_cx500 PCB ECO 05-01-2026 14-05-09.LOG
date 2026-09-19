@@ -1,0 +1,4 @@
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Change Component Designator: OldDesignator=X1 NewDesignator=Y1
+Added Member To Class: ClassName=input_output Member=Component NT3 GROUND_NET_TIE
+Added Member To Class: ClassName=input_output Member=Component NT4 GROUND_NET_TIE

@@ -1,0 +1,21 @@
+Change Component Footprint: Designator=D6 Old Footprint=FP-0402-SOD-923F-MFG New Footprint=DIO_BZT52B15SH_RRG
+Change Component Comment : Designator=D6 Old Comment=CZRQR3V3B-HF New Comment=BZT52B15SH_RRG
+Change Managed Component Library Link : Designator=D6 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=DAC040DC-4286-42D1-909F-83D14A63BB79 New ItemGUID= Old RevisionGUID=CD39D196-4074-4A01-89CA-75F33555845D New RevisionGUID=
+Change component parameters: Designator = "D6" ("D6"); Footprint = "FP-0402-SOD-923F-MFG"; UniqueID = "\DWYXDQHP" ("\DWYXDQHP")
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/BZT52B15SH%20RRG/Taiwan+Semiconductor+Corporation/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Taiwan Semiconductor Corporation"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "BZT52B15SH RRG"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "SOD-323-2 Taiwan Semiconductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/BZT52B15SH%20RRG/Taiwan+Semiconductor+Corporation/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D8(DIO_BZT52B15SH_RRG)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/BZT52B15SH%20RRG/Taiwan+Semiconductor+Corporation/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Taiwan Semiconductor Corporation"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "BZT52B15SH RRG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOD-323-2 Taiwan Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/BZT52B15SH%20RRG/Taiwan+Semiconductor+Corporation/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetD?_1 Pin=D8-1
+Added Pin To Net: NetName=PGND Pin=D8-2
+Change Net Name : Old Net Name=NetD?_1 New Net Name=NetD8_1
+Added Member To Class: ClassName=HV_power Member=Component D8 BZT52B15SH_RRG

@@ -1,0 +1,170 @@
+Change Component Footprint: Designator=D13 Old Footprint=FP-SOD123F_Type_B-MFG New Footprint=ONSC-SOD-923-2-514AA-01_B_V
+Change Component Footprint: Designator=D14 Old Footprint=FP-SOD123F_Type_B-MFG New Footprint=ONSC-SOD-923-2-514AA-01_B_V
+Change Component Footprint: Designator=D16 Old Footprint=FP-SOD123F_Type_B-MFG New Footprint=ONSC-SOD-923-2-514AA-01_B_V
+Change Component Footprint: Designator=D17 Old Footprint=FP-SOD123F_Type_B-MFG New Footprint=ONSC-SOD-923-2-514AA-01_B_V
+Change Component Footprint: Designator=D18 Old Footprint=FP-SOD123F_Type_B-MFG New Footprint=ONSC-SOD-923-2-514AA-01_B_V
+Change Component Footprint: Designator=D19 Old Footprint=FP-SOD123F_Type_B-MFG New Footprint=ONSC-SOD-923-2-514AA-01_B_V
+Change Component Footprint: Designator=D21 Old Footprint=FP-SOD123F_Type_B-MFG New Footprint=ONSC-SOD-923-2-514AA-01_B_V
+Change Component Footprint: Designator=D22 Old Footprint=FP-SOD123F_Type_B-MFG New Footprint=ONSC-SOD-923-2-514AA-01_B_V
+Change Component Comment : Designator=D13 Old Comment=1N5819HW1-7-F New Comment=NSR0130P2T5G
+Change Component Comment : Designator=D14 Old Comment=1N5819HW1-7-F New Comment=NSR0130P2T5G
+Change Component Comment : Designator=D16 Old Comment=1N5819HW1-7-F New Comment=NSR0130P2T5G
+Change Component Comment : Designator=D17 Old Comment=1N5819HW1-7-F New Comment=NSR0130P2T5G
+Change Component Comment : Designator=D18 Old Comment=1N5819HW1-7-F New Comment=NSR0130P2T5G
+Change Component Comment : Designator=D19 Old Comment=1N5819HW1-7-F New Comment=NSR0130P2T5G
+Change Component Comment : Designator=D21 Old Comment=1N5819HW1-7-F New Comment=NSR0130P2T5G
+Change Component Comment : Designator=D22 Old Comment=1N5819HW1-7-F New Comment=NSR0130P2T5G
+Change Component Designator: OldDesignator=LED1 NewDesignator=D11
+Change Component Designator: OldDesignator=LED2 NewDesignator=D12
+Change Managed Component Library Link : Designator=D13 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=75EEFF0F-425C-404E-BF25-98F26ABAD434 New ItemGUID=BCDC51AA-9937-427C-8CD0-91A0C8EDCB72 Old RevisionGUID=9AE772DD-699F-46F2-9BA2-24082628AB3A New RevisionGUID=BD245D9E-AF62-4074-8221-1DD10815FB14
+Change Managed Component Library Link : Designator=D14 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=75EEFF0F-425C-404E-BF25-98F26ABAD434 New ItemGUID=BCDC51AA-9937-427C-8CD0-91A0C8EDCB72 Old RevisionGUID=9AE772DD-699F-46F2-9BA2-24082628AB3A New RevisionGUID=BD245D9E-AF62-4074-8221-1DD10815FB14
+Change Managed Component Library Link : Designator=D16 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=75EEFF0F-425C-404E-BF25-98F26ABAD434 New ItemGUID=BCDC51AA-9937-427C-8CD0-91A0C8EDCB72 Old RevisionGUID=9AE772DD-699F-46F2-9BA2-24082628AB3A New RevisionGUID=BD245D9E-AF62-4074-8221-1DD10815FB14
+Change Managed Component Library Link : Designator=D17 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=75EEFF0F-425C-404E-BF25-98F26ABAD434 New ItemGUID=BCDC51AA-9937-427C-8CD0-91A0C8EDCB72 Old RevisionGUID=9AE772DD-699F-46F2-9BA2-24082628AB3A New RevisionGUID=BD245D9E-AF62-4074-8221-1DD10815FB14
+Change Managed Component Library Link : Designator=D18 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=75EEFF0F-425C-404E-BF25-98F26ABAD434 New ItemGUID=BCDC51AA-9937-427C-8CD0-91A0C8EDCB72 Old RevisionGUID=9AE772DD-699F-46F2-9BA2-24082628AB3A New RevisionGUID=BD245D9E-AF62-4074-8221-1DD10815FB14
+Change Managed Component Library Link : Designator=D19 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=75EEFF0F-425C-404E-BF25-98F26ABAD434 New ItemGUID=BCDC51AA-9937-427C-8CD0-91A0C8EDCB72 Old RevisionGUID=9AE772DD-699F-46F2-9BA2-24082628AB3A New RevisionGUID=BD245D9E-AF62-4074-8221-1DD10815FB14
+Change Managed Component Library Link : Designator=D21 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=75EEFF0F-425C-404E-BF25-98F26ABAD434 New ItemGUID=BCDC51AA-9937-427C-8CD0-91A0C8EDCB72 Old RevisionGUID=9AE772DD-699F-46F2-9BA2-24082628AB3A New RevisionGUID=BD245D9E-AF62-4074-8221-1DD10815FB14
+Change Managed Component Library Link : Designator=D22 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=75EEFF0F-425C-404E-BF25-98F26ABAD434 New ItemGUID=BCDC51AA-9937-427C-8CD0-91A0C8EDCB72 Old RevisionGUID=9AE772DD-699F-46F2-9BA2-24082628AB3A New RevisionGUID=BD245D9E-AF62-4074-8221-1DD10815FB14
+Change component parameters: Designator = "D13" ("D13"); Footprint = "FP-SOD123F_Type_B-MFG"; UniqueID = "\LRUIEKJL" ("\LRUIEKJL")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.onsemi.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.onsemi.cn/pub_link/Collateral/NSR0130P2-D.PDF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.onsemi.cn/pub_link/Collateral/NSR0130P2-D.PDF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Configuration"; Value = "Single"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "IFSM Max (A)"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "On Semiconductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "2-Pin SOD, Body 0.8 x 0.6 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "SOD-923-2-514AA-01_B"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "Rev. B, 04/2006"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packing"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "NSR0130P2T5G"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D14" ("D14"); Footprint = "FP-SOD123F_Type_B-MFG"; UniqueID = "\OLEOQVDC" ("\OLEOQVDC")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.onsemi.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.onsemi.cn/pub_link/Collateral/NSR0130P2-D.PDF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.onsemi.cn/pub_link/Collateral/NSR0130P2-D.PDF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Configuration"; Value = "Single"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "IFSM Max (A)"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "On Semiconductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "2-Pin SOD, Body 0.8 x 0.6 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "SOD-923-2-514AA-01_B"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "Rev. B, 04/2006"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packing"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "NSR0130P2T5G"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D16" ("D16"); Footprint = "FP-SOD123F_Type_B-MFG"; UniqueID = "\SHBZOQXL" ("\SHBZOQXL")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.onsemi.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.onsemi.cn/pub_link/Collateral/NSR0130P2-D.PDF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.onsemi.cn/pub_link/Collateral/NSR0130P2-D.PDF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Configuration"; Value = "Single"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "IFSM Max (A)"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "On Semiconductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "2-Pin SOD, Body 0.8 x 0.6 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "SOD-923-2-514AA-01_B"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "Rev. B, 04/2006"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packing"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "NSR0130P2T5G"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D17" ("D17"); Footprint = "FP-SOD123F_Type_B-MFG"; UniqueID = "\QMOSCNWV" ("\QMOSCNWV")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.onsemi.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.onsemi.cn/pub_link/Collateral/NSR0130P2-D.PDF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.onsemi.cn/pub_link/Collateral/NSR0130P2-D.PDF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Configuration"; Value = "Single"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "IFSM Max (A)"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "On Semiconductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "2-Pin SOD, Body 0.8 x 0.6 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "SOD-923-2-514AA-01_B"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "Rev. B, 04/2006"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packing"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "NSR0130P2T5G"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D18" ("D18"); Footprint = "FP-SOD123F_Type_B-MFG"; UniqueID = "\TREWZAWN" ("\TREWZAWN")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.onsemi.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.onsemi.cn/pub_link/Collateral/NSR0130P2-D.PDF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.onsemi.cn/pub_link/Collateral/NSR0130P2-D.PDF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Configuration"; Value = "Single"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "IFSM Max (A)"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "On Semiconductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "2-Pin SOD, Body 0.8 x 0.6 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "SOD-923-2-514AA-01_B"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "Rev. B, 04/2006"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packing"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "NSR0130P2T5G"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D19" ("D19"); Footprint = "FP-SOD123F_Type_B-MFG"; UniqueID = "\BXNOOISO" ("\BXNOOISO")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.onsemi.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.onsemi.cn/pub_link/Collateral/NSR0130P2-D.PDF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.onsemi.cn/pub_link/Collateral/NSR0130P2-D.PDF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Configuration"; Value = "Single"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "IFSM Max (A)"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "On Semiconductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "2-Pin SOD, Body 0.8 x 0.6 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "SOD-923-2-514AA-01_B"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "Rev. B, 04/2006"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packing"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "NSR0130P2T5G"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D21" ("D21"); Footprint = "FP-SOD123F_Type_B-MFG"; UniqueID = "\NDYOVQCS" ("\NDYOVQCS")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.onsemi.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.onsemi.cn/pub_link/Collateral/NSR0130P2-D.PDF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.onsemi.cn/pub_link/Collateral/NSR0130P2-D.PDF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Configuration"; Value = "Single"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "IFSM Max (A)"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "On Semiconductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "2-Pin SOD, Body 0.8 x 0.6 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "SOD-923-2-514AA-01_B"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "Rev. B, 04/2006"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packing"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "NSR0130P2T5G"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D22" ("D22"); Footprint = "FP-SOD123F_Type_B-MFG"; UniqueID = "\USYSGVFM" ("\USYSGVFM")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.onsemi.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.onsemi.cn/pub_link/Collateral/NSR0130P2-D.PDF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.onsemi.cn/pub_link/Collateral/NSR0130P2-D.PDF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Configuration"; Value = "Single"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "IFSM Max (A)"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "On Semiconductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "2-Pin SOD, Body 0.8 x 0.6 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "SOD-923-2-514AA-01_B"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "Rev. B, 04/2006"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packing"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "NSR0130P2T5G"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"

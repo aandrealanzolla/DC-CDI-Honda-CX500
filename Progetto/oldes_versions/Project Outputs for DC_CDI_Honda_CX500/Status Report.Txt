@@ -1,0 +1,46 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [DC_CDI_Honda_CX500.PrjPcb]
+   Generated File[dc_cdi_pcb_2.GTO]
+   Generated File[dc_cdi_pcb_2.GTP]
+   Generated File[dc_cdi_pcb_2.GTS]
+   Generated File[dc_cdi_pcb_2.GTL]
+   Generated File[dc_cdi_pcb_2.G1]
+   Generated File[dc_cdi_pcb_2.G2]
+   Generated File[dc_cdi_pcb_2.GBL]
+   Generated File[dc_cdi_pcb_2.GBS]
+   Generated File[dc_cdi_pcb_2.GBP]
+   Generated File[dc_cdi_pcb_2.GBO]
+   Generated File[dc_cdi_pcb_2.GM1]
+   Generated File[dc_cdi_pcb_2.GM2]
+   Generated File[dc_cdi_pcb_2.GM3]
+   Generated File[dc_cdi_pcb_2.GM4]
+   Generated File[dc_cdi_pcb_2.GM5]
+   Generated File[dc_cdi_pcb_2.GM11]
+   Generated File[dc_cdi_pcb_2.GM12]
+   Generated File[dc_cdi_pcb_2.GM13]
+   Generated File[dc_cdi_pcb_2.GM15]
+   Generated File[dc_cdi_pcb_2.GM16]
+   Generated File[dc_cdi_pcb_2.GM19]
+   Generated File[dc_cdi_pcb_2.GM20]
+   Generated File[dc_cdi_pcb_2.GM21]
+   Generated File[dc_cdi_pcb_2.GM23]
+   Generated File[dc_cdi_pcb_2.GM24]
+   Generated File[dc_cdi_pcb_2.GKO]
+   Generated File[dc_cdi_pcb_2.GPT]
+   Generated File[dc_cdi_pcb_2.GPB]
+   Generated File[dc_cdi_pcb_2.1]
+   Generated File[dc_cdi_pcb_2.GML]
+   Generated File[dc_cdi_pcb_2.2]
+   Generated File[dc_cdi_pcb_2.3]
+   Generated File[dc_cdi_pcb_2.GD1]
+   Generated File[dc_cdi_pcb_2.GG1]
+   Generated File[dc_cdi_pcb_2.GM]
+   Generated File[dc_cdi_pcb_2.EXTREP]
+   Generated File[dc_cdi_pcb_2.REP]
+
+
+Files Generated   : 37
+Documents Printed : 0
+
+Finished Output Generation At 19:36:58 On 31/01/2025

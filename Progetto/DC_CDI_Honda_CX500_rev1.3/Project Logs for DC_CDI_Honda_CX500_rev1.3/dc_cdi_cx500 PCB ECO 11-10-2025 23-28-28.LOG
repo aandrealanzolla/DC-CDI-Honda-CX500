@@ -1,0 +1,31 @@
+Removed Member From Class: ClassName=input_output Member=P1
+Removed Member From Class: ClassName=input_output Member=P2
+Removed Member From Class: ClassName=input_output Member=P3
+Added Pin To Net: NetName=AGND Pin=J5-1
+Added Pin To Net: NetName=AGND Pin=J5-2
+Added Pin To Net: NetName=AGND Pin=J5-3
+Added Pin To Net: NetName=AGND Pin=J5-4
+Added Pin To Net: NetName=NetJ5_5 Pin=J5-5
+Added Pin To Net: NetName=NetJ5_5 Pin=U8-43
+Added Net: Name=NetJ5_5
+Added Pin To Net: NetName=NetJ5_6 Pin=J5-6
+Added Pin To Net: NetName=NetJ5_6 Pin=U8-42
+Added Net: Name=NetJ5_6
+Added Pin To Net: NetName=NetJ5_7 Pin=J5-7
+Added Pin To Net: NetName=NetJ5_7 Pin=U8-21
+Added Net: Name=NetJ5_7
+Added Pin To Net: NetName=NetJ5_8 Pin=J5-8
+Added Pin To Net: NetName=NetJ5_8 Pin=U8-39
+Added Net: Name=NetJ5_8
+Added Pin To Net: NetName=NetJ5_9 Pin=J5-9
+Added Pin To Net: NetName=NetJ5_9 Pin=U8-16
+Added Net: Name=NetJ5_9
+Added Pin To Net: NetName=NetJ5_10 Pin=J5-10
+Added Pin To Net: NetName=NetJ5_10 Pin=U8-17
+Added Net: Name=NetJ5_10
+Added Pin To Net: NetName=NetJ5_11 Pin=J5-11
+Added Pin To Net: NetName=NetJ5_11 Pin=U8-15
+Added Net: Name=NetJ5_11
+Added Pin To Net: NetName=NetJ5_12 Pin=J5-12
+Added Pin To Net: NetName=NetJ5_12 Pin=U8-38
+Added Net: Name=NetJ5_12

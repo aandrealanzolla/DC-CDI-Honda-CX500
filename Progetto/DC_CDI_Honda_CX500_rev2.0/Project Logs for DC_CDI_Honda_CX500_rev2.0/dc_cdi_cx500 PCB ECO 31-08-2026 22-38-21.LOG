@@ -1,0 +1,33 @@
+Removed Pin From Net: NetName=LEFT_PULSE_3V3 Pin=R8-2
+Removed Pin From Net: NetName=RIGHT_PULSE_3V3 Pin=R11-2
+Removed Pin From Net: NetName=LEFT_PULSE_3V3 Pin=U2-4
+Removed Pin From Net: NetName=RIGHT_PULSE_3V3 Pin=U2-5
+Add component: Footprint Not Found ONSC-SOT-23-3-318-08_V
+Added Component: Designator=R61(0402_fp)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R62(0402_fp)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1 kO"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=RIGHT_PULSE_P Pin=J2-3
+Added Pin To Net: NetName=LEFT_PULSE_P Pin=J2-4
+Add Pin To Net: Unknown Pin: Pin Q8-1
+Add Pin To Net: Unknown Pin: Pin Q8-2
+Add Pin To Net: Unknown Pin: Pin Q8-3
+Added Pin To Net: NetName=GND Pin=R7-2
+Added Pin To Net: NetName=GND Pin=R57-2
+Added Pin To Net: NetName=LEFT_PULSE_3V3 Pin=R61-1
+Added Pin To Net: NetName=RIGHT_PULSE_3V3 Pin=R62-1
+Added Pin To Net: NetName=NetR8_2 Pin=R8-2
+Added Pin To Net: NetName=NetR8_2 Pin=R61-2
+Added Pin To Net: NetName=NetR8_2 Pin=U2-4
+Added Net: Name=NetR8_2
+Added Pin To Net: NetName=NetR11_2 Pin=R11-2
+Added Pin To Net: NetName=NetR11_2 Pin=R62-2
+Added Pin To Net: NetName=NetR11_2 Pin=U2-5
+Added Net: Name=NetR11_2
+Add Class Member: Failed to add class member : Component Q8 MGSF1N03LT1G
+Added Member To Class: ClassName=input_signal_conditioning Member=Component R61 Resistor_0402
+Added Member To Class: ClassName=input_signal_conditioning Member=Component R62 Resistor_0402

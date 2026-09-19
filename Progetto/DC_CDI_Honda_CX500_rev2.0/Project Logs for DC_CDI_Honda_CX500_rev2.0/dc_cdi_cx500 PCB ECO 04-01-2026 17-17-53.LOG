@@ -1,0 +1,80 @@
+Removed Pin From Net: NetName=DGND Pin=RJ2-1
+Removed Pin From Net: NetName=GND Pin=RJ2-2
+Removed Member From Class: ClassName=LV_power Member=C13
+Removed Member From Class: ClassName=LV_power Member=C14
+Removed Member From Class: ClassName=input_output Member=C15
+Removed Member From Class: ClassName=HV_power Member=C19
+Removed Member From Class: ClassName=LV_power Member=C21
+Removed Member From Class: ClassName=logic Member=C27
+Removed Member From Class: ClassName=logic Member=C28
+Removed Member From Class: ClassName=logic Member=C30
+Removed Member From Class: ClassName=HV_power Member=C39
+Removed Member From Class: ClassName=HV_power Member=C40
+Removed Member From Class: ClassName=HV_power Member=C42
+Removed Member From Class: ClassName=logic Member=C42
+Removed Member From Class: ClassName=HV_power Member=C43
+Removed Member From Class: ClassName=logic Member=C43
+Removed Member From Class: ClassName=HV_power Member=C45
+Removed Member From Class: ClassName=HV_power Member=D2
+Removed Member From Class: ClassName=logic Member=D4
+Removed Member From Class: ClassName=cd_switching Member=Q6
+Removed Member From Class: ClassName=cd_switching Member=Q7
+Removed Member From Class: ClassName=cd_switching Member=R6
+Removed Member From Class: ClassName=cd_switching Member=R9
+Removed Member From Class: ClassName=cd_switching Member=R10
+Removed Member From Class: ClassName=HV_power Member=R13
+Removed Member From Class: ClassName=logic Member=R13
+Removed Member From Class: ClassName=HV_power Member=R14
+Removed Member From Class: ClassName=HV_power Member=R16
+Removed Member From Class: ClassName=HV_power Member=R20
+Removed Member From Class: ClassName=HV_power Member=R22
+Removed Member From Class: ClassName=logic Member=R30
+Removed Member From Class: ClassName=logic Member=R33
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Added Pin To Net: NetName=VBAT_0 Pin=J2-11
+Added Pin To Net: NetName=VBAT_0 Pin=J2-12
+Added Member To Class: ClassName=input_output Member=Component C10 C1206X104J3GACTU
+Added Member To Class: ClassName=logic Member=Component C12 Capacitor_0402
+Added Member To Class: ClassName=logic Member=Component C16 Capacitor_0402
+Added Member To Class: ClassName=logic Member=Component C17 Capacitor_0402
+Added Member To Class: ClassName=logic Member=Component C18 Capacitor_0402
+Added Member To Class: ClassName=logic Member=Component C20 Capacitor_0402
+Added Member To Class: ClassName=logic Member=Component C23 Capacitor_0603
+Added Member To Class: ClassName=logic Member=Component C24 Capacitor_0603
+Added Member To Class: ClassName=HV_power Member=Component C25 GRM21BR61C475KA88L
+Added Member To Class: ClassName=HV_power Member=Component C26 GRM21BR61C475KA88L
+Added Member To Class: ClassName=HV_power Member=Component C29 Capacitor_0603
+Added Member To Class: ClassName=HV_power Member=Component C31 Capacitor_0603
+Added Member To Class: ClassName=HV_power Member=Component C32 890283323005CS
+Added Member To Class: ClassName=HV_power Member=Component C34 Capacitor_0603
+Added Member To Class: ClassName=LV_power Member=Component C37 CC0805MKX5R8BB226
+Added Member To Class: ClassName=LV_power Member=Component C38 CC0805MKX5R8BB226
+Added Member To Class: ClassName=LV_power Member=Component C41 Capacitor_0603
+Added Member To Class: ClassName=LV_power Member=Component C44 GRM21BR61A476ME15K
+Added Member To Class: ClassName=logic Member=Component D3 150080GS75000
+Added Member To Class: ClassName=HV_power Member=Component D5 CZRQR3V3B-HF
+Added Member To Class: ClassName=HV_power Member=Component D6 S3JB
+Added Member To Class: ClassName=cd_switching Member=Component Q3 MGSF1N03LT1G
+Added Member To Class: ClassName=cd_switching Member=Component Q4 MGSF1N03LT1G
+Added Member To Class: ClassName=cd_switching Member=Component R1 Resistor_0603
+Added Member To Class: ClassName=cd_switching Member=Component R2 Resistor_0603
+Added Member To Class: ClassName=cd_switching Member=Component R4 Resistor_0402
+Added Member To Class: ClassName=cd_switching Member=Component R5 Resistor_0402
+Added Member To Class: ClassName=input_signal_conditioning Member=Component R7 Resistor_0402
+Added Member To Class: ClassName=logic Member=Component R17 Resistor_0402
+Added Member To Class: ClassName=logic Member=Component R18 Resistor_0402
+Added Member To Class: ClassName=logic Member=Component R21 Resistor_0603
+Added Member To Class: ClassName=HV_power Member=Component R23 Resistor_0603
+Added Member To Class: ClassName=HV_power Member=Component R24 Resistor_0603
+Added Member To Class: ClassName=HV_power Member=Component R25 Resistor_0603
+Added Member To Class: ClassName=HV_power Member=Component R26 Resistor_0603
+Added Member To Class: ClassName=HV_power Member=Component R27 Resistor_0603
+Added Member To Class: ClassName=HV_power Member=Component R28 Resistor_0603
+Added Member To Class: ClassName=HV_power Member=Component R29 Resistor_0603
+Added Member To Class: ClassName=HV_power Member=Component R31 Resistor_0603
+Added Member To Class: ClassName=HV_power Member=Component R32 CSRN2010FK20L0
+Added Member To Class: ClassName=HV_power Member=Component R34 Resistor_0603
+Added Member To Class: ClassName=HV_power Member=Component R36 Resistor_0603
+Added Member To Class: ClassName=HV_power Member=Component R38 Resistor_0603
+Added Member To Class: ClassName=HV_power Member=Component R41 Resistor_0603
+Added Member To Class: ClassName=HV_power Member=Component R45 Resistor_0603

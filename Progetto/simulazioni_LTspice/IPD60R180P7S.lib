@@ -1,0 +1,31 @@
+.SUBCKT IPD60R180P7S drain gate source Tj Tcase PARAMS: dVth=0 dRdson=0 Zthtype=0
+.PARAM Rs=2.31E-03    Rg=11.0    Rdp=2.38E-06          Ls=3.34E-09        Ld=8.24E-11
+.PARAM Lg=4.06E-09    act=5.59        Inn={1.0*5.59}  Unn=10.0       Rmax=180m
+.PARAM lzth={limit(Zthtype,0,1)}
+X1  dd g s Tj 1 cool_600_p76_var PARAMS: a={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
+                                     +Rmax={Rmax} Rs={Rs} Rdp={Rdp} heat=1
+L_Ld         drain  ldrd    {Ld}
+R_Ld         drain  ldrd    10
+R_Rd         dd     ldrd    {Rdp}
+L_Ls         source lsrs  {Ls}
+R_Ls         source lsrs  10
+R_Rs         s      lsrs  {Rs}
+L_Lg         gate   lgrg  {Lg}
+R_Lg         gate   lgrg  10
+R_Rg         lgrg   g     {Rg}
+C_CZth1      Tj     0     53.776u
+C_CZth2      0      1     324.279u
+C_CZth3      0      2     457.806u
+C_CZth4      0      3     2.602m
+C_CZth5      0      4     3.689m
+C_CZth6      0      Tcase 42.5m
+C_CZth7      0      6     65m
+C_CZth8      0      7     90m
+R_Rth1       Tj     1     {30.34m+lzth*7.87m}
+R_Rth2       1      2     {41.85m+lzth*10.85m}
+R_Rth3       2      3     {234.85m+lzth*60.88m}
+R_Rth4       3      4     {295.21m+lzth*426.03m}
+R_Rth5       4      Tcase {218.4m+lzth*414.73m}
+R_Rth6       Tcase  6     500m
+R_Rth7       6      7     50
+.ENDS

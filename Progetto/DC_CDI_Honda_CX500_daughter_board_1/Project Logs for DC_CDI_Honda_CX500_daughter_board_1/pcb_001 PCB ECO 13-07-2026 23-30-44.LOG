@@ -1,0 +1,6 @@
+Change Component Footprint: Designator=C3 Old Footprint=0603_FP New Footprint=0402_fp
+Change Component Footprint: Designator=C7 Old Footprint=0603_FP New Footprint=0402_fp
+Change Component Footprint: Designator=C9 Old Footprint=0603_FP New Footprint=0402_fp
+Change Component Comment : Designator=C3 Old Comment=Capacitor_0603 New Comment=Capacitor_0402
+Change Component Comment : Designator=C7 Old Comment=Capacitor_0603 New Comment=Capacitor_0402
+Change Component Comment : Designator=C9 Old Comment=Capacitor_0603 New Comment=Capacitor_0402

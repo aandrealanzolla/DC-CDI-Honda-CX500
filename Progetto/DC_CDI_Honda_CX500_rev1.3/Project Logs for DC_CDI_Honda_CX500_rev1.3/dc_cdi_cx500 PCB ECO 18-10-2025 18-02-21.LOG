@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=EXT_SENSOR3_SPI_MOSI Pin=J5-5
+Removed Pin From Net: NetName=EXT_SENSOR3_SPI_MISO Pin=J7-5
+Removed Pin From Net: NetName=EXT_SENSOR3_SPI_SCK Pin=J7-6

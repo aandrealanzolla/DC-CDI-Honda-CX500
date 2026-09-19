@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=DGND Pin=C42-2
+Removed Pin From Net: NetName=DGND Pin=C43-2
+Removed Pin From Net: NetName=5V0 Pin=C44-1
+Removed Pin From Net: NetName=DGND Pin=C44-2
+Removed Pin From Net: NetName=5V0 Pin=C45-1
+Removed Pin From Net: NetName=DGND Pin=C45-2
+Removed Pin From Net: NetName=DGND Pin=U6-4
+Removed Member From Class: ClassName=LV_power Member=C44
+Removed Member From Class: ClassName=LV_power Member=C45
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Added Pin To Net: NetName=GND Pin=C42-2
+Added Pin To Net: NetName=GND Pin=C43-2
+Added Pin To Net: NetName=GND Pin=U6-4

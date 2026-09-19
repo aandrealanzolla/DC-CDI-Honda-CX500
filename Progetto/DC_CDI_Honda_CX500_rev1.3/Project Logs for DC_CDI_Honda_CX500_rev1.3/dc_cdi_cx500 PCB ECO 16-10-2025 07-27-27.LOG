@@ -1,0 +1,262 @@
+Added Component: Designator=C14(0402_fp)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100 nF"; VariantName = "[No Variations]"
+Added Component: Designator=C15(0402_fp)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "3.3 nF"; VariantName = "[No Variations]"
+Added Component: Designator=C16(0402_fp)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1 uF"; VariantName = "[No Variations]"
+Added Component: Designator=C19(0402_fp)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100 pF"; VariantName = "[No Variations]"
+Added Component: Designator=C20(0402_fp)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 nF"; VariantName = "[No Variations]"
+Added Component: Designator=C21(0402_fp)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1 uF"; VariantName = "[No Variations]"
+Added Component: Designator=C35(0402_fp)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100 pF"; VariantName = "[No Variations]"
+Added Component: Designator=C36(0402_fp)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 nF"; VariantName = "[No Variations]"
+Added Component: Designator=R4(0402_fp)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R5(0402_fp)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R7(0402_fp)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R8(0402_fp)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R11(0402_fp)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100 O"; VariantName = "[No Variations]"
+Added Component: Designator=R12(0402_fp)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R13(0402_fp)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R14(0402_fp)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R15(0402_fp)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R16(0402_fp)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "50 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R17(0402_fp)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R18(0402_fp)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "470 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R19(0402_fp)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "50 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R20(0402_fp)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R22(0402_fp)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "56 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R23(0402_fp)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "24 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R24(0402_fp)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "165 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R25(0402_fp)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "120 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R26(0402_fp)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R27(0402_fp)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "3.9 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R29(0402_fp)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R30(0402_fp)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "50 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R31(0402_fp)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R37(0402_fp)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4.7 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R38(0402_fp)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4.7 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R39(0402_fp)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "470 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R41(0402_fp)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "50 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R42(0402_fp)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R43(0402_fp)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "56 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R44(0402_fp)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "24 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R46(0402_fp)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "165 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R48(0402_fp)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "120 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R50(0402_fp)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "3.9 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R51(0402_fp)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 kO"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=C14-1
+Added Pin To Net: NetName=GND Pin=C14-2
+Added Pin To Net: NetName=NetC15_1 Pin=C15-1
+Added Pin To Net: NetName=NetC15_2 Pin=C15-2
+Added Pin To Net: NetName=GND Pin=C16-1
+Added Pin To Net: NetName=NetC16_2 Pin=C16-2
+Added Pin To Net: NetName=GND Pin=C19-1
+Added Pin To Net: NetName=NetC19_2 Pin=C19-2
+Added Pin To Net: NetName=GND Pin=C20-1
+Added Pin To Net: NetName=NetC20_2 Pin=C20-2
+Added Pin To Net: NetName=GND Pin=C21-1
+Added Pin To Net: NetName=NetC21_2 Pin=C21-2
+Added Pin To Net: NetName=GND Pin=C35-1
+Added Pin To Net: NetName=NetC35_2 Pin=C35-2
+Added Pin To Net: NetName=GND Pin=C36-1
+Added Pin To Net: NetName=NetC36_2 Pin=C36-2
+Added Pin To Net: NetName=NetR4_1 Pin=R4-1
+Added Pin To Net: NetName=NetD1_2 Pin=R4-2
+Added Pin To Net: NetName=NetC8_1 Pin=R5-1
+Added Pin To Net: NetName=NetR4_1 Pin=R5-2
+Added Pin To Net: NetName=GND Pin=R7-1
+Added Pin To Net: NetName=NetR4_1 Pin=R7-2
+Added Pin To Net: NetName=NetC8_2 Pin=R8-1
+Added Pin To Net: NetName=NetC8_1 Pin=R8-2
+Added Pin To Net: NetName=NetR11_1 Pin=R11-1
+Added Pin To Net: NetName=1V65 Pin=R11-2
+Added Pin To Net: NetName=NetR12_1 Pin=R12-1
+Added Pin To Net: NetName=NetD2_2 Pin=R12-2
+Added Pin To Net: NetName=NetC15_1 Pin=R13-1
+Added Pin To Net: NetName=NetR12_1 Pin=R13-2
+Added Pin To Net: NetName=GND Pin=R14-1
+Added Pin To Net: NetName=NetR12_1 Pin=R14-2
+Added Pin To Net: NetName=NetC15_2 Pin=R15-1
+Added Pin To Net: NetName=NetC15_1 Pin=R15-2
+Added Pin To Net: NetName=NetR16_1 Pin=R16-1
+Added Pin To Net: NetName=L_HV Pin=R16-2
+Added Pin To Net: NetName=NetR17_1 Pin=R17-1
+Added Pin To Net: NetName=L_HV Pin=R17-2
+Added Pin To Net: NetName=NetR18_1 Pin=R18-1
+Added Pin To Net: NetName=VBAT Pin=R18-2
+Added Pin To Net: NetName=NetR19_1 Pin=R19-1
+Added Pin To Net: NetName=NetR16_1 Pin=R19-2
+Added Pin To Net: NetName=NetR20_1 Pin=R20-1
+Added Pin To Net: NetName=NetR17_1 Pin=R20-2
+Added Pin To Net: NetName=GND Pin=R22-1
+Added Pin To Net: NetName=NetR18_1 Pin=R22-2
+Added Pin To Net: NetName=L_HV_FB Pin=R23-1
+Added Pin To Net: NetName=NetR19_1 Pin=R23-2
+Added Pin To Net: NetName=NetR24_1 Pin=R24-1
+Added Pin To Net: NetName=NetR20_1 Pin=R24-2
+Added Pin To Net: NetName=GND Pin=R25-1
+Added Pin To Net: NetName=NetR25_2 Pin=R25-2
+Added Pin To Net: NetName=GND Pin=R26-1
+Added Pin To Net: NetName=L_HV_FB Pin=R26-2
+Added Pin To Net: NetName=GND Pin=R27-1
+Added Pin To Net: NetName=NetR24_1 Pin=R27-2
+Added Pin To Net: NetName=NetC20_2 Pin=R29-1
+Added Pin To Net: NetName=NetC19_2 Pin=R29-2
+Added Pin To Net: NetName=NetR30_1 Pin=R30-1
+Added Pin To Net: NetName=R_HV Pin=R30-2
+Added Pin To Net: NetName=NetR31_1 Pin=R31-1
+Added Pin To Net: NetName=R_HV Pin=R31-2
+Added Pin To Net: NetName=3V3 Pin=R37-1
+Added Pin To Net: NetName=EXT_SENSOR1_I2C_SCL Pin=R37-2
+Added Pin To Net: NetName=3V3 Pin=R38-1
+Added Pin To Net: NetName=EXT_SENSOR1_I2C_SDA Pin=R38-2
+Added Pin To Net: NetName=NetR39_1 Pin=R39-1
+Added Pin To Net: NetName=VBAT Pin=R39-2
+Added Pin To Net: NetName=NetR41_1 Pin=R41-1
+Added Pin To Net: NetName=NetR30_1 Pin=R41-2
+Added Pin To Net: NetName=NetR42_1 Pin=R42-1
+Added Pin To Net: NetName=NetR31_1 Pin=R42-2
+Added Pin To Net: NetName=GND Pin=R43-1
+Added Pin To Net: NetName=NetR39_1 Pin=R43-2
+Added Pin To Net: NetName=R_HV_FB Pin=R44-1
+Added Pin To Net: NetName=NetR41_1 Pin=R44-2
+Added Pin To Net: NetName=NetR46_1 Pin=R46-1
+Added Pin To Net: NetName=NetR42_1 Pin=R46-2
+Added Pin To Net: NetName=GND Pin=R48-1
+Added Pin To Net: NetName=NetR48_2 Pin=R48-2
+Added Pin To Net: NetName=GND Pin=R50-1
+Added Pin To Net: NetName=NetR46_1 Pin=R50-2
+Added Pin To Net: NetName=NetC36_2 Pin=R51-1
+Added Pin To Net: NetName=NetC35_2 Pin=R51-2
+Added Member To Class: ClassName=input_signal_conditioning Member=Component C8 Capacitor_0402
+Added Member To Class: ClassName=input_signal_conditioning Member=Component C14 Capacitor_0402
+Added Member To Class: ClassName=input_signal_conditioning Member=Component C15 Capacitor_0402
+Added Member To Class: ClassName=HV_power Member=Component C16 Capacitor_0402
+Added Member To Class: ClassName=HV_power Member=Component C19 Capacitor_0402
+Added Member To Class: ClassName=HV_power Member=Component C20 Capacitor_0402
+Added Member To Class: ClassName=HV_power Member=Component C21 Capacitor_0402
+Added Member To Class: ClassName=HV_power Member=Component C35 Capacitor_0402
+Added Member To Class: ClassName=HV_power Member=Component C36 Capacitor_0402
+Added Member To Class: ClassName=input_signal_conditioning Member=Component R3 Resistor_0402
+Added Member To Class: ClassName=input_signal_conditioning Member=Component R4 Resistor_0402
+Added Member To Class: ClassName=input_signal_conditioning Member=Component R5 Resistor_0402
+Added Member To Class: ClassName=input_signal_conditioning Member=Component R7 Resistor_0402
+Added Member To Class: ClassName=input_signal_conditioning Member=Component R8 Resistor_0402
+Added Member To Class: ClassName=input_signal_conditioning Member=Component R11 Resistor_0402
+Added Member To Class: ClassName=input_signal_conditioning Member=Component R12 Resistor_0402
+Added Member To Class: ClassName=input_signal_conditioning Member=Component R13 Resistor_0402
+Added Member To Class: ClassName=input_signal_conditioning Member=Component R14 Resistor_0402
+Added Member To Class: ClassName=input_signal_conditioning Member=Component R15 Resistor_0402
+Added Member To Class: ClassName=HV_power Member=Component R16 Resistor_0402
+Added Member To Class: ClassName=HV_power Member=Component R17 Resistor_0402
+Added Member To Class: ClassName=HV_power Member=Component R18 Resistor_0402
+Added Member To Class: ClassName=HV_power Member=Component R19 Resistor_0402
+Added Member To Class: ClassName=HV_power Member=Component R20 Resistor_0402
+Added Member To Class: ClassName=HV_power Member=Component R22 Resistor_0402
+Added Member To Class: ClassName=HV_power Member=Component R23 Resistor_0402
+Added Member To Class: ClassName=HV_power Member=Component R24 Resistor_0402
+Added Member To Class: ClassName=HV_power Member=Component R25 Resistor_0402
+Added Member To Class: ClassName=HV_power Member=Component R26 Resistor_0402
+Added Member To Class: ClassName=HV_power Member=Component R27 Resistor_0402
+Added Member To Class: ClassName=HV_power Member=Component R29 Resistor_0402
+Added Member To Class: ClassName=HV_power Member=Component R30 Resistor_0402
+Added Member To Class: ClassName=HV_power Member=Component R31 Resistor_0402
+Added Member To Class: ClassName=logic Member=Component R37 Resistor_0402
+Added Member To Class: ClassName=logic Member=Component R38 Resistor_0402
+Added Member To Class: ClassName=HV_power Member=Component R39 Resistor_0402
+Added Member To Class: ClassName=HV_power Member=Component R41 Resistor_0402
+Added Member To Class: ClassName=HV_power Member=Component R42 Resistor_0402
+Added Member To Class: ClassName=HV_power Member=Component R43 Resistor_0402
+Added Member To Class: ClassName=HV_power Member=Component R44 Resistor_0402
+Added Member To Class: ClassName=HV_power Member=Component R46 Resistor_0402
+Added Member To Class: ClassName=HV_power Member=Component R48 Resistor_0402
+Added Member To Class: ClassName=HV_power Member=Component R50 Resistor_0402
+Added Member To Class: ClassName=HV_power Member=Component R51 Resistor_0402

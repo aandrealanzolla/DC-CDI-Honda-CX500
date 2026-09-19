@@ -1,0 +1,21 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: dc_cdi_pcb_2.PcbDoc   31/01/2025  13:51:38
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Signal Top to Signal Bottom
+ASCII RoundHoles File : dc_cdi_pcb_2.TXT
+EIA File   : dc_cdi_pcb_2.DRL
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.311mm (12mil)                                           Round             3         PTH        51.48mm (2.03inch)
+T2      0.4mm (16mil)                                             Round             8         PTH        80.04mm (3.15inch)
+T3      0.5mm (20mil)                                             Round             3         PTH        59.61mm (2.35inch)
+T4      0.711mm (28mil)                                           Round             124       PTH        726.82mm (28.61inch)
+T5      1.05mm (41mil)                                            Round             4         PTH        61.57mm (2.42inch)
+T6      1.6mm (63mil)                                             Round             8         PTH        151.60mm (5.97inch)
+T7      3mm (118mil)                                              Round             4         PTH        236.50mm (9.31inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              154
+
+Total Processing Time (hh:mm:ss) : 00:00:00

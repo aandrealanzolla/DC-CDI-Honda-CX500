@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=GND Pin=J7-6
+Added Pin To Net: NetName=GND Pin=J5-5
+Added Pin To Net: NetName=ANALOG_SENSOR_2 Pin=J7-5
+Added Pin To Net: NetName=ANALOG_SENSOR_1 Pin=J7-6

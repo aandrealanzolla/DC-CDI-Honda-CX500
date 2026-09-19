@@ -1,0 +1,27 @@
+LTspice 26.0.1 for Windows
+Circuit: D:\Progetti Elettronica\2025\DC_CDI_Honda_CX500\Progetto\simulazioni_LTspice\DC_CDI_hondaCX500.net
+Start Time: Thu Jul 30 13:14:43 2026
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+WARNING: Node nc_05 is floating.
+
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+
+Simulation stopped by user.
+Total elapsed time: 1801.761 seconds.
+
+Files loaded:
+D:\Progetti Elettronica\2025\DC_CDI_Honda_CX500\Progetto\simulazioni_LTspice\DC_CDI_hondaCX500.net
+C:\Users\Andrea\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\Andrea\AppData\Local\LTspice\lib\cmp\standard.bjt
+C:\Users\Andrea\AppData\Local\LTspice\lib\cmp\standard.mos
+D:\Progetti Elettronica\2025\DC_CDI_Honda_CX500\Progetto\simulazioni_LTspice\IFX_P7_600V.lib
+C:\Users\Andrea\AppData\Local\LTspice\lib\sub\ADP3654.sub
+C:\Users\Andrea\AppData\Local\LTspice\lib\sub\LT3758.sub
+

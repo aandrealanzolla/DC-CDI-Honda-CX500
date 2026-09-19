@@ -1,0 +1,45 @@
+Add component: Footprint Not Found CAPC1608X90X35LL15T15
+Add component: Footprint Not Found CAPC1608X87X35NL15T15
+Add component: Footprint Not Found CAPC1608X90X35LL15T15
+Add component: Footprint Not Found CAPC1608X87X35NL15T15
+Add component: Footprint Not Found FP-SOD323-MFG
+Add component: Footprint Not Found FP-SOD323-MFG
+Added Component: Designator=R1(0603_FP)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "470 Ohm"; VariantName = "[No Variations]"
+Added Component: Designator=R2(0603_FP)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 O"; VariantName = "[No Variations]"
+Added Component: Designator=R3(0603_FP)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "120 O"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin C2-1
+Add Pin To Net: Unknown Pin: Pin C2-2
+Add Pin To Net: Unknown Pin: Pin C3-1
+Add Pin To Net: Unknown Pin: Pin C3-2
+Add Pin To Net: Unknown Pin: Pin C52-1
+Add Pin To Net: Unknown Pin: Pin C52-2
+Add Pin To Net: Unknown Pin: Pin C53-1
+Add Pin To Net: Unknown Pin: Pin C53-2
+Add Pin To Net: Unknown Pin: Pin D1-1
+Add Pin To Net: Unknown Pin: Pin D1-2
+Add Pin To Net: Unknown Pin: Pin D8-1
+Add Pin To Net: Unknown Pin: Pin D8-2
+Added Pin To Net: NetName=NetD1_1 Pin=R1-1
+Added Pin To Net: NetName=VBAT Pin=R1-2
+Added Pin To Net: NetName=L_COIL_MOSFET_GATE Pin=R2-1
+Added Pin To Net: NetName=NetR2_2 Pin=R2-2
+Added Pin To Net: NetName=L_COIL_MOSFET_GATE Pin=R3-1
+Added Pin To Net: NetName=NetR3_2 Pin=R3-2
+Add Class Member: Failed to add class member : Component C2 06035C104KAT4A
+Add Class Member: Failed to add class member : Component C3 C0603C475K8PACTU
+Add Class Member: Failed to add class member : Component C52 06035C104KAT4A
+Add Class Member: Failed to add class member : Component C53 C0603C475K8PACTU
+Add Class Member: Failed to add class member : Component D1 BZT52C15S-7-F
+Add Class Member: Failed to add class member : Component D8 BZT52C15S-7-F
+Added Member To Class: ClassName=cd_switching Member=Component R1 Resistor_0603
+Added Member To Class: ClassName=cd_switching Member=Component R2 Resistor_0603
+Added Member To Class: ClassName=cd_switching Member=Component R3 Resistor_0603

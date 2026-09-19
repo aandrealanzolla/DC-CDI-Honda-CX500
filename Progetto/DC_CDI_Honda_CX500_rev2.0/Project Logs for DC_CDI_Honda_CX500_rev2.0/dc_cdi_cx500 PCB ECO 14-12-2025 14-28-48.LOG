@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=HSE_OSC_IN Pin=C40-1
+Removed Pin From Net: NetName=HSE_OSC_OUT Pin=C41-1
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Added Pin To Net: NetName=HSE_OSC_OUT Pin=C40-1
+Added Pin To Net: NetName=HSE_OSC_IN Pin=C41-1

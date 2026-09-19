@@ -1,0 +1,12 @@
+Added Component: Designator=R32(0603_FP)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R33(0603_FP)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 kO"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetJ1_11 Pin=R32-1
+Added Pin To Net: NetName=GND Pin=R32-2
+Added Pin To Net: NetName=NetJ6_2 Pin=R33-1
+Added Pin To Net: NetName=3V3 Pin=R33-2
+Added Member To Class: ClassName=input_output Member=Component R32 Resistor_0402
+Added Member To Class: ClassName=logic Member=Component R33 Resistor_0402

@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=L_HV Pin=C40-1
+Removed Pin From Net: NetName=GND Pin=C41-2
+Removed Member From Class: ClassName=HV_power Member=C40
+Removed Member From Class: ClassName=HV_power Member=C41
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V

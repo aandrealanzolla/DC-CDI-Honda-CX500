@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=NetJ2_17 Pin=R21-1
+Removed Pin From Net: NetName=3V3 Pin=R21-2
+Removed Pin From Net: NetName=DGND Pin=RJ2-1
+Removed Pin From Net: NetName=PGND Pin=RJ2-2
+Removed Pin From Net: NetName=NetJ2_17 Pin=U3-28
+Removed Member From Class: ClassName=logic Member=R21
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V

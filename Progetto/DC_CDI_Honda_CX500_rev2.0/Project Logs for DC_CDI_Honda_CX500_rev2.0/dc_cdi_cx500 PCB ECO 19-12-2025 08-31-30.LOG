@@ -1,0 +1,52 @@
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Change Component Description : Designator=F1 Old Description=Fuse Holder; SMT; Vertical Entry; Mini Auto; Tape & Reel New Description=Fuse Holder; SMT; Vertical Entry; Mini Auto; Tape & Reel | Keystone Electronics 3588TR
+Change component parameters: Designator = "C19" ("C19"); Footprint = "0603_FP"; UniqueID = "\MXHVXIFW" ("\MXHVXIFW")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22 pF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C20" ("C20"); Footprint = "0603_FP"; UniqueID = "\QPXSZKUQ" ("\QPXSZKUQ")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "470 pF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C35" ("C35"); Footprint = "0603_FP"; UniqueID = "\YQSYZPHN" ("\YQSYZPHN")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22 pF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C36" ("C36"); Footprint = "0603_FP"; UniqueID = "\DDDERCFL" ("\DDDERCFL")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "470 pF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R29" ("R29"); Footprint = "0603_FP"; UniqueID = "\OFMUGVMG" ("\OFMUGVMG")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "82 kO"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R51" ("R51"); Footprint = "0603_FP"; UniqueID = "\ZXMKFBUF" ("\ZXMKFBUF")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "82 kO"; VariantName = "[No Variations]"
+Added Component: Designator=P?(61200821621)
+Add component (AddParameter): Name = "Color"; Value = "Black"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = "Male Pin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Copper"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Gold"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Resistance"; Value = "20mO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Material"; Value = "PBT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Resistance"; Value = "1GO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "17.82mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Contacts"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Supply Voltage"; Value = "250V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=input_output Member=Component P? 61200821621

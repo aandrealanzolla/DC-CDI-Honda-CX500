@@ -1,0 +1,90 @@
+Removed Pin From Net: NetName=NetF1_1_1 Pin=J2-1
+Removed Pin From Net: NetName=GND Pin=J2-2
+Removed Pin From Net: NetName=L_COIL Pin=J6-1
+Removed Pin From Net: NetName=R_COIL Pin=J6-3
+Removed Pin From Net: NetName=5V0 Pin=P1-1
+Removed Pin From Net: NetName=EXT_SENSOR1_I2C_SCL Pin=P1-2
+Removed Pin From Net: NetName=EXT_SENSOR1_I2C_SDA Pin=P1-5
+Removed Pin From Net: NetName=GND Pin=P1-7
+Removed Member From Class: ClassName=input_output Member=J2
+Removed Member From Class: ClassName=input_output Member=P1
+Change Component Footprint: Designator=J6 Old Footprint=PHOENIX_1755749 New Footprint=TE_DT15-2P
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Change Component Comment : Designator=J6 Old Comment=1755749 New Comment=DT15-2P
+Change component parameters: Designator = "J6" ("J6"); Footprint = "PHOENIX_1755749"; UniqueID = "\MPAQDWXW" ("\MPAQDWXW")
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/DT15-2P/TE+Connectivity+Deutsch+Connectors/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "DT15-2P"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/DT15-2P/TE+Connectivity+Deutsch+Connectors/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R54" ("R54"); Footprint = "0402_fp"; UniqueID = "\ENVNLTUA" ("\ENVNLTUA")
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "12 kO"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R55" ("R55"); Footprint = "0402_fp"; UniqueID = "\DJHZVGDY" ("\DJHZVGDY")
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22 kO"; VariantName = "[No Variations]"
+Added Component: Designator=J3(TE_776261-1)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/776261-1/TE+Connectivity+AMP+Connectors/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "EU_RoHS_Compliance"; Value = "Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "776261-1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/776261-1/TE+Connectivity+AMP+Connectors/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R6(0402_fp)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100 O"; VariantName = "[No Variations]"
+Added Component: Designator=R8(0402_fp)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100 O"; VariantName = "[No Variations]"
+Added Component: Designator=R9(0402_fp)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100 O"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetF1_1_1 Pin=J3-1
+Added Pin To Net: NetName=GND Pin=J3-2
+Added Pin To Net: NetName=GND Pin=J3-7
+Added Pin To Net: NetName=GND Pin=J3-8
+Added Pin To Net: NetName=GND Pin=J3-9
+Added Pin To Net: NetName=GND Pin=J3-10
+Added Pin To Net: NetName=EXT_SENSOR1_I2C_SCL Pin=J3-11
+Added Pin To Net: NetName=EXT_SENSOR1_I2C_SDA Pin=J3-12
+Added Pin To Net: NetName=GND Pin=J3-13
+Added Pin To Net: NetName=5V0 Pin=J3-14
+Added Pin To Net: NetName=R_COIL Pin=J6-1
+Added Pin To Net: NetName=L_COIL Pin=J6-2
+Added Pin To Net: NetName=GND Pin=R6-2
+Added Pin To Net: NetName=GND Pin=R8-2
+Added Pin To Net: NetName=GND Pin=R9-2
+Added Pin To Net: NetName=NetJ3_3 Pin=J3-3
+Added Pin To Net: NetName=NetJ3_3 Pin=Q5-1
+Added Pin To Net: NetName=NetJ3_3 Pin=R45-2
+Added Net: Name=NetJ3_3
+Added Pin To Net: NetName=NetJ3_4 Pin=J3-4
+Added Pin To Net: NetName=NetJ3_4 Pin=R7-2
+Added Net: Name=NetJ3_4
+Added Pin To Net: NetName=NetJ3_5 Pin=J3-5
+Added Pin To Net: NetName=NetJ3_5 Pin=R4-2
+Added Net: Name=NetJ3_5
+Added Pin To Net: NetName=NetJ3_6 Pin=J3-6
+Added Pin To Net: NetName=NetJ3_6 Pin=R54-1
+Added Net: Name=NetJ3_6
+Added Pin To Net: NetName=NetR6_1 Pin=R6-1
+Added Pin To Net: NetName=NetR6_1 Pin=U2-1
+Added Net: Name=NetR6_1
+Added Pin To Net: NetName=NetR8_1 Pin=R8-1
+Added Pin To Net: NetName=NetR8_1 Pin=U2-13
+Added Net: Name=NetR8_1
+Added Pin To Net: NetName=NetR9_1 Pin=R9-1
+Added Pin To Net: NetName=NetR9_1 Pin=U2-8
+Added Net: Name=NetR9_1
+Added Pin To Net: NetName=NetR33_1 Pin=R33-1
+Added Pin To Net: NetName=NetR33_1 Pin=U8-28
+Added Net: Name=NetR33_1
+Added Member To Class: ClassName=input_output Member=Component J3 776261-1
+Added Member To Class: ClassName=input_signal_conditioning Member=Component R6 Resistor_0402
+Added Member To Class: ClassName=input_signal_conditioning Member=Component R8 Resistor_0402
+Added Member To Class: ClassName=input_signal_conditioning Member=Component R9 Resistor_0402

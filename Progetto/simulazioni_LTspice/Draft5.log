@@ -1,0 +1,15 @@
+LTspice 24.1.10 for Windows
+Circuit: C:\Users\Andrea\Documents\Progetti Elettronica\2025\DC_CDI_Honda_CX500\Progetto\simulazioni_LTspice\Draft5.net
+Start Time: Mon Dec  8 16:57:41 2025
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.414 seconds.
+
+Files loaded:
+C:\Users\Andrea\Documents\Progetti Elettronica\2025\DC_CDI_Honda_CX500\Progetto\simulazioni_LTspice\Draft5.net
+C:\Users\Andrea\AppData\Local\LTspice\lib\cmp\standard.bjt
+

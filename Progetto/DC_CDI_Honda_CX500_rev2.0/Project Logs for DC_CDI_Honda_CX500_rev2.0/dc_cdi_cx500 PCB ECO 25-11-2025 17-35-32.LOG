@@ -1,0 +1,41 @@
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Added Component: Designator=T1(DA2034-AL)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "DA2034-AL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=T2(DA2034-AL)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "DA2034-AL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=T1-P$1
+Added Pin To Net: NetName=VBAT Pin=T1-P$7
+Added Pin To Net: NetName=VBAT Pin=T1-P$8
+Added Pin To Net: NetName=VBAT Pin=T1-P$9
+Added Pin To Net: NetName=VBAT Pin=T1-P$10
+Added Pin To Net: NetName=NetD3_2 Pin=T1-P$12
+Added Pin To Net: NetName=GND Pin=T2-P$1
+Added Pin To Net: NetName=VBAT Pin=T2-P$7
+Added Pin To Net: NetName=VBAT Pin=T2-P$8
+Added Pin To Net: NetName=VBAT Pin=T2-P$9
+Added Pin To Net: NetName=VBAT Pin=T2-P$10
+Added Pin To Net: NetName=NetD4_2 Pin=T2-P$12
+Added Pin To Net: NetName=NetQ3_4 Pin=Q3-4
+Added Pin To Net: NetName=NetQ3_4 Pin=T1-P$3
+Added Pin To Net: NetName=NetQ3_4 Pin=T1-P$4
+Added Pin To Net: NetName=NetQ3_4 Pin=T1-P$5
+Added Pin To Net: NetName=NetQ3_4 Pin=T1-P$6
+Added Net: Name=NetQ3_4
+Added Pin To Net: NetName=NetQ4_4 Pin=Q4-4
+Added Pin To Net: NetName=NetQ4_4 Pin=T2-P$3
+Added Pin To Net: NetName=NetQ4_4 Pin=T2-P$4
+Added Pin To Net: NetName=NetQ4_4 Pin=T2-P$5
+Added Pin To Net: NetName=NetQ4_4 Pin=T2-P$6
+Added Net: Name=NetQ4_4
+Added Member To Class: ClassName=HV_power Member=Component T1 DA2034-AL
+Added Member To Class: ClassName=HV_power Member=Component T2 DA2034-AL

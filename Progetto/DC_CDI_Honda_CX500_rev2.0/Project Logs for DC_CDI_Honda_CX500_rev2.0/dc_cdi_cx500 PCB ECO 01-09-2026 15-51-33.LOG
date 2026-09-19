@@ -1,0 +1,101 @@
+Removed Member From Class: ClassName=LV_power Member=C7
+Removed Member From Class: ClassName=LV_power Member=C10
+Removed Member From Class: ClassName=HV_power Member=C17
+Removed Member From Class: ClassName=input_signal_conditioning Member=C17
+Removed Member From Class: ClassName=LV_power Member=C17
+Removed Member From Class: ClassName=input_output Member=C24
+Removed Member From Class: ClassName=input_signal_conditioning Member=C24
+Removed Member From Class: ClassName=input_output Member=C26
+Removed Member From Class: ClassName=input_output Member=C27
+Removed Member From Class: ClassName=input_signal_conditioning Member=C27
+Removed Member From Class: ClassName=input_signal_conditioning Member=C28
+Removed Member From Class: ClassName=HV_power Member=C31
+Removed Member From Class: ClassName=input_output Member=C31
+Removed Member From Class: ClassName=logic Member=C37
+Removed Member From Class: ClassName=logic Member=C40
+Removed Member From Class: ClassName=HV_power Member=C46
+Removed Member From Class: ClassName=logic Member=C46
+Removed Member From Class: ClassName=HV_power Member=C49
+Removed Member From Class: ClassName=HV_power Member=C50
+Removed Member From Class: ClassName=HV_power Member=C51
+Removed Member From Class: ClassName=HV_power Member=R16
+Removed Member From Class: ClassName=logic Member=R16
+Removed Member From Class: ClassName=HV_power Member=R18
+Removed Member From Class: ClassName=HV_power Member=R20
+Removed Member From Class: ClassName=HV_power Member=R21
+Removed Member From Class: ClassName=HV_power Member=R22
+Removed Member From Class: ClassName=HV_power Member=R25
+Removed Member From Class: ClassName=logic Member=R25
+Removed Member From Class: ClassName=input_signal_conditioning Member=R26
+Removed Member From Class: ClassName=input_signal_conditioning Member=R27
+Removed Member From Class: ClassName=input_signal_conditioning Member=R32
+Removed Member From Class: ClassName=input_signal_conditioning Member=R37
+Removed Member From Class: ClassName=input_output Member=R42
+Removed Member From Class: ClassName=input_output Member=R43
+Removed Member From Class: ClassName=logic Member=R50
+Removed Member From Class: ClassName=logic Member=R59
+Removed Member From Class: ClassName=logic Member=R62
+Added Component: Designator=Q6(SOT95P260X110-3N)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Infineon Technologies"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPartNumber"; Value = "BSS316N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "PG-SOT23-3-5"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=KILL_SWITCH Pin=Q6-1
+Added Pin To Net: NetName=GND Pin=Q6-2
+Added Pin To Net: NetName=NetQ6_3 Pin=Q6-3
+Added Member To Class: ClassName=input_signal_conditioning Member=Component C8 Capacitor_0603
+Added Member To Class: ClassName=input_signal_conditioning Member=Component C9 Capacitor_0402
+Added Member To Class: ClassName=input_signal_conditioning Member=Component C11 Capacitor_0402
+Added Member To Class: ClassName=input_signal_conditioning Member=Component C12 Capacitor_0402
+Added Member To Class: ClassName=input_output Member=Component C15 EEHZT1E221P
+Added Member To Class: ClassName=input_output Member=Component C16 C1206X104J3GACTU
+Added Member To Class: ClassName=input_output Member=Component C18 C1206X104J3GACTU
+Added Member To Class: ClassName=input_output Member=Component C19 C1206X104J3GACTU
+Added Member To Class: ClassName=logic Member=Component C20 Capacitor_0402
+Added Member To Class: ClassName=logic Member=Component C22 Capacitor_0402
+Added Member To Class: ClassName=logic Member=Component C23 Capacitor_0402
+Added Member To Class: ClassName=logic Member=Component C29 Capacitor_0402
+Added Member To Class: ClassName=logic Member=Component C30 Capacitor_0402
+Added Member To Class: ClassName=logic Member=Component C32 Capacitor_0603
+Added Member To Class: ClassName=HV_power Member=Component C33 GRM21BR61C475KA88L
+Added Member To Class: ClassName=HV_power Member=Component C34 GRM21BR61C475KA88L
+Added Member To Class: ClassName=HV_power Member=Component C35 890283323005CS
+Added Member To Class: ClassName=HV_power Member=Component C36 Capacitor_0603
+Added Member To Class: ClassName=HV_power Member=Component C38 Capacitor_0603
+Added Member To Class: ClassName=HV_power Member=Component C39 Capacitor_0603
+Added Member To Class: ClassName=HV_power Member=Component C41 GRM21BR61C475KA88L
+Added Member To Class: ClassName=HV_power Member=Component C42 Capacitor_0603
+Added Member To Class: ClassName=HV_power Member=Component C43 Capacitor_0603
+Added Member To Class: ClassName=HV_power Member=Component C44 Capacitor_0603
+Added Member To Class: ClassName=LV_power Member=Component C45 CC0805MKX5R8BB226
+Added Member To Class: ClassName=LV_power Member=Component C47 0805ZG106ZAT2A
+Added Member To Class: ClassName=LV_power Member=Component C48 Capacitor_0603
+Added Member To Class: ClassName=input_output Member=Component Q6 BSS316N
+Added Member To Class: ClassName=HV_power Member=Component Q7 IPD50R280CE
+Added Member To Class: ClassName=input_signal_conditioning Member=Component R10 Resistor_0402
+Added Member To Class: ClassName=input_signal_conditioning Member=Component R11 Resistor_0402
+Added Member To Class: ClassName=input_signal_conditioning Member=Component R12 Resistor_0402
+Added Member To Class: ClassName=input_signal_conditioning Member=Component R13 Resistor_0402
+Added Member To Class: ClassName=input_signal_conditioning Member=Component R14 Resistor_0402
+Added Member To Class: ClassName=input_signal_conditioning Member=Component R17 Resistor_0402
+Added Member To Class: ClassName=input_signal_conditioning Member=Component R23 Resistor_0402
+Added Member To Class: ClassName=input_output Member=Component R28 Resistor_0603
+Added Member To Class: ClassName=input_output Member=Component R29 Resistor_0603
+Added Member To Class: ClassName=logic Member=Component R30 Resistor_0402
+Added Member To Class: ClassName=logic Member=Component R31 Resistor_0402
+Added Member To Class: ClassName=logic Member=Component R34 MCS04020D5600BE100
+Added Member To Class: ClassName=logic Member=Component R35 MCS04020D5600BE100
+Added Member To Class: ClassName=logic Member=Component R36 Resistor_0402
+Added Member To Class: ClassName=HV_power Member=Component R38 Resistor_0603
+Added Member To Class: ClassName=HV_power Member=Component R40 Resistor_0603
+Added Member To Class: ClassName=HV_power Member=Component R44 Resistor_0603
+Added Member To Class: ClassName=HV_power Member=Component R45 Resistor_0603
+Added Member To Class: ClassName=HV_power Member=Component R47 Resistor_0603
+Added Member To Class: ClassName=HV_power Member=Component R48 Resistor_0603
+Added Member To Class: ClassName=HV_power Member=Component R49 Resistor_0603
+Added Member To Class: ClassName=HV_power Member=Component R51 Resistor_0603
+Added Member To Class: ClassName=HV_power Member=Component R53 Resistor_0603
+Added Member To Class: ClassName=HV_power Member=Component R54 Resistor_0603
+Added Member To Class: ClassName=HV_power Member=Component R55 Resistor_0603
+Added Member To Class: ClassName=HV_power Member=Component R56 Resistor_0603
+Added Member To Class: ClassName=HV_power Member=Component R58 CSRN2010FK20L0
+Added Member To Class: ClassName=HV_power Member=Component R60 Resistor_0603

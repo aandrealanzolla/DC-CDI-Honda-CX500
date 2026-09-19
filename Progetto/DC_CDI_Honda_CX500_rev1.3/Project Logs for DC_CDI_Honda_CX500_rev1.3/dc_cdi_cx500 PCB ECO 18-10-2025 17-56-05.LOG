@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=EXT_SENSOR3_SPI_NSS Pin=J5-6
+Added Pin To Net: NetName=3V3 Pin=J5-6
+Added Member To Class: ClassName=input_signal_conditioning Member=Component C7 Capacitor_0402

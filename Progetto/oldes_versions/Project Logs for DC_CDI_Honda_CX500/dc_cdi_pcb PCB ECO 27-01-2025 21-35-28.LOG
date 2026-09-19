@@ -1,0 +1,129 @@
+Removed Pin From Net: NetName=GND Pin=J2-3
+Removed Pin From Net: NetName=NetC9_2 Pin=J3-3
+Removed Member From Class: ClassName=power_side Member=D15
+Change Component Footprint: Designator=J2 Old Footprint=FP-38740-6103-MFG New Footprint=FP-38969-0002-MFG
+Change Component Footprint: Designator=J3 Old Footprint=FP-38740-6103-MFG New Footprint=FP-38969-0002-MFG
+Change Component Footprint: Designator=J4 Old Footprint=FP-38740-6103-MFG New Footprint=FP-38969-0002-MFG
+Change Component Comment : Designator=J2 Old Comment=38740-6103 New Comment=38969-0002
+Change Component Comment : Designator=J3 Old Comment=38740-6103 New Comment=38969-0002
+Change Component Comment : Designator=J4 Old Comment=38740-6103 New Comment=38969-0002
+Change Component Designator: OldDesignator=D2 NewDesignator=D6
+Change Component Designator: OldDesignator=D3 NewDesignator=D11
+Change Component Designator: OldDesignator=D4 NewDesignator=D12
+Change Component Designator: OldDesignator=D5 NewDesignator=D13
+Change Component Designator: OldDesignator=D6 NewDesignator=D14
+Change Component Designator: OldDesignator=D7 NewDesignator=D15
+Change Component Designator: OldDesignator=D8 NewDesignator=D16
+Change Component Designator: OldDesignator=D9 NewDesignator=D17
+Change Component Designator: OldDesignator=D10 NewDesignator=D18
+Change Component Designator: OldDesignator=D11 NewDesignator=D19
+Change Component Designator: OldDesignator=D12 NewDesignator=D20
+Change Component Designator: OldDesignator=D13 NewDesignator=D21
+Change Component Designator: OldDesignator=D14 NewDesignator=D22
+Change Component Designator: OldDesignator=D15 NewDesignator=D2
+Change Component Designator: OldDesignator=D16 NewDesignator=D3
+Change Component Designator: OldDesignator=D17 NewDesignator=D4
+Change Component Designator: OldDesignator=D18 NewDesignator=D5
+Change Component Designator: OldDesignator=D19 NewDesignator=D7
+Change Component Designator: OldDesignator=D20 NewDesignator=D8
+Change Component Designator: OldDesignator=D21 NewDesignator=D9
+Change Component Designator: OldDesignator=D22 NewDesignator=D10
+Change Managed Component Library Link : Designator=J2 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=1FDCDC29-1CF3-417D-8F0F-1C024368949E New ItemGUID=EC39BBD6-D36F-4729-ADCF-C0A5BDE4FA11 Old RevisionGUID=5BA89698-80DB-48FC-A7A0-A131E644908E New RevisionGUID=DB8552AF-41EA-4199-9D41-B300BFBA1A91
+Change Managed Component Library Link : Designator=J3 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=1FDCDC29-1CF3-417D-8F0F-1C024368949E New ItemGUID=EC39BBD6-D36F-4729-ADCF-C0A5BDE4FA11 Old RevisionGUID=5BA89698-80DB-48FC-A7A0-A131E644908E New RevisionGUID=DB8552AF-41EA-4199-9D41-B300BFBA1A91
+Change Managed Component Library Link : Designator=J4 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=1FDCDC29-1CF3-417D-8F0F-1C024368949E New ItemGUID=EC39BBD6-D36F-4729-ADCF-C0A5BDE4FA11 Old RevisionGUID=5BA89698-80DB-48FC-A7A0-A131E644908E New RevisionGUID=DB8552AF-41EA-4199-9D41-B300BFBA1A91
+Change component parameters: Designator = "J2" ("J2"); Footprint = "FP-38740-6103-MFG"; UniqueID = "\FIKUCWSB" ("\FIKUCWSB")
+Change component parameters (AddParameter): Name = "Connector Type"; Value = "Terminal Block"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Material"; Value = "Brass"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Country of Origin"; Value = "US"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "50A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lifecycle Status"; Value = "Production"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Lifecycle Status"; Value = "ACTIVE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "120°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Voltage Rating (AC)"; Value = "600V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "NexarPartId"; Value = "12872391"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Circuits"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Contacts"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Positions"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "12.7mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "Screw"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "600V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Wire Gauge (Max)"; Value = "8AWG"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Wire Gauge (Min)"; Value = "20AWG"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Wire/Cable Gauge"; Value = "18AWG"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J3" ("J3"); Footprint = "FP-38740-6103-MFG"; UniqueID = "\HRWOYRIK" ("\HRWOYRIK")
+Change component parameters (AddParameter): Name = "Connector Type"; Value = "Terminal Block"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Material"; Value = "Brass"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Country of Origin"; Value = "US"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "50A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lifecycle Status"; Value = "Production"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Lifecycle Status"; Value = "ACTIVE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "120°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Voltage Rating (AC)"; Value = "600V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "NexarPartId"; Value = "12872391"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Circuits"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Contacts"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Positions"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "12.7mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "Screw"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "600V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Wire Gauge (Max)"; Value = "8AWG"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Wire Gauge (Min)"; Value = "20AWG"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Wire/Cable Gauge"; Value = "18AWG"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J4" ("J4"); Footprint = "FP-38740-6103-MFG"; UniqueID = "\ZHDBLSTM" ("\ZHDBLSTM")
+Change component parameters (AddParameter): Name = "Connector Type"; Value = "Terminal Block"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Material"; Value = "Brass"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Country of Origin"; Value = "US"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "50A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lifecycle Status"; Value = "Production"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Lifecycle Status"; Value = "ACTIVE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "120°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Voltage Rating (AC)"; Value = "600V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "NexarPartId"; Value = "12872391"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Circuits"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Contacts"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Positions"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "12.7mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "Screw"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "600V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Wire Gauge (Max)"; Value = "8AWG"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Wire Gauge (Min)"; Value = "20AWG"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Wire/Cable Gauge"; Value = "18AWG"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC9_2 Pin=J3-2
+Change Net Name : Old Net Name=NetD2_2 New Net Name=NetD6_2
+Change Net Name : Old Net Name=NetD3_2 New Net Name=NetD11_2
+Change Net Name : Old Net Name=NetD4_2 New Net Name=NetD12_2
+Change Net Name : Old Net Name=NetD5_1 New Net Name=NetD13_1
+Change Net Name : Old Net Name=NetD5_2 New Net Name=NetD13_2
+Change Net Name : Old Net Name=NetD6_1 New Net Name=NetD14_1
+Change Net Name : Old Net Name=NetD10_1 New Net Name=NetD18_1
+Change Net Name : Old Net Name=NetD10_2 New Net Name=NetD18_2
+Change Net Name : Old Net Name=NetD11_1 New Net Name=NetD19_1
+Change Net Name : Old Net Name=NetD15_2 New Net Name=NetD2_2
+Change Net Name : Old Net Name=NetD16_2 New Net Name=NetD3_2
+Change Net Name : Old Net Name=NetD17_2 New Net Name=NetD4_2
+Change Net Name : Old Net Name=NetD20_2 New Net Name=NetD8_2
+Added Pin To Net: NetName=NetJ4_2 Pin=J4-2
+Added Pin To Net: NetName=NetJ4_2 Pin=R25-2
+Added Net: Name=NetJ4_2
+Added Member To Class: ClassName=power_side Member=Component D6 C3D03060E

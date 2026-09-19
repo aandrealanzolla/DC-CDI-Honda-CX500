@@ -1,0 +1,21 @@
+Added Component: Designator=R18(0603_FP)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "470 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R22(0603_FP)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "56 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R48(0603_FP)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "120 kO"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR18_1 Pin=R18-1
+Added Pin To Net: NetName=VBAT Pin=R18-2
+Added Pin To Net: NetName=GND Pin=R22-1
+Added Pin To Net: NetName=NetR18_1 Pin=R22-2
+Added Pin To Net: NetName=GND Pin=R48-2
+Added Pin To Net: NetName=NetR48_1 Pin=R48-1
+Added Pin To Net: NetName=NetR48_1 Pin=U5-4
+Added Net: Name=NetR48_1
+Added Member To Class: ClassName=HV_power Member=Component R18 Resistor_0402
+Added Member To Class: ClassName=HV_power Member=Component R22 Resistor_0402
+Added Member To Class: ClassName=HV_power Member=Component R48 Resistor_0603

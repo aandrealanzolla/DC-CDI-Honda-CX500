@@ -1,0 +1,138 @@
+Removed Pin From Net: NetName=GND Pin=C18-1
+Removed Pin From Net: NetName=VBAT Pin=C18-2
+Removed Pin From Net: NetName=GND Pin=C21-1
+Removed Pin From Net: NetName=GND Pin=C35-1
+Removed Pin From Net: NetName=GND Pin=C36-1
+Removed Pin From Net: NetName=VBAT Pin=R39-2
+Removed Pin From Net: NetName=GND Pin=R43-1
+Removed Pin From Net: NetName=GND Pin=R48-1
+Removed Member From Class: ClassName=HV_power Member=R48
+Change Component Footprint: Designator=C16 Old Footprint=0402_fp New Footprint=0603_FP
+Change Component Footprint: Designator=C19 Old Footprint=0402_fp New Footprint=0603_FP
+Change Component Footprint: Designator=C20 Old Footprint=0402_fp New Footprint=0603_FP
+Change Component Footprint: Designator=C21 Old Footprint=0402_fp New Footprint=0603_FP
+Change Component Footprint: Designator=C35 Old Footprint=0402_fp New Footprint=0603_FP
+Change Component Footprint: Designator=C36 Old Footprint=0402_fp New Footprint=0603_FP
+Change Component Footprint: Designator=R16 Old Footprint=0402_fp New Footprint=0603_FP
+Change Component Footprint: Designator=R17 Old Footprint=0402_fp New Footprint=0603_FP
+Change Component Footprint: Designator=R18 Old Footprint=0402_fp New Footprint=0603_FP
+Change Component Footprint: Designator=R19 Old Footprint=0402_fp New Footprint=0603_FP
+Change Component Footprint: Designator=R20 Old Footprint=0402_fp New Footprint=0603_FP
+Change Component Footprint: Designator=R22 Old Footprint=0402_fp New Footprint=0603_FP
+Change Component Footprint: Designator=R23 Old Footprint=0402_fp New Footprint=0603_FP
+Change Component Footprint: Designator=R24 Old Footprint=0402_fp New Footprint=0603_FP
+Change Component Footprint: Designator=R25 Old Footprint=0402_fp New Footprint=0603_FP
+Change Component Footprint: Designator=R26 Old Footprint=0402_fp New Footprint=0603_FP
+Change Component Footprint: Designator=R27 Old Footprint=0402_fp New Footprint=0603_FP
+Change Component Footprint: Designator=R29 Old Footprint=0402_fp New Footprint=0603_FP
+Change Component Footprint: Designator=R30 Old Footprint=0402_fp New Footprint=0603_FP
+Change Component Footprint: Designator=R31 Old Footprint=0402_fp New Footprint=0603_FP
+Change Component Footprint: Designator=R39 Old Footprint=0402_fp New Footprint=0603_FP
+Change Component Footprint: Designator=R41 Old Footprint=0402_fp New Footprint=0603_FP
+Change Component Footprint: Designator=R42 Old Footprint=0402_fp New Footprint=0603_FP
+Change Component Footprint: Designator=R43 Old Footprint=0402_fp New Footprint=0603_FP
+Change Component Footprint: Designator=R44 Old Footprint=0402_fp New Footprint=0603_FP
+Change Component Footprint: Designator=R46 Old Footprint=0402_fp New Footprint=0603_FP
+Change Component Footprint: Designator=R49 Old Footprint=0402_fp New Footprint=0603_FP
+Change Component Footprint: Designator=R50 Old Footprint=0402_fp New Footprint=0603_FP
+Change Component Footprint: Designator=R51 Old Footprint=0402_fp New Footprint=0603_FP
+Change Component Footprint: Designator=C13 Old Footprint=CAPC2013X135X45LL10T25 New Footprint=0603_FP
+Change Component Footprint: Designator=C18 Old Footprint=CAPC2013X135X45LL10T25 New Footprint=0603_FP
+Change Component Footprint: Designator=C26 Old Footprint=FP-CL17-IPC_C New Footprint=0603_FP
+Change Component Footprint: Designator=C27 Old Footprint=FP-CL17-IPC_C New Footprint=0603_FP
+Change Component Comment : Designator=U5 Old Comment=3 New Comment=LT3758EDD#PBF
+Change Component Comment : Designator=C21 Old Comment=Capacitor_0402 New Comment=Capacitor_0603
+Change Component Comment : Designator=C35 Old Comment=Capacitor_0402 New Comment=Capacitor_0603
+Change Component Comment : Designator=C36 Old Comment=Capacitor_0402 New Comment=Capacitor_0603
+Change Component Comment : Designator=C26 Old Comment=CL05B104KP5NNNC New Comment=Capacitor_0603
+Change Component Comment : Designator=C27 Old Comment=CL05B104KP5NNNC New Comment=Capacitor_0603
+Change Component Comment : Designator=C18 Old Comment=GRM21BR61C475KA88L New Comment=Capacitor_0603
+Change Component Comment : Designator=R39 Old Comment=Resistor_0402 New Comment=Resistor_0603
+Change Component Comment : Designator=R43 Old Comment=Resistor_0402 New Comment=Resistor_0603
+Change Component Comment : Designator=R51 Old Comment=Resistor_0402 New Comment=Resistor_0603
+Change Managed Component Library Link : Designator=C13 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=787EFBC6-1EFF-46D9-B2CE-895F634BE4D2 New ItemGUID= Old RevisionGUID=2FC3147A-E96B-42BC-B28A-4F470471664F New RevisionGUID=
+Change Managed Component Library Link : Designator=C18 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=787EFBC6-1EFF-46D9-B2CE-895F634BE4D2 New ItemGUID= Old RevisionGUID=2FC3147A-E96B-42BC-B28A-4F470471664F New RevisionGUID=
+Change Managed Component Library Link : Designator=C26 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=5A8DED8E-07B9-424C-9E8D-D622773EBCDB New ItemGUID= Old RevisionGUID=8DE28CAA-2805-4526-9AB2-FDD6E6A87A02 New RevisionGUID=
+Change Managed Component Library Link : Designator=C27 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=5A8DED8E-07B9-424C-9E8D-D622773EBCDB New ItemGUID= Old RevisionGUID=8DE28CAA-2805-4526-9AB2-FDD6E6A87A02 New RevisionGUID=
+Change component parameters: Designator = "C18" ("C18"); Footprint = "CAPC2013X135X45LL10T25"; UniqueID = "\RDCUGQXY" ("\RDCUGQXY")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4.7 uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C26" ("C26"); Footprint = "FP-CL17-IPC_C"; UniqueID = "\HKSXTJSC" ("\HKSXTJSC")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100 nF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C27" ("C27"); Footprint = "FP-CL17-IPC_C"; UniqueID = "\ZOUCLLAM" ("\ZOUCLLAM")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100 nF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R39" ("R39"); Footprint = "0402_fp"; UniqueID = "\VALWAEER" ("\VALWAEER")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "470 kO"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R43" ("R43"); Footprint = "0402_fp"; UniqueID = "\EHDTNJTQ" ("\EHDTNJTQ")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "56 kO"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R51" ("R51"); Footprint = "0402_fp"; UniqueID = "\ZXMKFBUF" ("\ZXMKFBUF")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10 kO"; VariantName = "[No Variations]"
+Added Component: Designator=C40(0603_FP)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "470 nF"; VariantName = "[No Variations]"
+Added Component: Designator=C41(0603_FP)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "470 nF"; VariantName = "[No Variations]"
+Added Component: Designator=C42(0603_FP)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "470 nF"; VariantName = "[No Variations]"
+Added Component: Designator=C43(0603_FP)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "470 nF"; VariantName = "[No Variations]"
+Added Component: Designator=R18(0603_FP)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "120 kO"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VBAT Pin=C18-1
+Added Pin To Net: NetName=GND Pin=C18-2
+Added Pin To Net: NetName=GND Pin=C21-2
+Added Pin To Net: NetName=GND Pin=C35-2
+Added Pin To Net: NetName=GND Pin=C36-2
+Added Pin To Net: NetName=L_HV Pin=C40-1
+Added Pin To Net: NetName=GND Pin=C41-2
+Added Pin To Net: NetName=R_HV Pin=C42-1
+Added Pin To Net: NetName=GND Pin=C43-2
+Added Pin To Net: NetName=GND Pin=R18-2
+Added Pin To Net: NetName=VBAT Pin=R39-1
+Added Pin To Net: NetName=GND Pin=R43-2
+Added Pin To Net: NetName=NetC21_1 Pin=C21-1
+Added Pin To Net: NetName=NetC21_1 Pin=U5-3
+Added Net: Name=NetC21_1
+Added Pin To Net: NetName=NetC35_1 Pin=C35-1
+Added Pin To Net: NetName=NetC35_1 Pin=R51-1
+Added Pin To Net: NetName=NetC35_1 Pin=U5-1
+Added Net: Name=NetC35_1
+Added Pin To Net: NetName=NetC36_1 Pin=C36-1
+Added Pin To Net: NetName=NetC36_1 Pin=R51-2
+Added Net: Name=NetC36_1
+Added Pin To Net: NetName=NetC40_2 Pin=C40-2
+Added Pin To Net: NetName=NetC40_2 Pin=C41-1
+Added Net: Name=NetC40_2
+Added Pin To Net: NetName=NetC42_2 Pin=C42-2
+Added Pin To Net: NetName=NetC42_2 Pin=C43-1
+Added Net: Name=NetC42_2
+Add Net: Net with name "NetR18_1" already exists
+Added Pin To Net: NetName=NetR39_2 Pin=R39-2
+Added Pin To Net: NetName=NetR39_2 Pin=R43-1
+Added Pin To Net: NetName=NetR39_2 Pin=U5-9
+Added Net: Name=NetR39_2
+Added Member To Class: ClassName=HV_power Member=Component C40 Capacitor_0603
+Added Member To Class: ClassName=HV_power Member=Component C41 Capacitor_0603
+Added Member To Class: ClassName=HV_power Member=Component C42 Capacitor_0603
+Added Member To Class: ClassName=HV_power Member=Component C43 Capacitor_0603
+Added Member To Class: ClassName=HV_power Member=Component R18 Resistor_0402

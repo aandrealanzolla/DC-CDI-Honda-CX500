@@ -1,0 +1,7 @@
+Change Component DesignItemId : Designator=J3 Old DesignItemId=1803455 New DesignItemId=
+Change Component DesignItemId : Designator=J4 Old DesignItemId=1803455 New DesignItemId=
+Change Component Library : Designator=J3 Old Library=1803455.IntLib New Library=1803455.SchLib
+Change Component Library : Designator=J4 Old Library=1803455.IntLib New Library=1803455.SchLib
+Add component: Footprint Not Found FP-22-03-5065-MFG
+Added Member To Class: ClassName=input_output Member=Component J2 1755736
+Add Class Member: Failed to add class member : Component J7 22-03-5065

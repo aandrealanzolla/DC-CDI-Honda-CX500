@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=VBAT_0 Pin=J2-1
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Added Component: Designator=XF1(696103101002)
+Add component (AddParameter): Name = "Packaging"; Value = "Box"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Non-Compliant"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VBAT_0 Pin=XF1-2
+Added Pin To Net: NetName=NetJ2_1 Pin=J2-1
+Added Pin To Net: NetName=NetJ2_1 Pin=XF1-1
+Added Net: Name=NetJ2_1
+Added Member To Class: ClassName=input_output Member=Component XF1 696103101002

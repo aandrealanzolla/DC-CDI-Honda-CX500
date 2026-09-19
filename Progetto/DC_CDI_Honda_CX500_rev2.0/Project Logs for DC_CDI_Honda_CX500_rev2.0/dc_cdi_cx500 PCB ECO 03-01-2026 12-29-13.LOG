@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=DGND Pin=U2-11
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Added Pin To Net: NetName=GND Pin=U2-11

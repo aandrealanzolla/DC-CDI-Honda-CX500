@@ -1,0 +1,5 @@
+Removed Member From Class: ClassName=FB_NETS Member=L_HV_FB
+Removed Member From Class: ClassName=FB_NETS Member=NetD6_1
+Removed Member From Class: ClassName=FB_NETS Member=NetD8_1
+Removed Member From Class: ClassName=FB_NETS Member=R_HV_FB
+Change Footprint: Footprint Not Found FP-0402-SOD-923F-MFG

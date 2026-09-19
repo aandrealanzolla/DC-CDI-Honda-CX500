@@ -1,0 +1,34 @@
+Add component: Footprint Not Found CAPC1608X90X35LL15T15
+Add component: Footprint Not Found CAPC1608X87X35NL15T15
+Add component: Footprint Not Found FP-SOD323-MFG
+Added Component: Designator=U1(SOT95P280X145-6N-7-V)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Infineon Technologies"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPartNumber"; Value = "1EDN7511B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "PG-SOT23-6-2"; VariantName = "[No Variations]"
+Added Component: Designator=U8(SOT95P280X145-6N-7-V)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Infineon Technologies"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPartNumber"; Value = "1EDN7511B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "PG-SOT23-6-2"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin C52-1
+Add Pin To Net: Unknown Pin: Pin C52-2
+Add Pin To Net: Unknown Pin: Pin C53-1
+Add Pin To Net: Unknown Pin: Pin C53-2
+Add Pin To Net: Unknown Pin: Pin D8-1
+Add Pin To Net: Unknown Pin: Pin D8-2
+Added Pin To Net: NetName=VBAT Pin=U1-1
+Added Pin To Net: NetName=NetR2_2 Pin=U1-2
+Added Pin To Net: NetName=NetR3_2 Pin=U1-3
+Added Pin To Net: NetName=PGND Pin=U1-4
+Added Pin To Net: NetName=DGND Pin=U1-5
+Added Pin To Net: NetName=IGNT_TRIG_L Pin=U1-6
+Added Pin To Net: NetName=VBAT Pin=U8-1
+Added Pin To Net: NetName=NetR64_2 Pin=U8-2
+Added Pin To Net: NetName=NetR65_2 Pin=U8-3
+Added Pin To Net: NetName=PGND Pin=U8-4
+Added Pin To Net: NetName=DGND Pin=U8-5
+Added Pin To Net: NetName=IGNT_TRIG_R Pin=U8-6
+Add Class Member: Failed to add class member : Component C52 06035C104KAT4A
+Add Class Member: Failed to add class member : Component C53 C0603C475K8PACTU
+Add Class Member: Failed to add class member : Component D8 BZT52C15S-7-F
+Added Member To Class: ClassName=cd_switching Member=Component U1 1EDN7511B
+Added Member To Class: ClassName=cd_switching Member=Component U8 1EDN7511B

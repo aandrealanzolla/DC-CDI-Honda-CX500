@@ -1,0 +1,6 @@
+Change Component Designator: OldDesignator=C? NewDesignator=C4
+Change Component Designator: OldDesignator=C? NewDesignator=C5
+Change Component Designator: OldDesignator=R? NewDesignator=R8
+Change Component Designator: OldDesignator=R? NewDesignator=R9
+Added Member To Class: ClassName=main Member=Component C4 Capacitor_0603
+Added Member To Class: ClassName=main Member=Component R9 Resistor_0603

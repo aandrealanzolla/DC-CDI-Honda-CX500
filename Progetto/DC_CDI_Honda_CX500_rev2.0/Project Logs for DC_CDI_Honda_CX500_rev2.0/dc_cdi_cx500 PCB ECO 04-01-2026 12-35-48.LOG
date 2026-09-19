@@ -1,0 +1,17 @@
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Added Component: Designator=J2(TE_DTF13-4P)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/DTF13-4P/TE+Connectivity+Deutsch+Connectors/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "EU_RoHS_Compliance"; Value = "Compliant with Exemptions"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "DTF13-4P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/DTF13-4P/TE+Connectivity+Deutsch+Connectors/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=PGND Pin=J2-1
+Added Pin To Net: NetName=R_COIL Pin=J2-2
+Added Pin To Net: NetName=L_COIL Pin=J2-4
+Added Pin To Net: NetName=NetJ2_3 Pin=J2-3
+Added Pin To Net: NetName=NetJ2_3 Pin=R21-1
+Added Pin To Net: NetName=NetJ2_3 Pin=U3-28
+Added Net: Name=NetJ2_3
+Added Member To Class: ClassName=input_output Member=Component J2 DTF13-4P

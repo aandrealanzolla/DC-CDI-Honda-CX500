@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=R_HV Pin=C4-1
+Removed Pin From Net: NetName=R_COIL Pin=C4-2
+Change Component Footprint: Designator=C1 Old Footprint=FP-B32672Z4105K000-MFG New Footprint=22,5mm_CAP
+Change Component Footprint: Designator=C4 Old Footprint=FP-B32672Z4105K000-MFG New Footprint=22,5mm_CAP
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Change Component Comment : Designator=C1 Old Comment=B32672Z4105K000 New Comment=ECW-FA2J155J
+Change Component Comment : Designator=C4 Old Comment=B32672Z4105K000 New Comment=ECW-FA2J155J
+Change Managed Component Library Link : Designator=C1 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=53C1265B-19F6-4CF5-8714-AC08BE48B4FC New ItemGUID= Old RevisionGUID=C28B46A2-F354-406E-8CD5-EDED2A3456AD New RevisionGUID=
+Change Managed Component Library Link : Designator=C4 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=53C1265B-19F6-4CF5-8714-AC08BE48B4FC New ItemGUID= Old RevisionGUID=C28B46A2-F354-406E-8CD5-EDED2A3456AD New RevisionGUID=
+Change component parameters: Designator = "C1" ("C1"); Footprint = "FP-B32672Z4105K000-MFG"; UniqueID = "\DRNMHVYG" ("\DRNMHVYG")
+Change component parameters: Designator = "C4" ("C4"); Footprint = "FP-B32672Z4105K000-MFG"; UniqueID = "\WXYYGCEA" ("\WXYYGCEA")
+Added Pin To Net: NetName=R_COIL Pin=C4-1
+Added Pin To Net: NetName=R_HV Pin=C4-2

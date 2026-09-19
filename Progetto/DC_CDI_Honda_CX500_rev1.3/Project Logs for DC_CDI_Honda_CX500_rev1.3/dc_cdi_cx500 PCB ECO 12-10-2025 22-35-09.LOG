@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=NetD1_1 Pin=J3-1
+Removed Pin From Net: NetName=NetD2_1 Pin=J3-2
+Removed Pin From Net: NetName=AGND Pin=J5-1
+Removed Member From Class: ClassName=input_output Member=J3
+Added Pin To Net: NetName=NetD1_1 Pin=J5-1
+Added Pin To Net: NetName=NetD2_1 Pin=J5-2
+Added Pin To Net: NetName=NetJ5_4 Pin=J5-4
+Added Pin To Net: NetName=NetJ5_4 Pin=Q5-1
+Added Net: Name=NetJ5_4

@@ -1,0 +1,162 @@
+Removed Pin From Net: NetName=GND Pin=R3-2
+Removed Pin From Net: NetName=GND Pin=R6-2
+Removed Pin From Net: NetName=GND Pin=R7-2
+Removed Pin From Net: NetName=VR_SENSOR_IN2+ Pin=U1-9
+Removed Pin From Net: NetName=VR_SENSOR_IN2- Pin=U1-10
+Removed Pin From Net: NetName=VR_SENSOR_IN1- Pin=U1-15
+Removed Pin From Net: NetName=VR_SENSOR_IN1+ Pin=U1-16
+Change Component Footprint: Designator=R2 Old Footprint=0603_FP New Footprint=0402_fp
+Change Component Footprint: Designator=R3 Old Footprint=0603_FP New Footprint=0402_fp
+Change Component Footprint: Designator=R4 Old Footprint=0603_FP New Footprint=0402_fp
+Change Component Footprint: Designator=R6 Old Footprint=0603_FP New Footprint=0402_fp
+Change Component Footprint: Designator=R7 Old Footprint=0603_FP New Footprint=0402_fp
+Change Component Footprint: Designator=U1 Old Footprint=FP-E16-1-MFG New Footprint=SOP63P602X175-16N
+Change Component Comment : Designator=U1 Old Comment=MAX9926UAEE+ New Comment=MAX9927AEE+
+Change Component Comment : Designator=R2 Old Comment=Resistor_0603 New Comment=Resistor_0402
+Change Component Comment : Designator=R3 Old Comment=Resistor_0603 New Comment=Resistor_0402
+Change Component Comment : Designator=R4 Old Comment=Resistor_0603 New Comment=Resistor_0402
+Change Component Comment : Designator=R6 Old Comment=Resistor_0603 New Comment=Resistor_0402
+Change Component Comment : Designator=R7 Old Comment=Resistor_0603 New Comment=Resistor_0402
+Change Managed Component Library Link : Designator=U1 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=F4CA6ECA-081A-42E2-82D5-AD6851D00B05 New ItemGUID= Old RevisionGUID=5E5F87B7-71C5-4DD1-AC56-E968FE066714 New RevisionGUID=
+Change component parameters: Designator = "R2" ("R2"); Footprint = "0603_FP"; UniqueID = "\HAFFXRMU" ("\HAFFXRMU")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "12 kO"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R3" ("R3"); Footprint = "0603_FP"; UniqueID = "\HFDNNGEU" ("\HFDNNGEU")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "12 kO"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R4" ("R4"); Footprint = "0603_FP"; UniqueID = "\NTXDQIMA" ("\NTXDQIMA")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "12 kO"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R6" ("R6"); Footprint = "0603_FP"; UniqueID = "\OAUGJBUM" ("\OAUGJBUM")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "12 kO"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R7" ("R7"); Footprint = "0603_FP"; UniqueID = "\DBEGOIIF" ("\DBEGOIIF")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "12 kO"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U1" ("U1"); Footprint = "FP-E16-1-MFG"; UniqueID = "\AZLWTEML" ("\AZLWTEML")
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/MAX9927AEE+/Analog+Devices/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Analog Devices"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "MAX9927AEE+"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "QSOP-16 Maxim"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/MAX9927AEE+/Analog+Devices/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C6(0603_FP)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 uF"; VariantName = "[No Variations]"
+Added Component: Designator=C7(0603_FP)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100 nF"; VariantName = "[No Variations]"
+Added Component: Designator=C8(0603_FP)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 uF"; VariantName = "[No Variations]"
+Added Component: Designator=C9(0603_FP)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100 nF"; VariantName = "[No Variations]"
+Added Component: Designator=R10(0402_fp)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "12 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R11(0402_fp)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "12 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R12(0402_fp)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "12 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R13(0402_fp)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "12 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R14(0402_fp)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "12 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R15(0402_fp)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R16(0402_fp)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R17(0402_fp)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R18(0402_fp)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1 kO"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=GND Pin=C9-2
+Added Pin To Net: NetName=VR_SENSOR_IN1+ Pin=R3-1
+Added Pin To Net: NetName=VR_SENSOR_IN1- Pin=R6-1
+Added Pin To Net: NetName=VR_SENSOR_IN2+ Pin=R7-1
+Added Pin To Net: NetName=VR_SENSOR_IN2- Pin=R10-1
+Added Pin To Net: NetName=5V0 Pin=R15-2
+Added Pin To Net: NetName=5V0 Pin=R16-2
+Added Pin To Net: NetName=GND Pin=R17-2
+Added Pin To Net: NetName=GND Pin=R18-2
+Added Pin To Net: NetName=5V0 Pin=U1-1
+Added Pin To Net: NetName=5V0 Pin=U1-8
+Added Pin To Net: NetName=BIAS1 Pin=C6-1
+Added Pin To Net: NetName=BIAS1 Pin=C7-1
+Added Pin To Net: NetName=BIAS1 Pin=R14-1
+Added Pin To Net: NetName=BIAS1 Pin=R15-1
+Added Pin To Net: NetName=BIAS1 Pin=R17-1
+Added Pin To Net: NetName=BIAS1 Pin=U1-3
+Added Net: Name=BIAS1
+Added Pin To Net: NetName=BIAS2 Pin=C8-1
+Added Pin To Net: NetName=BIAS2 Pin=C9-1
+Added Pin To Net: NetName=BIAS2 Pin=R12-1
+Added Pin To Net: NetName=BIAS2 Pin=R16-1
+Added Pin To Net: NetName=BIAS2 Pin=R18-1
+Added Pin To Net: NetName=BIAS2 Pin=U1-6
+Added Net: Name=BIAS2
+Added Pin To Net: NetName=IN1- Pin=R6-2
+Added Pin To Net: NetName=IN1- Pin=R13-2
+Added Pin To Net: NetName=IN1- Pin=U1-15
+Added Net: Name=IN1-
+Added Pin To Net: NetName=IN1+ Pin=R3-2
+Added Pin To Net: NetName=IN1+ Pin=R14-2
+Added Pin To Net: NetName=IN1+ Pin=U1-16
+Added Net: Name=IN1+
+Added Pin To Net: NetName=IN2- Pin=R10-2
+Added Pin To Net: NetName=IN2- Pin=R11-2
+Added Pin To Net: NetName=IN2- Pin=U1-10
+Added Net: Name=IN2-
+Added Pin To Net: NetName=IN2+ Pin=R7-2
+Added Pin To Net: NetName=IN2+ Pin=R12-2
+Added Pin To Net: NetName=IN2+ Pin=U1-9
+Added Net: Name=IN2+
+Added Pin To Net: NetName=OUT1 Pin=R13-1
+Added Pin To Net: NetName=OUT1 Pin=U1-13
+Added Net: Name=OUT1
+Added Pin To Net: NetName=OUT2 Pin=R11-1
+Added Pin To Net: NetName=OUT2 Pin=U1-12
+Added Net: Name=OUT2
+Added Member To Class: ClassName=main Member=Component C6 Capacitor_0603
+Added Member To Class: ClassName=main Member=Component C7 Capacitor_0603
+Added Member To Class: ClassName=main Member=Component C8 Capacitor_0603
+Added Member To Class: ClassName=main Member=Component C9 Capacitor_0603
+Added Member To Class: ClassName=main Member=Component R10 Resistor_0402
+Added Member To Class: ClassName=main Member=Component R11 Resistor_0402
+Added Member To Class: ClassName=main Member=Component R12 Resistor_0402
+Added Member To Class: ClassName=main Member=Component R13 Resistor_0402
+Added Member To Class: ClassName=main Member=Component R14 Resistor_0402
+Added Member To Class: ClassName=main Member=Component R15 Resistor_0402
+Added Member To Class: ClassName=main Member=Component R16 Resistor_0402
+Added Member To Class: ClassName=main Member=Component R17 Resistor_0402
+Added Member To Class: ClassName=main Member=Component R18 Resistor_0402

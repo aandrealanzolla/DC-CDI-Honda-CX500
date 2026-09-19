@@ -1,0 +1,82 @@
+Removed Pin From Net: NetName=GND Pin=U2-9
+Removed Pin From Net: NetName=NetC17_1 Pin=U5-1
+Removed Pin From Net: NetName=NetC17_1 Pin=U5-2
+Removed Pin From Net: NetName=NetC20_1 Pin=U5-3
+Removed Pin From Net: NetName=NetC19_2 Pin=U5-5
+Removed Pin From Net: NetName=NetR17_2 Pin=U5-6
+Removed Pin From Net: NetName=NetR17_2 Pin=U5-7
+Removed Pin From Net: NetName=NetC21_1 Pin=U6-1
+Removed Pin From Net: NetName=NetC21_1 Pin=U6-2
+Removed Pin From Net: NetName=NetC24_1 Pin=U6-3
+Removed Pin From Net: NetName=GND Pin=U6-4
+Removed Pin From Net: NetName=NetC23_2 Pin=U6-5
+Removed Pin From Net: NetName=NetR23_2 Pin=U6-6
+Removed Pin From Net: NetName=NetR23_2 Pin=U6-7
+Removed Pin From Net: NetName=+3V3 Pin=U6-8
+Removed Member From Class: ClassName=input_filter Member=U6
+Change Component Footprint: Designator=U5 Old Footprint=ADI-R-8_M New Footprint=ADI-RM-8_M
+Change Component Comment : Designator=U5 Old Comment=AD8602ARZ-REEL7 New Comment=AD8602DRM-REEL
+Change Managed Component Library Link : Designator=U5 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=02B1360C-8525-4E35-B556-A6C54C126790 New ItemGUID=AB848F51-96F1-48DF-82AD-04D010C84BAC Old RevisionGUID=69ADFB90-DC5B-4DC4-ADA5-16BFA29A5A77 New RevisionGUID=23492589-707A-4809-945D-057311E92DE7
+Change component parameters: Designator = "U5" ("U5"); Footprint = "ADI-R-8_M"; UniqueID = "\QFXEJFHQ" ("\QFXEJFHQ")
+Change component parameters (AddParameter): Name = "Amplifiers Per Package"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Automotive Qualified"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Code_JEDEC"; Value = "MO-187-AA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.analog.com/en/index.html"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.analog.com/static/imported-files/data_sheets/AD8601_8602_8604.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.analog.com/static/imported-files/packages/PKG_PDF/MSOP%28RM%29/RM_8.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "Rev. G"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Generic Part Number"; Value = "AD8602"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Input Bias Current"; Value = "200fA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Input Offset Voltage"; Value = "500uV"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Iq/Amp"; Value = "1.2mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Analog Devices"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "8-Pin Mini Small Outline Package, Body 3 x 3 mm, Pitch 0.65 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "RM-8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "AD8602DRM-REEL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Slew Rate"; Value = "6V/us"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Small Signal Bandwidth"; Value = "8.4MHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "V Span Max"; Value = "6V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "V Span Min"; Value = "2.7V"; VariantName = "[No Variations]"
+Added Component: Designator=U4(ADI-RM-8_M)
+Add component (AddParameter): Name = "Amplifiers Per Package"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Automotive Qualified"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MO-187-AA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.analog.com/en/index.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.analog.com/static/imported-files/data_sheets/AD8601_8602_8604.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.analog.com/static/imported-files/packages/PKG_PDF/MSOP%28RM%29/RM_8.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Generic Part Number"; Value = "AD8602"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Input Bias Current"; Value = "200fA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Input Offset Voltage"; Value = "500uV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Iq/Amp"; Value = "1.2mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Analog Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "8-Pin Mini Small Outline Package, Body 3 x 3 mm, Pitch 0.65 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RM-8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "AD8602DRM-REEL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Slew Rate"; Value = "6V/us"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Small Signal Bandwidth"; Value = "8.4MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "V Span Max"; Value = "6V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "V Span Min"; Value = "2.7V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR17_2 Pin=U4-1
+Added Pin To Net: NetName=NetR17_2 Pin=U4-2
+Added Pin To Net: NetName=NetC19_2 Pin=U4-3
+Added Pin To Net: NetName=GND Pin=U4-4
+Added Pin To Net: NetName=NetC20_1 Pin=U4-5
+Added Pin To Net: NetName=NetC17_1 Pin=U4-6
+Added Pin To Net: NetName=NetC17_1 Pin=U4-7
+Added Pin To Net: NetName=+3V3 Pin=U4-8
+Added Pin To Net: NetName=NetR23_2 Pin=U5-1
+Added Pin To Net: NetName=NetR23_2 Pin=U5-2
+Added Pin To Net: NetName=NetC23_2 Pin=U5-3
+Added Pin To Net: NetName=NetC24_1 Pin=U5-5
+Added Pin To Net: NetName=NetC21_1 Pin=U5-6
+Added Pin To Net: NetName=NetC21_1 Pin=U5-7
+Added Member To Class: ClassName=input_filter Member=Component U4 AD8602DRM-REEL

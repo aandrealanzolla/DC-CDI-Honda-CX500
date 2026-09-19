@@ -1,0 +1,45 @@
+Change Component Footprint: Designator=J2 Old Footprint=FP-1757242-MFG New Footprint=PHOE-1755736-2_V
+Change Component Footprint: Designator=J3 Old Footprint=FP-1757242-MFG New Footprint=PHOE-1755736-2_V
+Change Component Footprint: Designator=J4 Old Footprint=FP-1757242-MFG New Footprint=PHOE-1755736-2_V
+Change Component Comment : Designator=J2 Old Comment=1757242 New Comment=1755736
+Change Component Comment : Designator=J3 Old Comment=1757242 New Comment=1755736
+Change Component Comment : Designator=J4 Old Comment=1757242 New Comment=1755736
+Change Managed Component Library Link : Designator=J2 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=ED4D99F0-C573-4058-9997-D63E60097346 New ItemGUID=3203D238-B372-4A6E-BB4E-E8947E942413 Old RevisionGUID=2E75ACCE-20F1-4EC0-87E0-56F097314269 New RevisionGUID=4F8FB512-4369-4CA6-B835-12965AC86D75
+Change Managed Component Library Link : Designator=J3 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=ED4D99F0-C573-4058-9997-D63E60097346 New ItemGUID=3203D238-B372-4A6E-BB4E-E8947E942413 Old RevisionGUID=2E75ACCE-20F1-4EC0-87E0-56F097314269 New RevisionGUID=4F8FB512-4369-4CA6-B835-12965AC86D75
+Change Managed Component Library Link : Designator=J4 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=ED4D99F0-C573-4058-9997-D63E60097346 New ItemGUID=3203D238-B372-4A6E-BB4E-E8947E942413 Old RevisionGUID=2E75ACCE-20F1-4EC0-87E0-56F097314269 New RevisionGUID=4F8FB512-4369-4CA6-B835-12965AC86D75
+Change component parameters: Designator = "J2" ("J2"); Footprint = "FP-1757242-MFG"; UniqueID = "\CFHSBKYN" ("\CFHSBKYN")
+Change component parameters (AddParameter): Name = "Colour"; Value = "Green"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Content"; Value = "250pc(s)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet URL"; Value = "http://www.mouser.com/ds/2/324/ItemDetail_1755736-921028.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Version"; Value = "Apr-16"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Industrial packaging"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Phoenix Contact"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer part No."; Value = "1755736"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer URL"; Value = "http://www.phoenixcontact.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of contacts"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "5.08mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "MSTBVA2,5/2-G-5,08"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J3" ("J3"); Footprint = "FP-1757242-MFG"; UniqueID = "\ZRGGHWEL" ("\ZRGGHWEL")
+Change component parameters (AddParameter): Name = "Colour"; Value = "Green"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Content"; Value = "250pc(s)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet URL"; Value = "http://www.mouser.com/ds/2/324/ItemDetail_1755736-921028.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Version"; Value = "Apr-16"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Industrial packaging"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Phoenix Contact"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer part No."; Value = "1755736"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer URL"; Value = "http://www.phoenixcontact.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of contacts"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "5.08mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "MSTBVA2,5/2-G-5,08"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J4" ("J4"); Footprint = "FP-1757242-MFG"; UniqueID = "\FHISOUAR" ("\FHISOUAR")
+Change component parameters (AddParameter): Name = "Colour"; Value = "Green"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Content"; Value = "250pc(s)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet URL"; Value = "http://www.mouser.com/ds/2/324/ItemDetail_1755736-921028.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Version"; Value = "Apr-16"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Industrial packaging"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Phoenix Contact"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer part No."; Value = "1755736"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer URL"; Value = "http://www.phoenixcontact.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of contacts"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "5.08mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "MSTBVA2,5/2-G-5,08"; VariantName = "[No Variations]"

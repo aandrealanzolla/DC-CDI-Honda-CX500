@@ -1,0 +1,17 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [DC_CDI_Honda_CX500_daughter_board_1.PrjPcb]
+   Generated File[pcb_001.TXT]
+   Generated File[pcb_001.DRL]
+   Generated File[pcb_001.TX7]
+   Generated File[pcb_001-CounterHole.DR7]
+   Generated File[pcb_001.TX8]
+   Generated File[pcb_001-CounterHole.DR8]
+   Generated File[pcb_001.LDP]
+   Generated File[pcb_001.DRR]
+
+
+Files Generated   : 8
+Documents Printed : 0
+
+Finished Output Generation At 09:04:19 On 14/07/2026

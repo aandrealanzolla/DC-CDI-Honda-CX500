@@ -1,0 +1,14 @@
+Added Component: Designator=T3(WE-FB3751_EFD20)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/750032052/Wurth+Electronics/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Wurth Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "750032052"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/750032052/Wurth+Electronics/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetT3_4 Pin=T3-4
+Added Pin To Net: NetName=NetT3_4 Pin=T3-5
+Added Net: Name=NetT3_4
+Added Pin To Net: NetName=NetT3_6 Pin=T3-6
+Added Pin To Net: NetName=NetT3_6 Pin=T3-7
+Added Net: Name=NetT3_6
+Added Member To Class: ClassName=HV_power Member=Component T3 750032052

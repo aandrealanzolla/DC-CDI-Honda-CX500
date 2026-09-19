@@ -1,0 +1,21 @@
+Removed Pin From Net: NetName=NetD4_2 Pin=T2-P$1
+Removed Pin From Net: NetName=VBAT Pin=T2-P$3
+Removed Pin From Net: NetName=VBAT Pin=T2-P$4
+Removed Pin From Net: NetName=VBAT Pin=T2-P$5
+Removed Pin From Net: NetName=VBAT Pin=T2-P$6
+Removed Pin From Net: NetName=NetQ4_4 Pin=T2-P$7
+Removed Pin From Net: NetName=NetQ4_4 Pin=T2-P$8
+Removed Pin From Net: NetName=NetQ4_4 Pin=T2-P$9
+Removed Pin From Net: NetName=NetQ4_4 Pin=T2-P$10
+Removed Pin From Net: NetName=GND Pin=T2-P$12
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Added Pin To Net: NetName=GND Pin=T2-P$1
+Added Pin To Net: NetName=NetQ4_4 Pin=T2-P$3
+Added Pin To Net: NetName=NetQ4_4 Pin=T2-P$4
+Added Pin To Net: NetName=NetQ4_4 Pin=T2-P$5
+Added Pin To Net: NetName=NetQ4_4 Pin=T2-P$6
+Added Pin To Net: NetName=VBAT Pin=T2-P$7
+Added Pin To Net: NetName=VBAT Pin=T2-P$8
+Added Pin To Net: NetName=VBAT Pin=T2-P$9
+Added Pin To Net: NetName=VBAT Pin=T2-P$10
+Added Pin To Net: NetName=NetD4_2 Pin=T2-P$12

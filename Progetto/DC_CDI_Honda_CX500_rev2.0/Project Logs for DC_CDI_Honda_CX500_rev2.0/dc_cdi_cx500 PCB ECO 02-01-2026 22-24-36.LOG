@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=VBAT Pin=C46-1
+Removed Pin From Net: NetName=GND Pin=C46-2
+Change Component Footprint: Designator=C46 Old Footprint=NIC-UCL1V101MNL1GS_L New Footprint=FP-EEH-G16-V-MFG
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Change Component Comment : Designator=C46 Old Comment=UCL1V101MNL1GS New Comment=EEHZS1E102UV
+Change Managed Component Library Link : Designator=C46 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=3E5468F9-665A-40BD-890A-132311458BF4 New ItemGUID=30367F81-8D09-4EF0-8F11-F73C3E5DFDFD Old RevisionGUID=963A234E-16E9-4923-8371-51A05A131044 New RevisionGUID=00A1C084-C0B1-4C50-B94A-56B74687DC7B
+Change component parameters: Designator = "C46" ("C46"); Footprint = "NIC-UCL1V101MNL1GS_L"; UniqueID = "\GFJPTTXO" ("\GFJPTTXO")
+Added Pin To Net: NetName=GND Pin=C46-1
+Added Pin To Net: NetName=VBAT Pin=C46-2

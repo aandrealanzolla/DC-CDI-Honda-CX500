@@ -1,0 +1,53 @@
+Added Component: Designator=C14(0402_fp)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100 nF"; VariantName = "[No Variations]"
+Added Component: Designator=J5(FP-IPL1-106-01-L-D-K-0)
+Add component (AddParameter): Name = "Color"; Value = "Natural"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = "Male Pin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Bronze"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Mating Length"; Value = "0.215inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Gold"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fastening Type"; Value = "Ramp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Housing Material"; Value = "Polymer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "16.76mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = "7.4A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Voltage Rating (AC)"; Value = "675V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Contacts"; Value = "12"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Ports"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "12"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Terminals/Pins"; Value = "12"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Straight"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Rail/Tube"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing"; Value = "0.1inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=C14-1
+Added Pin To Net: NetName=GND Pin=C14-2
+Added Pin To Net: NetName=NetD1_1 Pin=J5-1
+Added Pin To Net: NetName=GND Pin=J5-2
+Added Pin To Net: NetName=EXT_SENSOR1_I2C_SCL Pin=J5-3
+Added Pin To Net: NetName=EXT_SENSOR2_I2C_SCL Pin=J5-4
+Added Pin To Net: NetName=EXT_SENSOR3_SPI_MISO Pin=J5-5
+Added Pin To Net: NetName=EXT_SENSOR3_SPI_SCK Pin=J5-6
+Added Pin To Net: NetName=NetD2_1 Pin=J5-7
+Added Pin To Net: NetName=EXT_SENSOR1_I2C_SDA Pin=J5-9
+Added Pin To Net: NetName=EXT_SENSOR2_I2C_SDA Pin=J5-10
+Added Pin To Net: NetName=EXT_SENSOR3_SPI_MOSI Pin=J5-11
+Added Pin To Net: NetName=EXT_SENSOR3_SPI_NSS Pin=J5-12
+Added Pin To Net: NetName=NetJ5_8 Pin=J5-8
+Added Pin To Net: NetName=NetJ5_8 Pin=Q5-1
+Added Pin To Net: NetName=NetJ5_8 Pin=R45-2
+Added Net: Name=NetJ5_8
+Added Member To Class: ClassName=input_signal_conditioning Member=Component C14 Capacitor_0402
+Added Member To Class: ClassName=LV_power Member=Component C26 CL05B104KP5NNNC
+Added Member To Class: ClassName=LV_power Member=Component C27 CL05B104KP5NNNC
+Added Member To Class: ClassName=input_output Member=Component J5 IPL1-106-01-L-D-K

@@ -1,0 +1,22 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [DC_CDI_Honda_CX500_rev1.3.PrjPcb]
+   Generated File[dc_cdi_cx500_Legend_Top.gbr]
+   Generated File[dc_cdi_cx500_Paste_Top.gbr]
+   Generated File[dc_cdi_cx500_Soldermask_Top.gbr]
+   Generated File[dc_cdi_cx500_Copper_Signal_Top.gbr]
+   Generated File[dc_cdi_cx500_Copper_Signal_1.gbr]
+   Generated File[dc_cdi_cx500_Copper_Signal_2.gbr]
+   Generated File[dc_cdi_cx500_Copper_Signal_Bot.gbr]
+   Generated File[dc_cdi_cx500_Soldermask_Bot.gbr]
+   Generated File[dc_cdi_cx500_Paste_Bot.gbr]
+   Generated File[dc_cdi_cx500_Legend_Bot.gbr]
+   Generated File[dc_cdi_cx500_Profile.gbr]
+   Generated File[dc_cdi_cx500.EXTREP]
+   Generated File[dc_cdi_cx500.REP]
+
+
+Files Generated   : 13
+Documents Printed : 0
+
+Finished Output Generation At 14:18:25 On 25/10/2025

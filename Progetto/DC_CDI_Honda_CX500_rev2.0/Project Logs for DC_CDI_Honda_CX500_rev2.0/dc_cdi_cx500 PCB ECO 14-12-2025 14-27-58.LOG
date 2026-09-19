@@ -1,0 +1,21 @@
+Removed Pin From Net: NetName=HSE_OSC_OUT Pin=C40-1
+Removed Pin From Net: NetName=HSE_OSC_IN Pin=C41-1
+Change Component Footprint: Designator=C40 Old Footprint=FP-GQM187-0_15-IPC_C New Footprint=0603_FP
+Change Component Footprint: Designator=C41 Old Footprint=FP-GQM187-0_15-IPC_C New Footprint=0603_FP
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Change Component Comment : Designator=C40 Old Comment=GQM1875C2E5R0CB12D New Comment=Capacitor_0603
+Change Component Comment : Designator=C41 Old Comment=GQM1875C2E5R0CB12D New Comment=Capacitor_0603
+Change Managed Component Library Link : Designator=C40 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=4A324CD7-093D-4223-BCEB-85A1A66A260F New ItemGUID= Old RevisionGUID=0E4BFB94-18BB-4EB1-AEBD-1351DFAFFD0A New RevisionGUID=
+Change Managed Component Library Link : Designator=C41 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=4A324CD7-093D-4223-BCEB-85A1A66A260F New ItemGUID= Old RevisionGUID=0E4BFB94-18BB-4EB1-AEBD-1351DFAFFD0A New RevisionGUID=
+Change component parameters: Designator = "C40" ("C40"); Footprint = "FP-GQM187-0_15-IPC_C"; UniqueID = "\KZHSZFYF" ("\KZHSZFYF")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10 pF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C41" ("C41"); Footprint = "FP-GQM187-0_15-IPC_C"; UniqueID = "\FRXSWQXN" ("\FRXSWQXN")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10 pF"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=HSE_OSC_IN Pin=C40-1
+Added Pin To Net: NetName=HSE_OSC_OUT Pin=C41-1
+Added Member To Class: ClassName=logic Member=Component C40 Capacitor_0603
+Added Member To Class: ClassName=logic Member=Component C41 Capacitor_0603

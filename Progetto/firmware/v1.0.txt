@@ -1,0 +1,812 @@
+/* USER CODE BEGIN Header */
+/**
+  ******************************************************************************
+  * @file           : main.c
+  * @brief          : Main program body
+  ******************************************************************************
+  * @attention
+  *
+  * Copyright (c) 2025 STMicroelectronics.
+  * All rights reserved.
+  *
+  * This software is licensed under terms that can be found in the LICENSE file
+  * in the root directory of this software component.
+  * If no LICENSE file comes with this software, it is provided AS-IS.
+  *
+  ******************************************************************************
+  */
+/* USER CODE END Header */
+/* Includes ------------------------------------------------------------------*/
+#include "main.h"
+
+/* Private includes ----------------------------------------------------------*/
+/* USER CODE BEGIN Includes */
+
+/* USER CODE END Includes */
+
+/* Private typedef -----------------------------------------------------------*/
+/* USER CODE BEGIN PTD */
+
+/* USER CODE END PTD */
+
+/* Private define ------------------------------------------------------------*/
+/* USER CODE BEGIN PD */
+#define IGN_MAP_ROWS 8  // LOAD (map sensor data)
+#define IGN_MAP_COLS 12 // RPMs
+
+#define FIXED_PULSER_ADVANCE 35  // fixed advance from physical position of the pulser
+#define RPM_LIMIT 9000 // rev limit
+
+/* USER CODE END PD */
+
+/* Private macro -------------------------------------------------------------*/
+/* USER CODE BEGIN PM */
+
+/* USER CODE END PM */
+
+/* Private variables ---------------------------------------------------------*/
+I2C_HandleTypeDef hi2c1;
+I2C_HandleTypeDef hi2c2;
+
+TIM_HandleTypeDef htim1;
+TIM_HandleTypeDef htim2;
+TIM_HandleTypeDef htim5;
+
+UART_HandleTypeDef huart1;
+
+/* USER CODE BEGIN PV */
+
+const uint16_t map_rpm_axis[IGN_MAP_COLS] = {  // x-axis: engine RPM
+    1000, 1500, 2000, 2800, 3600, 4400, 5200, 6000, 7000, 8000, 9000, 10000
+};
+
+const uint8_t map_load_axis[IGN_MAP_ROWS] = {  // y-axis: intake manifold pressure (kPa)
+    20, 30, 40, 50, 60, 75, 90, 100
+};
+
+/*
+const uint8_t map_ignition_table[IGN_MAP_ROWS][IGN_MAP_COLS] = { // ignition advance in degrees BTDC
+    // 1000, 1500, 2000, 2800, 3600, 4400, 5200, 6000, 7000, 8000, 9000, 10000 (RPM)
+    {  18,   22,   26,   32,   37,   40,   42,   43,   45,   46,   46,   46  }, // 20 kPa
+    {  17,   21,   25,   30,   35,   38,   40,   41,   43,   44,   45,   45  }, // 30 kPa
+    {  16,   20,   24,   29,   33,   36,   38,   40,   41,   42,   43,   43  }, // 40 kPa
+    {  15,   19,   23,   27,   31,   34,   36,   37,   39,   40,   41,   41  }, // 50 kPa
+    {  14,   18,   21,   25,   29,   32,   34,   36,   37,   38,   39,   39  }, // 60 kPa
+    {  13,   17,   20,   24,   27,   30,   32,   34,   35,   36,   37,   37  }, // 75 kPa
+    {  11,   15,   18,   22,   25,   27,   29,   30,   31,   32,   33,   33  }, // 90 kPa
+    {  10,   13,   16,   20,   24,   26,   28,   29,   30,   31,   31,   31  }  // 100 kPa
+};
+*/
+
+const uint8_t map_advance_curve[IGN_MAP_ROWS] = {
+    15,   16,   18,   20,   24,   26,   28,   29,   30,   31,   31,   31
+};
+
+volatile uint16_t t_on = 100; // capacitor discharge time in us
+volatile uint32_t advance_degree = 0; // anticipo di partenza a motore spento (0 rpm) (IN GRADI)
+volatile uint32_t advance_time = 0; // anticipo in tempo (in realtà è il ritardo con cui inviare la scintilla a seguito del trigger del pulser
+unsigned long last_interrupt_time = 0;
+
+//uint8_t engine_cut_active = 0; // ignition cut for rev limiter
+/* USER CODE END PV */
+
+/* Private function prototypes -----------------------------------------------*/
+void SystemClock_Config(void);
+static void MX_GPIO_Init(void);
+static void MX_I2C1_Init(void);
+static void MX_I2C2_Init(void);
+static void MX_TIM1_Init(void);
+static void MX_USART1_UART_Init(void);
+static void MX_TIM2_Init(void);
+static void MX_TIM5_Init(void);
+/* USER CODE BEGIN PFP */
+void 	calc_timing_advance();
+void update_rpm_L();
+void update_rpm_R();
+void engine_off_check();
+/* USER CODE END PFP */
+
+/* Private user code ---------------------------------------------------------*/
+/* USER CODE BEGIN 0 */
+
+typedef struct {
+    // STATO
+    float rpm;
+    float v;        // Trend (RPM al secondo)
+
+    // COVARIANZA
+    float p11, p12;
+    float p21, p22;
+
+    // TARATURA
+    float Q_rpm;    // Rumore processo RPM
+    float Q_v;      // Rumore processo Accelerazione
+    float R;        // Rumore Sensore
+} KalmanFilter;
+
+void kalman_init(KalmanFilter *kf) {
+    kf->rpm = 0;
+    kf->v = 0;
+
+    // Incertezza iniziale
+    kf->p11 = 1.0f; kf->p12 = 0.0f;
+    kf->p21 = 0.0f; kf->p22 = 1.0f;
+
+    // TARATURA (TUNING)
+    // Nota: Q_v è la varianza dell'accelerazione.
+    // Poiché il dt cambia, il filtro si adatta automaticamente.
+    kf->Q_rpm = 0.1f;
+    kf->Q_v   = 5.0f; // Aumenta se vuoi inseguire accelerazioni brucianti
+    kf->R     = 10.0f;
+}
+
+// ORA LA FUNZIONE ACCETTA "dt" (in secondi)
+void kalman_update(KalmanFilter *kf, float measured_rpm, float dt) {
+
+    // SAFETY CHECK: Evita divisioni per zero o dt negativi/nulli
+    if (dt <= 0.0001f) dt = 0.0001f;
+
+    // 1. PREDIZIONE (Time Update) con dt dinamico
+    float rpm_pred = kf->rpm + kf->v * dt;
+    float v_pred   = kf->v;
+
+    // Aggiornamento Covarianza P = F*P*F' + Q
+    // F = [1  dt]
+    //     [0   1]
+    float p11_pred = kf->p11 + dt * (kf->p21 + kf->p12) + dt * dt * kf->p22 + kf->Q_rpm;
+    float p12_pred = kf->p12 + dt * kf->p22;
+    float p21_pred = kf->p21 + dt * kf->p22;
+    float p22_pred = kf->p22 + kf->Q_v; // Qui si assume che l'errore di acc. cresca col tempo
+
+    // 2. CORREZIONE (Measurement Update)
+    float y = measured_rpm - rpm_pred;
+
+    float S = p11_pred + kf->R;
+    float K_rpm = p11_pred / S;
+    float K_v   = p21_pred / S;
+
+    // Aggiornamento Stato
+    kf->rpm = rpm_pred + K_rpm * y;
+    kf->v   = v_pred   + K_v   * y;
+
+    // Aggiornamento Covarianza P = (I - K*H)*P
+    // H = [1 0]
+    kf->p11 = (1.0f - K_rpm) * p11_pred;
+    kf->p12 = (1.0f - K_rpm) * p12_pred;
+    kf->p21 = -K_v * p11_pred + p21_pred;
+    kf->p22 = -K_v * p12_pred + p22_pred;
+}
+
+// Predizione futura basata sull'ultimo dt conosciuto
+float kalman_predict_future(KalmanFilter *kf, float last_dt, int steps) {
+    // Assumiamo che nei prossimi 'steps' giri, il dt rimanga simile all'ultimo misurato
+    float total_time_ahead = last_dt * steps;
+    return kf->rpm + (kf->v * total_time_ahead);
+}
+
+KalmanFilter kf;
+/* USER CODE END 0 */
+
+/**
+  * @brief  The application entry point.
+  * @retval int
+  */
+int main(void)
+{
+
+  /* USER CODE BEGIN 1 */
+
+  /* USER CODE END 1 */
+
+  /* MCU Configuration--------------------------------------------------------*/
+
+  /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
+  HAL_Init();
+
+  /* USER CODE BEGIN Init */
+
+  /* USER CODE END Init */
+
+  /* Configure the system clock */
+  SystemClock_Config();
+
+  /* USER CODE BEGIN SysInit */
+
+  /*
+   *  TIM1 e TIM2 gestiscono gli impulsi che controlla i MOSFET della CDI (cilindro destro e cilindro sinistro)
+   *  vengono avviati dal trigger e generano un interrupt quando deve scoccare la scintilla (fine del conteggio)
+   *  TIM10 è un contatore con passo 100us
+   *
+   */
+  /* USER CODE END SysInit */
+
+  /* Initialize all configured peripherals */
+  MX_GPIO_Init();
+  MX_I2C1_Init();
+  MX_I2C2_Init();
+  MX_TIM1_Init();
+  MX_USART1_UART_Init();
+  MX_TIM2_Init();
+  MX_TIM5_Init();
+  /* USER CODE BEGIN 2 */
+
+  HAL_TIM_Base_Start_IT(&htim5);
+
+  HAL_GPIO_TogglePin(BLUE_LED_GPIO_Port, BLUE_LED_Pin);
+
+  /* USER CODE END 2 */
+
+  /* Infinite loop */
+  /* USER CODE BEGIN WHILE */
+  while (1)
+  {
+    /* USER CODE END WHILE */
+
+    /* USER CODE BEGIN 3 */
+  }
+  /* USER CODE END 3 */
+}
+
+/**
+  * @brief System Clock Configuration
+  * @retval None
+  */
+void SystemClock_Config(void)
+{
+  RCC_OscInitTypeDef RCC_OscInitStruct = {0};
+  RCC_ClkInitTypeDef RCC_ClkInitStruct = {0};
+
+  /** Configure the main internal regulator output voltage
+  */
+  __HAL_RCC_PWR_CLK_ENABLE();
+  __HAL_PWR_VOLTAGESCALING_CONFIG(PWR_REGULATOR_VOLTAGE_SCALE1);
+
+  /** Initializes the RCC Oscillators according to the specified parameters
+  * in the RCC_OscInitTypeDef structure.
+  */
+  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI;
+  RCC_OscInitStruct.HSIState = RCC_HSI_ON;
+  RCC_OscInitStruct.HSICalibrationValue = RCC_HSICALIBRATION_DEFAULT;
+  RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
+  RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSI;
+  RCC_OscInitStruct.PLL.PLLM = 8;
+  RCC_OscInitStruct.PLL.PLLN = 200;
+  RCC_OscInitStruct.PLL.PLLP = RCC_PLLP_DIV4;
+  RCC_OscInitStruct.PLL.PLLQ = 4;
+  if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+  /** Initializes the CPU, AHB and APB buses clocks
+  */
+  RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
+                              |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
+  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
+  RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
+  RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV2;
+  RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV2;
+
+  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_3) != HAL_OK)
+  {
+    Error_Handler();
+  }
+}
+
+/**
+  * @brief I2C1 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_I2C1_Init(void)
+{
+
+  /* USER CODE BEGIN I2C1_Init 0 */
+
+  /* USER CODE END I2C1_Init 0 */
+
+  /* USER CODE BEGIN I2C1_Init 1 */
+
+  /* USER CODE END I2C1_Init 1 */
+  hi2c1.Instance = I2C1;
+  hi2c1.Init.ClockSpeed = 100000;
+  hi2c1.Init.DutyCycle = I2C_DUTYCYCLE_2;
+  hi2c1.Init.OwnAddress1 = 0;
+  hi2c1.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
+  hi2c1.Init.DualAddressMode = I2C_DUALADDRESS_DISABLE;
+  hi2c1.Init.OwnAddress2 = 0;
+  hi2c1.Init.GeneralCallMode = I2C_GENERALCALL_DISABLE;
+  hi2c1.Init.NoStretchMode = I2C_NOSTRETCH_DISABLE;
+  if (HAL_I2C_Init(&hi2c1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN I2C1_Init 2 */
+
+  /* USER CODE END I2C1_Init 2 */
+
+}
+
+/**
+  * @brief I2C2 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_I2C2_Init(void)
+{
+
+  /* USER CODE BEGIN I2C2_Init 0 */
+
+  /* USER CODE END I2C2_Init 0 */
+
+  /* USER CODE BEGIN I2C2_Init 1 */
+
+  /* USER CODE END I2C2_Init 1 */
+  hi2c2.Instance = I2C2;
+  hi2c2.Init.ClockSpeed = 100000;
+  hi2c2.Init.DutyCycle = I2C_DUTYCYCLE_2;
+  hi2c2.Init.OwnAddress1 = 0;
+  hi2c2.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
+  hi2c2.Init.DualAddressMode = I2C_DUALADDRESS_DISABLE;
+  hi2c2.Init.OwnAddress2 = 0;
+  hi2c2.Init.GeneralCallMode = I2C_GENERALCALL_DISABLE;
+  hi2c2.Init.NoStretchMode = I2C_NOSTRETCH_DISABLE;
+  if (HAL_I2C_Init(&hi2c2) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN I2C2_Init 2 */
+
+  /* USER CODE END I2C2_Init 2 */
+
+}
+
+/**
+  * @brief TIM1 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM1_Init(void)
+{
+
+  /* USER CODE BEGIN TIM1_Init 0 */
+
+  /* USER CODE END TIM1_Init 0 */
+
+  TIM_MasterConfigTypeDef sMasterConfig = {0};
+  TIM_OC_InitTypeDef sConfigOC = {0};
+  TIM_BreakDeadTimeConfigTypeDef sBreakDeadTimeConfig = {0};
+
+  /* USER CODE BEGIN TIM1_Init 1 */
+
+  /* USER CODE END TIM1_Init 1 */
+  htim1.Instance = TIM1;
+  htim1.Init.Prescaler = 49;
+  htim1.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim1.Init.Period = 65535;
+  htim1.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim1.Init.RepetitionCounter = 0;
+  htim1.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_ENABLE;
+  if (HAL_TIM_OC_Init(&htim1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  if (HAL_TIM_OnePulse_Init(&htim1, TIM_OPMODE_SINGLE) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
+  sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+  if (HAL_TIMEx_MasterConfigSynchronization(&htim1, &sMasterConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sConfigOC.OCMode = TIM_OCMODE_TIMING;
+  sConfigOC.Pulse = 0;
+  sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
+  sConfigOC.OCNPolarity = TIM_OCNPOLARITY_HIGH;
+  sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
+  sConfigOC.OCIdleState = TIM_OCIDLESTATE_RESET;
+  sConfigOC.OCNIdleState = TIM_OCNIDLESTATE_RESET;
+  if (HAL_TIM_OC_ConfigChannel(&htim1, &sConfigOC, TIM_CHANNEL_1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  __HAL_TIM_ENABLE_OCxPRELOAD(&htim1, TIM_CHANNEL_1);
+  sBreakDeadTimeConfig.OffStateRunMode = TIM_OSSR_DISABLE;
+  sBreakDeadTimeConfig.OffStateIDLEMode = TIM_OSSI_DISABLE;
+  sBreakDeadTimeConfig.LockLevel = TIM_LOCKLEVEL_OFF;
+  sBreakDeadTimeConfig.DeadTime = 0;
+  sBreakDeadTimeConfig.BreakState = TIM_BREAK_DISABLE;
+  sBreakDeadTimeConfig.BreakPolarity = TIM_BREAKPOLARITY_HIGH;
+  sBreakDeadTimeConfig.AutomaticOutput = TIM_AUTOMATICOUTPUT_DISABLE;
+  if (HAL_TIMEx_ConfigBreakDeadTime(&htim1, &sBreakDeadTimeConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN TIM1_Init 2 */
+
+  /* USER CODE END TIM1_Init 2 */
+  HAL_TIM_MspPostInit(&htim1);
+
+}
+
+/**
+  * @brief TIM2 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM2_Init(void)
+{
+
+  /* USER CODE BEGIN TIM2_Init 0 */
+
+  /* USER CODE END TIM2_Init 0 */
+
+  TIM_MasterConfigTypeDef sMasterConfig = {0};
+  TIM_OC_InitTypeDef sConfigOC = {0};
+
+  /* USER CODE BEGIN TIM2_Init 1 */
+
+  /* USER CODE END TIM2_Init 1 */
+  htim2.Instance = TIM2;
+  htim2.Init.Prescaler = 49;
+  htim2.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim2.Init.Period = 4294967295;
+  htim2.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim2.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_ENABLE;
+  if (HAL_TIM_OC_Init(&htim2) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  if (HAL_TIM_OnePulse_Init(&htim2, TIM_OPMODE_SINGLE) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
+  sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+  if (HAL_TIMEx_MasterConfigSynchronization(&htim2, &sMasterConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sConfigOC.OCMode = TIM_OCMODE_TIMING;
+  sConfigOC.Pulse = 0;
+  sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
+  sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
+  if (HAL_TIM_OC_ConfigChannel(&htim2, &sConfigOC, TIM_CHANNEL_1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  __HAL_TIM_ENABLE_OCxPRELOAD(&htim2, TIM_CHANNEL_1);
+  /* USER CODE BEGIN TIM2_Init 2 */
+
+  /* USER CODE END TIM2_Init 2 */
+  HAL_TIM_MspPostInit(&htim2);
+
+}
+
+/**
+  * @brief TIM5 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM5_Init(void)
+{
+
+  /* USER CODE BEGIN TIM5_Init 0 */
+
+  /* USER CODE END TIM5_Init 0 */
+
+  TIM_MasterConfigTypeDef sMasterConfig = {0};
+  TIM_OC_InitTypeDef sConfigOC = {0};
+
+  /* USER CODE BEGIN TIM5_Init 1 */
+
+  /* USER CODE END TIM5_Init 1 */
+  htim5.Instance = TIM5;
+  htim5.Init.Prescaler = 49;
+  htim5.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim5.Init.Period = 4294967295;
+  htim5.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim5.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  if (HAL_TIM_OC_Init(&htim5) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
+  sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+  if (HAL_TIMEx_MasterConfigSynchronization(&htim5, &sMasterConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sConfigOC.OCMode = TIM_OCMODE_TIMING;
+  sConfigOC.Pulse = 0;
+  sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
+  sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
+  if (HAL_TIM_OC_ConfigChannel(&htim5, &sConfigOC, TIM_CHANNEL_1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN TIM5_Init 2 */
+
+  /* USER CODE END TIM5_Init 2 */
+
+}
+
+/**
+  * @brief USART1 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_USART1_UART_Init(void)
+{
+
+  /* USER CODE BEGIN USART1_Init 0 */
+
+  /* USER CODE END USART1_Init 0 */
+
+  /* USER CODE BEGIN USART1_Init 1 */
+
+  /* USER CODE END USART1_Init 1 */
+  huart1.Instance = USART1;
+  huart1.Init.BaudRate = 115200;
+  huart1.Init.WordLength = UART_WORDLENGTH_8B;
+  huart1.Init.StopBits = UART_STOPBITS_1;
+  huart1.Init.Parity = UART_PARITY_NONE;
+  huart1.Init.Mode = UART_MODE_TX_RX;
+  huart1.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+  huart1.Init.OverSampling = UART_OVERSAMPLING_16;
+  if (HAL_UART_Init(&huart1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN USART1_Init 2 */
+
+  /* USER CODE END USART1_Init 2 */
+
+}
+
+/**
+  * @brief GPIO Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_GPIO_Init(void)
+{
+  GPIO_InitTypeDef GPIO_InitStruct = {0};
+/* USER CODE BEGIN MX_GPIO_Init_1 */
+/* USER CODE END MX_GPIO_Init_1 */
+
+  /* GPIO Ports Clock Enable */
+  __HAL_RCC_GPIOA_CLK_ENABLE();
+  __HAL_RCC_GPIOB_CLK_ENABLE();
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOB, RED_LED_Pin|BLUE_LED_Pin, GPIO_PIN_RESET);
+
+  /*Configure GPIO pins : PICKUP_TRIG_L_Pin PICKUP_TRIG_R_Pin */
+  GPIO_InitStruct.Pin = PICKUP_TRIG_L_Pin|PICKUP_TRIG_R_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : RED_LED_Pin BLUE_LED_Pin */
+  GPIO_InitStruct.Pin = RED_LED_Pin|BLUE_LED_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : KILL_SWITCH_Pin PG_L_Pin PG_R_Pin */
+  GPIO_InitStruct.Pin = KILL_SWITCH_Pin|PG_L_Pin|PG_R_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+  /* EXTI interrupt init*/
+  HAL_NVIC_SetPriority(EXTI0_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(EXTI0_IRQn);
+
+  HAL_NVIC_SetPriority(EXTI2_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(EXTI2_IRQn);
+
+/* USER CODE BEGIN MX_GPIO_Init_2 */
+/* USER CODE END MX_GPIO_Init_2 */
+}
+
+/* USER CODE BEGIN 4 */
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+{
+	/*
+    if (htim->Instance == TIM10)
+    {
+        timerCounter++;
+    }
+    */
+}
+
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
+	if(GPIO_Pin==GPIO_PIN_2){ //cilindro destro
+		update_rpm_R();
+	}
+	if(GPIO_Pin==GPIO_PIN_0){ //cilindro sinistro
+		update_rpm_L();
+	}
+}
+
+void update_rpm_R(){
+	calc_timing_advance();
+
+	TIM1->CR1 &= ~TIM_CR1_CEN;
+	TIM1->PSC = 99;
+	TIM1->CCMR1 &= ~TIM_CCMR1_OC1M; // Pulisci i bit precedenti per CH1
+	TIM1->CCMR1 |= (TIM_CCMR1_OC1M_0 | TIM_CCMR1_OC1M_1 | TIM_CCMR1_OC1M_2);
+	TIM1->CCMR1 |= TIM_CCMR1_OC1PE;
+	TIM1->ARR = advance_time + t_on;  // Periodo Totale: 3 sec
+	TIM1->CCR1 = advance_time; // Punto di scatto: 1 sec (Nota: CCR1 invece di CCR3)
+	TIM1->CCER |= TIM_CCER_CC1E;
+	TIM1->BDTR |= TIM_BDTR_MOE;
+	TIM1->CR1 |= TIM_CR1_OPM;
+	TIM1->EGR |= TIM_EGR_UG;
+	TIM1->SR = 0;
+	TIM1->CNT = 0;
+	TIM1->CR1 |= TIM_CR1_CEN;
+}
+
+
+void update_rpm_L(){
+	calc_timing_advance();
+	TIM2->CR1 &= ~TIM_CR1_CEN;
+	TIM2->PSC = 99;
+	TIM2->CCMR1 &= ~TIM_CCMR1_OC1M; // Pulisci i bit precedenti per CH1
+	TIM2->CCMR1 |= (TIM_CCMR1_OC1M_0 | TIM_CCMR1_OC1M_1 | TIM_CCMR1_OC1M_2);
+	TIM2->CCMR1 |= TIM_CCMR1_OC1PE;
+	TIM2->ARR = advance_time + t_on;  // Periodo Totale: 3 sec
+	TIM2->CCR1 = advance_time; // Punto di scatto: 1 sec (Nota: CCR1 invece di CCR3)
+	TIM2->CCER |= TIM_CCER_CC1E;
+	TIM2->CR1 |= TIM_CR1_OPM;
+	TIM2->EGR |= TIM_EGR_UG;
+	TIM2->SR = 0;
+	TIM2->CNT = 0;
+	TIM2->CR1 |= TIM_CR1_CEN;
+}
+
+void calc_timing_advance(void) {
+
+    // --- 1. ACQUISIZIONE TEMPO E RPM ---
+    uint32_t current_time = TIM5->CNT;
+    uint32_t delta_micros = current_time - last_interrupt_time;
+    last_interrupt_time = current_time;
+
+    // Filtro anti-rumore hardware (Debounce)
+    if (delta_micros < 100) return;
+
+    // Calcolo variabili base
+    float dt_seconds = (float)delta_micros / 1000000.0f;
+    float raw_rpm = 60000000.0f / delta_micros;
+
+    // --- 2. FILTRO KALMAN E PREDIZIONE ---
+    kalman_update(&kf, raw_rpm, dt_seconds);
+
+    // Prediciamo i giri futuri per compensare l'accelerazione
+    float next_rpm = kalman_predict_future(&kf, dt_seconds, 1);
+
+    // Clamp RPM per evitare divisioni per zero o valori assurdi
+    if (next_rpm < 100.0f) next_rpm = 100.0f;
+    if (next_rpm > 18000.0f) next_rpm = 18000.0f;
+
+    // --- 3. LETTURA MAPPA ANTICIPO ---
+    float target_advance = 0.0f;
+
+    if (next_rpm <= map_rpm_axis[0]) {
+        target_advance = map_advance_curve[0];
+    }
+    else if (next_rpm >= map_rpm_axis[IGN_MAP_ROWS - 1]) {
+        target_advance = map_advance_curve[IGN_MAP_ROWS - 1];
+    }
+    else {
+        // Interpolazione lineare
+        int i = 0;
+        while (map_rpm_axis[i + 1] < next_rpm) {
+            i++;
+        }
+        float x1 = (float)map_rpm_axis[i];
+        float x2 = (float)map_rpm_axis[i + 1];
+        float y1 = (float)map_advance_curve[i];
+        float y2 = (float)map_advance_curve[i + 1];
+
+        float ratio = (next_rpm - x1) / (x2 - x1);
+        target_advance = y1 + (y2 - y1) * ratio;
+    }
+
+    // --- 4. SAFETY GUARDS (SALVA-MOTORE) ---
+
+    // A. PROTEZIONE ANTI-CONTRACCOLPO IN AVVIAMENTO
+    // Se i giri sono bassi (avviamento), ignora la mappa e usa un anticipo fisso e sicuro.
+    // Esempio: 10 gradi. Se provi ad accendere a 30° mentre pedali/usi il motorino, spacchi tutto.
+    if (next_rpm < 600.0f) {
+        target_advance = 10.0f;
+    }
+
+    // B. PROTEZIONE FISICA (PICKUP LIMIT)
+    // Non possiamo dare più anticipo di dove si trova il pickup fisicamente.
+    // Lasciamo un margine di sicurezza di 2 gradi per il tempo di elaborazione.
+    float max_possible_advance = FIXED_PULSER_ADVANCE - 2.0f;
+
+    if (target_advance > max_possible_advance) {
+        target_advance = max_possible_advance;
+    }
+
+    // --- 5. CALCOLO DEL TEMPO DI RITARDO ---
+
+    // Calcoliamo quanti gradi dobbiamo ASPETTARE prima di scoccare
+    float degrees_to_wait = FIXED_PULSER_ADVANCE - target_advance;
+
+    // C. PROTEZIONE MATEMATICA NEGATIVA
+    // Se per qualche errore di arrotondamento viene < 0, forziamo un minimo
+    if (degrees_to_wait < 0.5f) {
+        degrees_to_wait = 0.5f;
+    }
+
+    // Calcolo finale del tempo in microsecondi (Tick del timer)
+    // Formula: (Gradi * 166666.67) / RPM
+    uint32_t calc_time = (uint32_t)((degrees_to_wait * 166666.67f) / next_rpm);
+
+    // D. PROTEZIONE HARDWARE TIMER (MINIMUM DELAY)
+    // Il timer non può gestire 0 o 1 microsecondo di ritardo in modo affidabile
+    // (serve tempo per caricare i registri e lanciare l'ISR).
+    // Forziamo un minimo di 50 microsecondi (o tick).
+    if (calc_time < 50) {
+        calc_time = 50;
+    }
+
+    // Salviamo nelle variabili globali VOLATILE
+    advance_degree = (uint16_t)target_advance;
+    advance_time = calc_time;
+}
+/*
+void engine_off_check(){
+
+	if((timerCounter - t1_l > 1000) || (timerCounter - t1_r > 1000)){
+		RPM_R = 0.0f;
+		RPM_L = 0.0f;
+//		advance_degree = FIXED_PULSER_ADVANCE - 5;
+		//HAL_TIM_PWM_Stop_IT(&htim1,TIM_CHANNEL_1);
+		HAL_TIM_OC_Stop(&htim1, TIM_CHANNEL_1);
+		HAL_TIM_OC_Stop(&htim2, TIM_CHANNEL_1);
+	}
+}
+*/
+/* USER CODE END 4 */
+
+/**
+  * @brief  This function is executed in case of error occurrence.
+  * @retval None
+  */
+void Error_Handler(void)
+{
+  /* USER CODE BEGIN Error_Handler_Debug */
+  /* User can add his own implementation to report the HAL error return state */
+  __disable_irq();
+  while (1)
+  {
+  }
+  /* USER CODE END Error_Handler_Debug */
+}
+
+#ifdef  USE_FULL_ASSERT
+/**
+  * @brief  Reports the name of the source file and the source line number
+  *         where the assert_param error has occurred.
+  * @param  file: pointer to the source file name
+  * @param  line: assert_param error line source number
+  * @retval None
+  */
+void assert_failed(uint8_t *file, uint32_t line)
+{
+  /* USER CODE BEGIN 6 */
+  /* User can add his own implementation to report the file name and line number,
+     ex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
+  /* USER CODE END 6 */
+}
+#endif /* USE_FULL_ASSERT */

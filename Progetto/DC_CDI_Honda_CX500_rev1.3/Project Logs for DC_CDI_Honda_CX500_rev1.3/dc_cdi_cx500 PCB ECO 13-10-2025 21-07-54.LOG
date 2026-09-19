@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=3V3 Pin=R40-1
+Removed Pin From Net: NetName=NetJ6_2 Pin=R40-2
+Added Pin To Net: NetName=NetJ6_2 Pin=R40-1
+Added Pin To Net: NetName=3V3 Pin=R40-2
+Change Net Name : Old Net Name=NetJ5_5 New Net Name=EXT_SENSOR1_I2C_SCL
+Change Net Name : Old Net Name=NetJ5_6 New Net Name=EXT_SENSOR1_I2C_SDA
+Change Net Name : Old Net Name=NetJ5_7 New Net Name=EXT_SENSOR2_I2C_SCL
+Change Net Name : Old Net Name=NetJ5_8 New Net Name=EXT_SENSOR2_I2C_SDA

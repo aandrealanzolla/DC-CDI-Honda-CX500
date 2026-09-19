@@ -1,0 +1,47 @@
+Removed Pin From Net: NetName=R_HV Pin=R47-2
+Removed Member From Class: ClassName=HV_power Member=R47
+Removed Member From Class: ClassName=HV_power Member=R49
+Change Component Footprint: Designator=R17 Old Footprint=FP-MCS0402-MFG New Footprint=FP-TNPW0402-e3-MFG
+Change Component Footprint: Designator=R19 Old Footprint=FP-MCS0402-MFG New Footprint=FP-TNPW0402-e3-MFG
+Change Component Comment : Designator=R17 Old Comment=MCS04020D1003BE000 New Comment=TNPW0402100KBYEP
+Change Component Comment : Designator=R19 Old Comment=MCS04020D1003BE000 New Comment=TNPW0402100KBYEP
+Change Managed Component Library Link : Designator=R17 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=46D15E79-FF85-4383-9E9A-974AC9E2603E New ItemGUID=596AB845-32E2-4C5A-8B22-7D98FF0AD651 Old RevisionGUID=100FE209-D3BD-4CA1-8891-E72F4FC265D6 New RevisionGUID=0A09E71E-6BDA-447C-B3A6-8A1A3D18F87F
+Change Managed Component Library Link : Designator=R19 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=46D15E79-FF85-4383-9E9A-974AC9E2603E New ItemGUID=596AB845-32E2-4C5A-8B22-7D98FF0AD651 Old RevisionGUID=100FE209-D3BD-4CA1-8891-E72F4FC265D6 New RevisionGUID=0A09E71E-6BDA-447C-B3A6-8A1A3D18F87F
+Change component parameters: Designator = "R17" ("R17"); Footprint = "FP-MCS0402-MFG"; UniqueID = "\XMFYFODC" ("\XMFYFODC")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "NexarPartId"; Value = "84773254"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Rating"; Value = "63mW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "100kO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Non-Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Schedule B"; Value = "8533210045, 8533210045"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R19" ("R19"); Footprint = "FP-MCS0402-MFG"; UniqueID = "\SHBNIFVH" ("\SHBNIFVH")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "NexarPartId"; Value = "84773254"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Rating"; Value = "63mW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "100kO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Non-Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Schedule B"; Value = "8533210045, 8533210045"; VariantName = "[No Variations]"
+Added Component: Designator=R30(FP-TNPW0402-e3-MFG)
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NexarPartId"; Value = "84773254"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Rating"; Value = "63mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "100kO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Non-Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Schedule B"; Value = "8533210045, 8533210045"; VariantName = "[No Variations]"
+Added Component: Designator=R31(FP-TNPW0402-e3-MFG)
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NexarPartId"; Value = "84773254"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Rating"; Value = "63mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "100kO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Non-Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Schedule B"; Value = "8533210045, 8533210045"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=R_HV Pin=R30-2
+Added Pin To Net: NetName=NetR30_1 Pin=R30-1
+Added Pin To Net: NetName=NetR30_1 Pin=R31-1
+Added Net: Name=NetR30_1
+Added Pin To Net: NetName=NetR31_2 Pin=R31-2
+Added Pin To Net: NetName=NetR31_2 Pin=R51-2
+Added Net: Name=NetR31_2
+Added Member To Class: ClassName=HV_power Member=Component R30 TNPW0402100KBYEP
+Added Member To Class: ClassName=HV_power Member=Component R31 TNPW0402100KBYEP
+Added Member To Class: ClassName=HV_power Member=Component R42 3K9 5% 0402(1005)

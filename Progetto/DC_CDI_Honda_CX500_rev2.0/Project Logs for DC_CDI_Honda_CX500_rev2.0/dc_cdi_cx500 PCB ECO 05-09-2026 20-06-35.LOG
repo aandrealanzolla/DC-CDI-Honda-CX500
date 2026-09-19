@@ -1,0 +1,5 @@
+Removed Member From Class: ClassName=FB_NETS Member=NetD?_1
+Change Footprint: Footprint Not Found FP-0402-SOD-923F-MFG
+Change Component Designator: OldDesignator=D? NewDesignator=D8
+Change Net Name : Old Net Name=NetD?_1 New Net Name=NetD8_1
+Added Member To Class: ClassName=FB_NETS Member=Wire NetD8_1

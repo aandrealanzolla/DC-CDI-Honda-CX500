@@ -1,0 +1,20 @@
+Added Component: Designator=T1(EE16_7_4 (E16))
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.we-online.de/katalog/media/pdf/749118205.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Inductance"; Value = "0.9mH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Input Voltage (AC)"; Value = "85-265"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wuerth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Current (A)"; Value = "0.6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Voltage (DC)"; Value = "5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "EE16_7_4 (E16)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "749118205"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Turns Ratio"; Value = ""19","1:1""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetQ1_2 Pin=T1-3
+Added Pin To Net: NetName=NetC1_2 Pin=T1-4
+Added Pin To Net: NetName=NetQ1_2 Pin=T1-5
+Added Pin To Net: NetName=NetC1_2 Pin=T1-6
+Added Pin To Net: NetName=NetD1_2 Pin=T1-8
+Added Pin To Net: NetName=GND Pin=T1-9
+Added Member To Class: ClassName=power_side Member=Component T1 749118205

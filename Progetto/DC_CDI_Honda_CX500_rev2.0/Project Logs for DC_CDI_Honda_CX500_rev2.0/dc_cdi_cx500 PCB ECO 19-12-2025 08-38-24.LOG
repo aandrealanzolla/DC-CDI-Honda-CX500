@@ -1,0 +1,15 @@
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Change Component Designator: OldDesignator=P? NewDesignator=P1
+Added Pin To Net: NetName=5V0 Pin=P1-1
+Added Pin To Net: NetName=EXT_SENSOR1_I2C_SCL Pin=P1-2
+Added Pin To Net: NetName=EXT_SENSOR1_I2C_SDA Pin=P1-5
+Added Pin To Net: NetName=NetD1_1 Pin=P1-6
+Added Pin To Net: NetName=GND Pin=P1-7
+Added Pin To Net: NetName=NetD2_1 Pin=P1-8
+Added Pin To Net: NetName=NetP1_3 Pin=P1-3
+Added Pin To Net: NetName=NetP1_3 Pin=R54-1
+Added Net: Name=NetP1_3
+Added Pin To Net: NetName=NetP1_4 Pin=P1-4
+Added Pin To Net: NetName=NetP1_4 Pin=Q5-1
+Added Pin To Net: NetName=NetP1_4 Pin=R45-2
+Added Net: Name=NetP1_4

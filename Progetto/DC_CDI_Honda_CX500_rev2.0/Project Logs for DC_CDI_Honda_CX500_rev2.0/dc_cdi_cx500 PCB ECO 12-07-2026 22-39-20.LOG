@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=NetR9_2 Pin=U3-18
+Removed Pin From Net: NetName=NetR7_2 Pin=U3-20
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Change component parameters: Designator = "R6" ("R6"); Footprint = "0603_FP"; UniqueID = "\TINRBVVW" ("\TINRBVVW")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10 kO"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R10" ("R10"); Footprint = "0603_FP"; UniqueID = "\OSVWDLJO" ("\OSVWDLJO")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10 kO"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR7_2 Pin=U3-18
+Added Pin To Net: NetName=NetR9_2 Pin=U3-20

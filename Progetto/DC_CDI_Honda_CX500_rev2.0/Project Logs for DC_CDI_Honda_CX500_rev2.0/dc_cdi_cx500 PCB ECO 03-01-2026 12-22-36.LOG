@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=VR_SENSOR_IN1 Pin=U2-9
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Added Pin To Net: NetName=VR_SENSOR_IN2 Pin=U2-9

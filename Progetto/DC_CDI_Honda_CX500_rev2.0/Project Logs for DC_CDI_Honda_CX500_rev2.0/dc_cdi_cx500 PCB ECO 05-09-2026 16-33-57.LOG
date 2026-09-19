@@ -1,0 +1,48 @@
+Added Component: Designator=D9(DIO_BZT52B15SH_RRG)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/BZT52B15SH%20RRG/Taiwan+Semiconductor+Corporation/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Taiwan Semiconductor Corporation"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "BZT52B15SH RRG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOD-323-2 Taiwan Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/BZT52B15SH%20RRG/Taiwan+Semiconductor+Corporation/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D10(DIO_BZT52B15SH_RRG)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/BZT52B15SH%20RRG/Taiwan+Semiconductor+Corporation/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Taiwan Semiconductor Corporation"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "BZT52B15SH RRG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOD-323-2 Taiwan Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/BZT52B15SH%20RRG/Taiwan+Semiconductor+Corporation/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R66(0603_FP)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "470 Ohm"; VariantName = "[No Variations]"
+Added Component: Designator=R67(0603_FP)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "470 Ohm"; VariantName = "[No Variations]"
+Added Component: Designator=U7(REG_LT1117CST-3.3#TRPBF)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "{'manufacturer': u'Analog Devices Inc.'}"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "LT1117CST-3.3#TRPBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=DGND Pin=D9-2
+Added Pin To Net: NetName=DGND Pin=D10-2
+Added Pin To Net: NetName=L_COIL_MOSFET_GATE Pin=R66-1
+Added Pin To Net: NetName=R_COIL_MOSFET_GATE Pin=R67-1
+Added Pin To Net: NetName=GND Pin=U7-1
+Added Pin To Net: NetName=5V0 Pin=U7-2
+Added Pin To Net: NetName=VBAT Pin=U7-3
+Added Pin To Net: NetName=5V0 Pin=U7-4
+Added Pin To Net: NetName=NetD9_1 Pin=D9-1
+Added Pin To Net: NetName=NetD9_1 Pin=R66-2
+Added Net: Name=NetD9_1
+Added Pin To Net: NetName=NetD10_1 Pin=D10-1
+Added Pin To Net: NetName=NetD10_1 Pin=R67-2
+Added Net: Name=NetD10_1
+Added Member To Class: ClassName=cd_switching Member=Component D9 BZT52B15SH_RRG
+Added Member To Class: ClassName=cd_switching Member=Component D10 BZT52B15SH_RRG
+Added Member To Class: ClassName=cd_switching Member=Component R66 Resistor_0603
+Added Member To Class: ClassName=cd_switching Member=Component R67 Resistor_0603
+Added Member To Class: ClassName=LV_power Member=Component U7 LT1117CST-3.3#TRPBF

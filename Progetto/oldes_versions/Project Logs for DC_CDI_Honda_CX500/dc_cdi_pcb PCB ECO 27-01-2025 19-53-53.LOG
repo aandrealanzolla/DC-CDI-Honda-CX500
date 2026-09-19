@@ -1,0 +1,76 @@
+Removed Pin From Net: NetName=NetU2_4 Pin=U4-4
+Change Component Footprint: Designator=C3 Old Footprint=CAPC2013X145X50ML20T25 New Footprint=FP-BFC233820225-MFG
+Change Component Footprint: Designator=C9 Old Footprint=CAPC2013X145X50ML20T25 New Footprint=FP-BFC233820225-MFG
+Change Component Comment : Designator=C3 Old Comment=4.7uF 400V New Comment=BFC233820225
+Change Component Comment : Designator=C9 Old Comment=4.7uF 400V New Comment=BFC233820225
+Change Managed Component Library Link : Designator=C3 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=11516D15-BAE8-4AE7-87F9-B798F6F7954C New ItemGUID=EDC56531-585D-4A7A-8A42-D95139D9F954 Old RevisionGUID=D5FBF4A4-911A-424C-9E8E-9A1E0B0898DE New RevisionGUID=8EC432CA-4813-482D-BAA4-2E3DE63AC39F
+Change Managed Component Library Link : Designator=C9 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=11516D15-BAE8-4AE7-87F9-B798F6F7954C New ItemGUID=EDC56531-585D-4A7A-8A42-D95139D9F954 Old RevisionGUID=D5FBF4A4-911A-424C-9E8E-9A1E0B0898DE New RevisionGUID=8EC432CA-4813-482D-BAA4-2E3DE63AC39F
+Change component parameters: Designator = "C3" ("C3"); Footprint = "CAPC2013X145X50ML20T25"; UniqueID = "\FFBSQSZO" ("\FFBSQSZO")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "2.2µF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "Radial"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Depth"; Value = "15mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Diameter"; Value = "18mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric"; Value = "PP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric Material"; Value = "PP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "28mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height - Seated (Max)"; Value = "24.9936mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Resistance"; Value = "11GO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Diameter"; Value = "800µm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Pitch"; Value = "27.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "31.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "110°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "NexarPartId"; Value = "39758189"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Schedule B"; Value = "8532250020, 8532250020"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "Radial"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "630V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating (AC)"; Value = "310V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating (DC)"; Value = "630V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "15.0114mm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C9" ("C9"); Footprint = "CAPC2013X145X50ML20T25"; UniqueID = "\AABCZTAD" ("\AABCZTAD")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "2.2µF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "Radial"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Depth"; Value = "15mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Diameter"; Value = "18mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric"; Value = "PP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric Material"; Value = "PP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "28mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height - Seated (Max)"; Value = "24.9936mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Resistance"; Value = "11GO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Diameter"; Value = "800µm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Pitch"; Value = "27.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "31.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "110°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "NexarPartId"; Value = "39758189"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Schedule B"; Value = "8532250020, 8532250020"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "Radial"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "630V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating (AC)"; Value = "310V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating (DC)"; Value = "630V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "15.0114mm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetD20_2 Pin=D20-2
+Added Pin To Net: NetName=NetD20_2 Pin=D21-1
+Added Net: Name=NetD20_2
+Added Pin To Net: NetName=NetU4_4 Pin=U4-4
+Added Pin To Net: NetName=NetU4_4 Pin=U6-F15
+Added Net: Name=NetU4_4
+Added Member To Class: ClassName=power_side Member=Component U1 LT3758EDD#PBF

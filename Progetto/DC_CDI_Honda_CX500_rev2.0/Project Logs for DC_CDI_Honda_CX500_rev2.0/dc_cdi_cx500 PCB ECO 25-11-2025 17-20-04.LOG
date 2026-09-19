@@ -1,0 +1,142 @@
+Removed Pin From Net: NetName=GND Pin=R43-2
+Removed Pin From Net: NetName=GND Pin=T1-4
+Removed Pin From Net: NetName=NetD3_2 Pin=T1-5
+Removed Pin From Net: NetName=VBAT Pin=T1-7
+Removed Pin From Net: NetName=VBAT Pin=T1-10
+Removed Pin From Net: NetName=GND Pin=T2-4
+Removed Pin From Net: NetName=NetD4_2 Pin=T2-5
+Removed Pin From Net: NetName=VBAT Pin=T2-7
+Removed Pin From Net: NetName=VBAT Pin=T2-10
+Removed Member From Class: ClassName=HV_power Member=R22
+Removed Member From Class: ClassName=HV_power Member=R43
+Removed Member From Class: ClassName=HV_power Member=T1
+Removed Member From Class: ClassName=HV_power Member=T2
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Change component parameters: Designator = "C16" ("C16"); Footprint = "0603_FP"; UniqueID = "\NOZLRXOC" ("\NOZLRXOC")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100 pF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C20" ("C20"); Footprint = "0603_FP"; UniqueID = "\QPXSZKUQ" ("\QPXSZKUQ")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1 nF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C21" ("C21"); Footprint = "0603_FP"; UniqueID = "\WSYSFQOI" ("\WSYSFQOI")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100 pF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C36" ("C36"); Footprint = "0603_FP"; UniqueID = "\DDDERCFL" ("\DDDERCFL")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1 nF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R22" ("R22"); Footprint = "0603_FP"; UniqueID = "\QZXUCTIW" ("\QZXUCTIW")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10 kOhm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R25" ("R25"); Footprint = "0603_FP"; UniqueID = "\YMAKPJKT" ("\YMAKPJKT")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "140 kOhm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R43" ("R43"); Footprint = "0603_FP"; UniqueID = "\YXBKEJWW" ("\YXBKEJWW")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10 kOhm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R48" ("R48"); Footprint = "0603_FP"; UniqueID = "\BPMFYETY" ("\BPMFYETY")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "140 kO"; VariantName = "[No Variations]"
+Add component: Footprint Not Found DA2034-AL
+Add component: Footprint Not Found DA2034-AL
+Added Component: Designator=Q6(ONSC-SOT-23-3-318-08_V)
+Add component (AddParameter): Name = "Channel Polarity"; Value = "N Channel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ciss Typ (pF)"; Value = "140"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.onsemi.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.onsemi.cn/pub_link/Collateral/MGSF1N03LT1-D.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.onsemi.cn/pub_link/Collateral/318-08.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Configuration"; Value = "Single"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Coss Typ (pF)"; Value = "100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Crss Typ (pF)"; Value = "40"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ID Max (A)"; Value = "2.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "On Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Type"; Value = "SOT-23-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "3-Pin Small Outline Transistor, Body 2.92 x 1.3 mm, Pitch 0.95 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SOT-23-3-318-08"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev. AP, 11/2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "MGSF1N03LT1G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Pb-Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "V(BR)DSS Min (V)"; Value = "30"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VGS Max (V)"; Value = "20"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VGS(th) Max (V)"; Value = "2.4"; VariantName = "[No Variations]"
+Added Component: Designator=Q7(ONSC-SOT-23-3-318-08_V)
+Add component (AddParameter): Name = "Channel Polarity"; Value = "N Channel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ciss Typ (pF)"; Value = "140"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.onsemi.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.onsemi.cn/pub_link/Collateral/MGSF1N03LT1-D.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.onsemi.cn/pub_link/Collateral/318-08.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Configuration"; Value = "Single"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Coss Typ (pF)"; Value = "100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Crss Typ (pF)"; Value = "40"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ID Max (A)"; Value = "2.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "On Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Type"; Value = "SOT-23-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "3-Pin Small Outline Transistor, Body 2.92 x 1.3 mm, Pitch 0.95 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SOT-23-3-318-08"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev. AP, 11/2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "MGSF1N03LT1G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Pb-Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "V(BR)DSS Min (V)"; Value = "30"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VGS Max (V)"; Value = "20"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VGS(th) Max (V)"; Value = "2.4"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin J5-P$1
+Add Pin To Net: Unknown Pin: Pin J5-P$7
+Add Pin To Net: Unknown Pin: Pin J5-P$8
+Add Pin To Net: Unknown Pin: Pin J5-P$9
+Add Pin To Net: Unknown Pin: Pin J5-P$10
+Add Pin To Net: Unknown Pin: Pin J5-P$12
+Add Pin To Net: Unknown Pin: Pin J7-P$1
+Add Pin To Net: Unknown Pin: Pin J7-P$7
+Add Pin To Net: Unknown Pin: Pin J7-P$8
+Add Pin To Net: Unknown Pin: Pin J7-P$9
+Add Pin To Net: Unknown Pin: Pin J7-P$10
+Add Pin To Net: Unknown Pin: Pin J7-P$12
+Added Pin To Net: NetName=GND Pin=Q6-2
+Added Pin To Net: NetName=GND Pin=Q7-2
+Added Pin To Net: NetName=GND Pin=R43-1
+Added Pin To Net: NetName=FLYBACK_EN_L_3V3 Pin=Q6-1
+Added Pin To Net: NetName=FLYBACK_EN_L_3V3 Pin=R22-2
+Added Pin To Net: NetName=FLYBACK_EN_L_3V3 Pin=U8-40
+Added Net: Name=FLYBACK_EN_L_3V3
+Added Pin To Net: NetName=FLYBACK_EN_L Pin=Q6-3
+Added Net: Name=FLYBACK_EN_L
+Added Pin To Net: NetName=FLYBACK_EN_R_3V3 Pin=Q7-1
+Added Pin To Net: NetName=FLYBACK_EN_R_3V3 Pin=R43-2
+Added Pin To Net: NetName=FLYBACK_EN_R_3V3 Pin=U8-41
+Added Net: Name=FLYBACK_EN_R_3V3
+Added Pin To Net: NetName=FLYBACK_EN_R Pin=Q7-3
+Added Net: Name=FLYBACK_EN_R
+Added Pin To Net: NetName=FLYBACK_EN Pin=R18-1
+Added Pin To Net: NetName=FLYBACK_EN Pin=R39-2
+Added Pin To Net: NetName=FLYBACK_EN Pin=U4-9
+Added Pin To Net: NetName=FLYBACK_EN Pin=U5-9
+Added Net: Name=FLYBACK_EN
+Added Pin To Net: NetName=NetJ5_P$3 Pin=Q3-4
+Added Net: Name=NetJ5_P$3
+Added Pin To Net: NetName=NetJ7_P$3 Pin=Q4-4
+Added Net: Name=NetJ7_P$3
+Add Class Member: Failed to add class member : Component J5 DA2034-AL
+Add Class Member: Failed to add class member : Component J7 DA2034-AL
+Added Member To Class: ClassName=logic Member=Component Q6 MGSF1N03LT1G
+Added Member To Class: ClassName=logic Member=Component Q7 MGSF1N03LT1G
+Added Member To Class: ClassName=logic Member=Component R22 Resistor_0603
+Added Member To Class: ClassName=logic Member=Component R43 Resistor_0603

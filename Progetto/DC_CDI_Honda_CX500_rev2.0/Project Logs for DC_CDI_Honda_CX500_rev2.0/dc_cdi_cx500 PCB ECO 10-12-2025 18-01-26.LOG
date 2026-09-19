@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=FLYBACK_EN_L_3V3 Pin=U8-40
+Removed Pin From Net: NetName=FLYBACK_EN_R_3V3 Pin=U8-41
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Added Component: Designator=C5(0402_fp)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100 nF"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=1V65 Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=FLYBACK_EN_R_3V3 Pin=U8-11
+Added Pin To Net: NetName=FLYBACK_EN_L_3V3 Pin=U8-32
+Added Member To Class: ClassName=input_signal_conditioning Member=Component C5 Capacitor_0402

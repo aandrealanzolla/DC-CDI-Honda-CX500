@@ -1,0 +1,21 @@
+Change Component Footprint: Designator=D3 Old Footprint=FP-S8KC-13-MFG New Footprint=FP-SMC-MFG
+Change Component Comment : Designator=D3 Old Comment=S8KC-13 New Comment=SMLJ60S6-TP
+Change Managed Component Library Link : Designator=D3 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=575DCC8B-0DB0-4BC5-9671-ED5B269CDDA7 New ItemGUID=56A103BA-68F5-4DDC-9935-75AAF8173A94 Old RevisionGUID=979CC5A8-D870-4F49-8A6E-A8A3878FCDD4 New RevisionGUID=521BA9C5-E2D3-499A-97AA-46BA8DE3DAEE
+Change component parameters: Designator = "D3" ("D3"); Footprint = "FP-S8KC-13-MFG"; UniqueID = "\HKNSHVCN" ("\HKNSHVCN")
+Change component parameters (AddParameter): Name = "Average Rectified Current"; Value = "6A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "DO-214AB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Element Configuration"; Value = "Single"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Forward Voltage"; Value = "1V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "150°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Reverse Current"; Value = "5uA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Reverse Voltage (DC)"; Value = "600V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Surge Current"; Value = "200A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "3000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Peak Non-Repetitive Surge Current"; Value = "200A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Reverse Voltage"; Value = "600V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"

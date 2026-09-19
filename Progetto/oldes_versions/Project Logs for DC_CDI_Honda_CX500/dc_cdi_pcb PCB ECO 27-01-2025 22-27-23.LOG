@@ -1,0 +1,105 @@
+Removed Pin From Net: NetName=NetC9_2 Pin=J3-1
+Removed Pin From Net: NetName=NetC3_2 Pin=J3-2
+Removed Member From Class: ClassName=input_filter Member=D3
+Removed Member From Class: ClassName=input_filter Member=D5
+Removed Member From Class: ClassName=input_filter Member=D7
+Removed Member From Class: ClassName=logic Member=D7
+Removed Member From Class: ClassName=input_filter Member=D8
+Removed Member From Class: ClassName=logic Member=D8
+Removed Member From Class: ClassName=input_filter Member=D9
+Removed Member From Class: ClassName=input_filter Member=D10
+Change component parameters: Designator = "T2" ("T2"); Footprint = "T_DIP09_74087_21X21_MYR"; UniqueID = "\YGKIMLTH" ("\YGKIMLTH")
+Change component parameters (AddParameter): Name = "Mfr_Name"; Value = "Myrra"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Added Component: Designator=U6(STM-LQFP176_N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.st.com/web/en/home.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/data_brief/DM00053488.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00035129.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Core"; Value = "ARM Cortex-M4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "D/A Converter"; Value = "2x12-bit"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FLASH Size (Prog) (kB)"; Value = "2048"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "I/Os (High Current)"; Value = "140"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Internal RAM Size (kB)"; Value = "256"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Frequency(F) (Processor speed) (MHz)"; Value = "180"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "176-Pin Low Profile Quad Flat Package, 24 x 24 mm Body, 0.5 mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "LQFP176"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev. 4, 06/2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Tray"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "STM32F429IIT6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supply Voltage(Vcc) max (V)"; Value = "3.6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supply Voltage(Vcc) min (V)"; Value = "1.8"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC8_1 Pin=C9-1
+Added Pin To Net: NetName=NetC8_1 Pin=D6-1
+Added Pin To Net: NetName=NetD6_2 Pin=D6-2
+Added Pin To Net: NetName=NetC8_1 Pin=D6-3
+Added Pin To Net: NetName=NetC3_2 Pin=J3-1
+Added Pin To Net: NetName=NetC9_2 Pin=J3-2
+Added Pin To Net: NetName=GND Pin=T2-4
+Added Pin To Net: NetName=NetD6_2 Pin=T2-5
+Added Pin To Net: NetName=NetQ3_2 Pin=T2-6
+Added Pin To Net: NetName=NetT2_7 Pin=T2-7
+Added Pin To Net: NetName=NetQ3_2 Pin=T2-9
+Added Pin To Net: NetName=NetT2_7 Pin=T2-10
+Added Pin To Net: NetName=GND Pin=U6-14
+Added Pin To Net: NetName=+3V3 Pin=U6-15
+Added Pin To Net: NetName=GND Pin=U6-22
+Added Pin To Net: NetName=+3V3 Pin=U6-23
+Added Pin To Net: NetName=+3V3 Pin=U6-36
+Added Pin To Net: NetName=NetR19_1 Pin=U6-39
+Added Pin To Net: NetName=NetD13_1 Pin=U6-40
+Added Pin To Net: NetName=NetD18_1 Pin=U6-41
+Added Pin To Net: NetName=+3V3 Pin=U6-49
+Added Pin To Net: NetName=NetU4_2 Pin=U6-56
+Added Pin To Net: NetName=GND Pin=U6-61
+Added Pin To Net: NetName=+3V3 Pin=U6-62
+Added Pin To Net: NetName=GND Pin=U6-71
+Added Pin To Net: NetName=+3V3 Pin=U6-72
+Added Pin To Net: NetName=+3V3 Pin=U6-82
+Added Pin To Net: NetName=GND Pin=U6-90
+Added Pin To Net: NetName=+3V3 Pin=U6-91
+Added Pin To Net: NetName=NetR18_1 Pin=U6-98
+Added Pin To Net: NetName=NetR17_1 Pin=U6-99
+Added Pin To Net: NetName=GND Pin=U6-102
+Added Pin To Net: NetName=+3V3 Pin=U6-103
+Added Pin To Net: NetName=GND Pin=U6-113
+Added Pin To Net: NetName=+3V3 Pin=U6-114
+Added Pin To Net: NetName=NetU4_4 Pin=U6-119
+Added Pin To Net: NetName=NetJ1_4 Pin=U6-124
+Added Pin To Net: NetName=GND Pin=U6-126
+Added Pin To Net: NetName=+3V3 Pin=U6-127
+Added Pin To Net: NetName=GND Pin=U6-135
+Added Pin To Net: NetName=+3V3 Pin=U6-136
+Added Pin To Net: NetName=NetJ1_6 Pin=U6-137
+Added Pin To Net: NetName=NetU2_4 Pin=U6-138
+Added Pin To Net: NetName=GND Pin=U6-148
+Added Pin To Net: NetName=+3V3 Pin=U6-149
+Added Pin To Net: NetName=+3V3 Pin=U6-159
+Added Pin To Net: NetName=NetU2_2 Pin=U6-161
+Added Pin To Net: NetName=NetJ1_14 Pin=U6-164
+Added Pin To Net: NetName=NetJ1_13 Pin=U6-165
+Added Pin To Net: NetName=+3V3 Pin=U6-172
+Added Member To Class: ClassName=power_side Member=Component C9 BFC233820225
+Added Member To Class: ClassName=power_side Member=Component D2 MBR0540
+Added Member To Class: ClassName=power_side Member=Component D4 MBR0540
+Added Member To Class: ClassName=power_side Member=Component D6 C3D03060E
+Added Member To Class: ClassName=logic Member=Component D11 150080SS75000
+Added Member To Class: ClassName=logic Member=Component D12 150080SS75000
+Added Member To Class: ClassName=input_filter Member=Component D13 1N5819HW1-7-F
+Added Member To Class: ClassName=input_filter Member=Component D14 1N5819HW1-7-F
+Added Member To Class: ClassName=input_filter Member=Component D15 MM5Z2V4ST1G
+Added Member To Class: ClassName=input_filter Member=Component D16 1N5819HW1-7-F
+Added Member To Class: ClassName=input_filter Member=Component D17 1N5819HW1-7-F
+Added Member To Class: ClassName=input_filter Member=Component D18 1N5819HW1-7-F
+Added Member To Class: ClassName=input_filter Member=Component D19 1N5819HW1-7-F
+Added Member To Class: ClassName=input_filter Member=Component D20 MM5Z2V4ST1G
+Added Member To Class: ClassName=input_filter Member=Component D21 1N5819HW1-7-F
+Added Member To Class: ClassName=input_filter Member=Component D22 1N5819HW1-7-F
+Added Member To Class: ClassName=power_side Member=Component T2 74087
+Added Member To Class: ClassName=logic Member=Component U6 STM32F429IIT6

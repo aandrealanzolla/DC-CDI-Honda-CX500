@@ -1,0 +1,25 @@
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Change Component Footprint: Designator=C1 Old Footprint=WCAP-FTBP_L31W14H23.5 New Footprint=FP-R75UW41005030J-MFG
+Change Component Footprint: Designator=C4 Old Footprint=WCAP-FTBP_L31W14H23.5 New Footprint=FP-R75UW41005030J-MFG
+Change Component Comment : Designator=C1 Old Comment=890273327007CS New Comment=R75UW41005030J
+Change Component Comment : Designator=C4 Old Comment=890273327007CS New Comment=R75UW41005030J
+Change Managed Component Library Link : Designator=C1 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=CE469A4B-28A6-49D0-8161-F2A83752FF96 New ItemGUID=54EB2537-B888-4C33-B2FB-700E144D7B0F Old RevisionGUID=D92C8F9B-CCE8-4655-A3AA-39B96957F80A New RevisionGUID=7C480A41-6AF5-4A27-AD4C-54D041A12EF3
+Change Managed Component Library Link : Designator=C4 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=CE469A4B-28A6-49D0-8161-F2A83752FF96 New ItemGUID=54EB2537-B888-4C33-B2FB-700E144D7B0F Old RevisionGUID=D92C8F9B-CCE8-4655-A3AA-39B96957F80A New RevisionGUID=7C480A41-6AF5-4A27-AD4C-54D041A12EF3
+Change component parameters: Designator = "C1" ("C1"); Footprint = "WCAP-FTBP_L31W14H23.5"; UniqueID = "\KGOWFIGB" ("\KGOWFIGB")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "1µF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "Radial"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "44.1mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "NexarPartId"; Value = "113148660"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "2kV"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C4" ("C4"); Footprint = "WCAP-FTBP_L31W14H23.5"; UniqueID = "\KRWKHFLH" ("\KRWKHFLH")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "1µF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "Radial"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "44.1mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "NexarPartId"; Value = "113148660"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "2kV"; VariantName = "[No Variations]"

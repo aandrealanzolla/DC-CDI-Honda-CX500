@@ -1,0 +1,37 @@
+Change Component DesignItemId : Designator=C5 Old DesignItemId=Capacitor_0603 New DesignItemId=Capacitor_0402
+Change Component DesignItemId : Designator=C45 Old DesignItemId=Capacitor_0603 New DesignItemId=Capacitor_0402
+Change Component DesignItemId : Designator=C50 Old DesignItemId=Capacitor_0603 New DesignItemId=Capacitor_0402
+Change Component DesignItemId : Designator=C51 Old DesignItemId=Capacitor_0603 New DesignItemId=Capacitor_0402
+Change Component DesignItemId : Designator=R6 Old DesignItemId=Resistor_0603 New DesignItemId=Resistor_0402
+Change Component DesignItemId : Designator=R7 Old DesignItemId=Resistor_0603 New DesignItemId=Resistor_0402
+Change Component DesignItemId : Designator=R57 Old DesignItemId=Resistor_0603 New DesignItemId=Resistor_0402
+Change Component DesignItemId : Designator=R58 Old DesignItemId=Resistor_0603 New DesignItemId=Resistor_0402
+Change Component Footprint: Designator=C5 Old Footprint=0603_FP New Footprint=0402_fp
+Change Component Footprint: Designator=C45 Old Footprint=0603_FP New Footprint=0402_fp
+Change Component Footprint: Designator=C50 Old Footprint=0603_FP New Footprint=0402_fp
+Change Component Footprint: Designator=C51 Old Footprint=0603_FP New Footprint=0402_fp
+Change Component Footprint: Designator=R6 Old Footprint=0603_FP New Footprint=0402_fp
+Change Component Footprint: Designator=R7 Old Footprint=0603_FP New Footprint=0402_fp
+Change Component Footprint: Designator=R57 Old Footprint=0603_FP New Footprint=0402_fp
+Change Component Footprint: Designator=R58 Old Footprint=0603_FP New Footprint=0402_fp
+Change Component Comment : Designator=C5 Old Comment=Capacitor_0603 New Comment=Capacitor_0402
+Change Component Comment : Designator=C45 Old Comment=Capacitor_0603 New Comment=Capacitor_0402
+Change Component Comment : Designator=C50 Old Comment=Capacitor_0603 New Comment=Capacitor_0402
+Change Component Comment : Designator=C51 Old Comment=Capacitor_0603 New Comment=Capacitor_0402
+Change Component Comment : Designator=R6 Old Comment=Resistor_0603 New Comment=Resistor_0402
+Change Component Comment : Designator=R7 Old Comment=Resistor_0603 New Comment=Resistor_0402
+Change Component Comment : Designator=R57 Old Comment=Resistor_0603 New Comment=Resistor_0402
+Change Component Comment : Designator=R58 Old Comment=Resistor_0603 New Comment=Resistor_0402
+Change component parameters: Designator = "C50" ("C50"); Footprint = "0603_FP"; UniqueID = "\BTHAOZAY" ("\BTHAOZAY")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1 nF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C51" ("C51"); Footprint = "0603_FP"; UniqueID = "\IPJKFFMI" ("\IPJKFFMI")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1 nF"; VariantName = "[No Variations]"
+Add component: Footprint Not Found ONSC-SOT-23-3-318-08_V
+Add Pin To Net: Unknown Pin: Pin Q8-1
+Add Pin To Net: Unknown Pin: Pin Q8-2
+Add Pin To Net: Unknown Pin: Pin Q8-3
+Add Class Member: Failed to add class member : Component Q8 MGSF1N03LT1G

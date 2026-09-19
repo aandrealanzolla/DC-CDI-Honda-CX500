@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=R_COIL Pin=J6-1
+Removed Pin From Net: NetName=L_COIL Pin=J6-3
+Added Pin To Net: NetName=L_COIL Pin=J6-1
+Added Pin To Net: NetName=R_COIL Pin=J6-3

@@ -1,0 +1,35 @@
+Removed Pin From Net: NetName=FLYBACK_EN_L_3V3 Pin=Q8-1
+Removed Pin From Net: NetName=DGND Pin=Q8-2
+Removed Pin From Net: NetName=FLYBACK_EN_R_3V3 Pin=Q9-1
+Removed Pin From Net: NetName=DGND Pin=Q9-2
+Removed Pin From Net: NetName=VBAT Pin=R22-2
+Removed Pin From Net: NetName=VBAT Pin=R43-2
+Removed Pin From Net: NetName=FLYBACK_EN_L_3V3 Pin=R52-1
+Removed Pin From Net: NetName=DGND Pin=R52-2
+Removed Pin From Net: NetName=FLYBACK_EN_R_3V3 Pin=R53-1
+Removed Pin From Net: NetName=DGND Pin=R53-2
+Removed Member From Class: ClassName=logic Member=Q6
+Removed Member From Class: ClassName=logic Member=Q7
+Removed Member From Class: ClassName=logic Member=Q8
+Removed Member From Class: ClassName=logic Member=Q9
+Removed Member From Class: ClassName=logic Member=R22
+Removed Member From Class: ClassName=logic Member=R43
+Removed Member From Class: ClassName=logic Member=R52
+Removed Member From Class: ClassName=logic Member=R53
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Added Pin To Net: NetName=DGND Pin=R22-2
+Added Pin To Net: NetName=DGND Pin=R43-2
+Added Pin To Net: NetName=L_COIL_MOSFET_GATE Pin=Q6-1
+Added Pin To Net: NetName=L_COIL_MOSFET_GATE Pin=R1-2
+Added Pin To Net: NetName=L_COIL_MOSFET_GATE Pin=R22-1
+Added Pin To Net: NetName=L_COIL_MOSFET_GATE Pin=U1-7
+Added Net: Name=L_COIL_MOSFET_GATE
+Added Pin To Net: NetName=R_COIL_MOSFET_GATE Pin=Q7-1
+Added Pin To Net: NetName=R_COIL_MOSFET_GATE Pin=R2-1
+Added Pin To Net: NetName=R_COIL_MOSFET_GATE Pin=R43-1
+Added Pin To Net: NetName=R_COIL_MOSFET_GATE Pin=U1-5
+Added Net: Name=R_COIL_MOSFET_GATE
+Added Member To Class: ClassName=cd_switching Member=Component Q6 MGSF1N03LT1G
+Added Member To Class: ClassName=cd_switching Member=Component Q7 MGSF1N03LT1G
+Added Member To Class: ClassName=cd_switching Member=Component R22 Resistor_0402
+Added Member To Class: ClassName=cd_switching Member=Component R43 Resistor_0402

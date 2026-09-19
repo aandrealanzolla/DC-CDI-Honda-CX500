@@ -1,0 +1,6 @@
+Change Component Designator: OldDesignator=J? NewDesignator=J2
+Change Component Designator: OldDesignator=R? NewDesignator=R38
+Change Component Designator: OldDesignator=R? NewDesignator=R39
+Change Net Name : Old Net Name=NetJ?_2 New Net Name=NetJ2_2
+Change Net Name : Old Net Name=NetJ?_3 New Net Name=NetJ2_3
+Added Member To Class: ClassName=logic_000 Member=Component R38 RC0402JR-074K7L

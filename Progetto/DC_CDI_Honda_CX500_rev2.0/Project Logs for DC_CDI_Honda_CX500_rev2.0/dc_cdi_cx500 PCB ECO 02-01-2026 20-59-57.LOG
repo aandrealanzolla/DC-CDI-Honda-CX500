@@ -1,0 +1,136 @@
+Removed Pin From Net: NetName=DGND Pin=C5-2
+Removed Pin From Net: NetName=3V3 Pin=C6-1
+Removed Pin From Net: NetName=DGND Pin=C6-2
+Removed Pin From Net: NetName=3V3 Pin=C7-1
+Removed Pin From Net: NetName=DGND Pin=C7-2
+Removed Pin From Net: NetName=3V3 Pin=C9-1
+Removed Pin From Net: NetName=DGND Pin=C9-2
+Removed Pin From Net: NetName=3V3 Pin=C14-1
+Removed Pin From Net: NetName=DGND Pin=C14-2
+Removed Pin From Net: NetName=3V3 Pin=R6-1
+Removed Pin From Net: NetName=DGND Pin=R7-1
+Removed Pin From Net: NetName=NetR6_2 Pin=R9-1
+Removed Pin From Net: NetName=DGND Pin=R14-1
+Removed Pin From Net: NetName=3V3 Pin=U2-8
+Removed Pin From Net: NetName=DGND Pin=U3-2
+Removed Pin From Net: NetName=NetR6_2 Pin=U3-3
+Removed Pin From Net: NetName=3V3 Pin=U3-5
+Removed Member From Class: ClassName=input_signal_conditioning Member=C7
+Removed Member From Class: ClassName=input_signal_conditioning Member=C8
+Removed Member From Class: ClassName=input_signal_conditioning Member=C9
+Removed Member From Class: ClassName=input_signal_conditioning Member=C14
+Removed Member From Class: ClassName=input_signal_conditioning Member=C15
+Removed Member From Class: ClassName=input_signal_conditioning Member=C53
+Removed Member From Class: ClassName=input_signal_conditioning Member=D1
+Removed Member From Class: ClassName=input_signal_conditioning Member=D2
+Removed Member From Class: ClassName=input_signal_conditioning Member=R10
+Removed Member From Class: ClassName=input_signal_conditioning Member=R11
+Removed Member From Class: ClassName=input_signal_conditioning Member=R12
+Removed Member From Class: ClassName=input_signal_conditioning Member=R13
+Removed Member From Class: ClassName=input_signal_conditioning Member=R14
+Removed Member From Class: ClassName=input_signal_conditioning Member=R15
+Removed Member From Class: ClassName=input_signal_conditioning Member=U3
+Change Component Footprint: Designator=C5 Old Footprint=0402_fp New Footprint=0603_FP
+Change Component Footprint: Designator=C6 Old Footprint=0402_fp New Footprint=0603_FP
+Change Component Footprint: Designator=R4 Old Footprint=0402_fp New Footprint=0603_FP
+Change Component Footprint: Designator=R6 Old Footprint=0402_fp New Footprint=0603_FP
+Change Component Footprint: Designator=R7 Old Footprint=0402_fp New Footprint=0603_FP
+Change Component Footprint: Designator=U2 Old Footprint=D0008A_M New Footprint=ONSC-SOIC-8NB-8-751-07_V
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Change Component Comment : Designator=C5 Old Comment=Capacitor_0402 New Comment=Capacitor_0603
+Change Component Comment : Designator=C6 Old Comment=Capacitor_0402 New Comment=Capacitor_0603
+Change Component Comment : Designator=U2 Old Comment=LM358MX New Comment=NCV1124DG
+Change Component Comment : Designator=R4 Old Comment=Resistor_0402 New Comment=Resistor_0603
+Change Component Comment : Designator=R6 Old Comment=Resistor_0402 New Comment=Resistor_0603
+Change Component Comment : Designator=R7 Old Comment=Resistor_0402 New Comment=Resistor_0603
+Change Managed Component Library Link : Designator=U2 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=82B9DED3-7332-4EBC-9A4E-4CB6E5397BC5 New ItemGUID=4447D2F8-6BC0-43E6-B944-6C790C271E30 Old RevisionGUID=084A3D8C-DD00-4574-9E68-9AC2740A6FF3 New RevisionGUID=8C73B260-7C9E-4390-85DA-8D6F4570D1E8
+Change component parameters: Designator = "C5" ("C5"); Footprint = "0402_fp"; UniqueID = "\PZJAHDGK" ("\PZJAHDGK")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "47 nF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C6" ("C6"); Footprint = "0402_fp"; UniqueID = "\CUFVUPTF" ("\CUFVUPTF")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "47 nF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R3" ("R3"); Footprint = "0402_fp"; UniqueID = "\HQIOIJOT" ("\HQIOIJOT")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "12 kO"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R4" ("R4"); Footprint = "0402_fp"; UniqueID = "\TINRBVVW" ("\TINRBVVW")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100 O"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R5" ("R5"); Footprint = "0402_fp"; UniqueID = "\WXTETYSS" ("\WXTETYSS")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22 kO"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R6" ("R6"); Footprint = "0402_fp"; UniqueID = "\GVPAYKMI" ("\GVPAYKMI")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100 O"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R7" ("R7"); Footprint = "0402_fp"; UniqueID = "\OSVWDLJO" ("\OSVWDLJO")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100 O"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R8" ("R8"); Footprint = "0402_fp"; UniqueID = "\XKWYGKVD" ("\XKWYGKVD")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "12 kO"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R9" ("R9"); Footprint = "0402_fp"; UniqueID = "\CTLOJMFW" ("\CTLOJMFW")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22 kO"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U2" ("U2"); Footprint = "D0008A_M"; UniqueID = "\XXCTEADQ" ("\XXCTEADQ")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.onsemi.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.onsemi.com/pub_link/Collateral/NCV1124%20DATA%20SHEET.PDF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.onsemi.com/pub_link/Collateral/751-07.PDF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "On Semiconductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "8-Pin Small Outline Integrated Circuit, Body 4.9 x 3.9 mm, Pitch 1.27 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "SOIC-8NB-8-751-07"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "Rev. AK, 02/2011"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packing"; Value = "Tube"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "NCV1124DG"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VCC Max (V)"; Value = "5.5"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VCC Min (V)"; Value = "4.5"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=DGND Pin=R5-2
+Added Pin To Net: NetName=DGND Pin=R6-1
+Added Pin To Net: NetName=NetR6_2 Pin=U2-1
+Added Pin To Net: NetName=5V0 Pin=U2-8
+Added Pin To Net: NetName=NetP1_6 Pin=P1-6
+Added Pin To Net: NetName=NetP1_6 Pin=R4-2
+Added Net: Name=NetP1_6
+Added Pin To Net: NetName=NetP1_8 Pin=P1-8
+Added Pin To Net: NetName=NetP1_8 Pin=R7-2
+Added Net: Name=NetP1_8
+Added Pin To Net: NetName=NetR3_2 Pin=R3-2
+Added Pin To Net: NetName=NetR3_2 Pin=R5-1
+Added Pin To Net: NetName=NetR3_2 Pin=R40-1
+Added Pin To Net: NetName=NetR3_2 Pin=U8-18
+Added Net: Name=NetR3_2
+Added Pin To Net: NetName=NetR8_2 Pin=R8-2
+Added Pin To Net: NetName=NetR8_2 Pin=R9-1
+Added Pin To Net: NetName=NetR8_2 Pin=R47-1
+Added Pin To Net: NetName=NetR8_2 Pin=U8-20
+Added Net: Name=NetR8_2
+Added Pin To Net: NetName=VR_IF_OUT1 Pin=R3-1
+Added Pin To Net: NetName=VR_IF_OUT1 Pin=U2-7
+Added Net: Name=VR_IF_OUT1
+Added Pin To Net: NetName=VR_IF_OUT2 Pin=R8-1
+Added Pin To Net: NetName=VR_IF_OUT2 Pin=U2-6
+Added Net: Name=VR_IF_OUT2
+Added Pin To Net: NetName=VR_SENSOR_IN1 Pin=C5-1
+Added Pin To Net: NetName=VR_SENSOR_IN1 Pin=R4-1
+Added Pin To Net: NetName=VR_SENSOR_IN1 Pin=U2-2
+Added Net: Name=VR_SENSOR_IN1
+Added Pin To Net: NetName=VR_SENSOR_IN2 Pin=C6-1
+Added Pin To Net: NetName=VR_SENSOR_IN2 Pin=R7-1
+Added Pin To Net: NetName=VR_SENSOR_IN2 Pin=U2-3
+Added Net: Name=VR_SENSOR_IN2

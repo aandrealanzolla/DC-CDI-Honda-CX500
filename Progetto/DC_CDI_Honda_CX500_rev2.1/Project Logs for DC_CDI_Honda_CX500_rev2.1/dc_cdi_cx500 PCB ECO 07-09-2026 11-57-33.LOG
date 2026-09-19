@@ -1,0 +1,489 @@
+Removed Pin From Net: NetName=PGND Pin=C35-1
+Removed Pin From Net: NetName=VBAT Pin=C36-1
+Removed Pin From Net: NetName=PGND Pin=C36-2
+Removed Pin From Net: NetName=PGND Pin=C37-1
+Removed Pin From Net: NetName=L_HV Pin=C37-2
+Removed Pin From Net: NetName=PGND Pin=C41-1
+Removed Pin From Net: NetName=PGND Pin=C44-2
+Removed Pin From Net: NetName=L_HV Pin=D5-1
+Removed Pin From Net: NetName=PGND Pin=D6-2
+Removed Pin From Net: NetName=L_HV Pin=R40-2
+Removed Pin From Net: NetName=L_HV Pin=R41-2
+Removed Pin From Net: NetName=NetQ7_1 Pin=R42-2
+Removed Pin From Net: NetName=FLYBACK_EN_L Pin=R43-1
+Removed Pin From Net: NetName=VBAT Pin=R43-2
+Removed Pin From Net: NetName=L_HV_FB Pin=R46-1
+Removed Pin From Net: NetName=NetR44_1 Pin=R46-2
+Removed Pin From Net: NetName=NetR45_1 Pin=R47-2
+Removed Pin From Net: NetName=PGND Pin=R48-1
+Removed Pin From Net: NetName=PGND Pin=R49-1
+Removed Pin From Net: NetName=PGND Pin=R50-1
+Removed Pin From Net: NetName=L_HV_FB Pin=R50-2
+Removed Pin From Net: NetName=PGND Pin=R51-1
+Removed Pin From Net: NetName=NetC39_2 Pin=R52-2
+Removed Pin From Net: NetName=VBAT Pin=T1-P$3
+Removed Pin From Net: NetName=VBAT Pin=T1-P$4
+Removed Pin From Net: NetName=VBAT Pin=T1-P$5
+Removed Pin From Net: NetName=VBAT Pin=T1-P$6
+Removed Pin From Net: NetName=NetQ7_4 Pin=T1-P$7
+Removed Pin From Net: NetName=NetQ7_4 Pin=T1-P$8
+Removed Pin From Net: NetName=NetQ7_4 Pin=T1-P$9
+Removed Pin From Net: NetName=NetQ7_4 Pin=T1-P$10
+Removed Pin From Net: NetName=PGND Pin=T1-P$12
+Removed Pin From Net: NetName=PGND Pin=T2-P$1
+Removed Pin From Net: NetName=NetQ8_4 Pin=T2-P$3
+Removed Pin From Net: NetName=NetQ8_4 Pin=T2-P$4
+Removed Pin From Net: NetName=NetQ8_4 Pin=T2-P$5
+Removed Pin From Net: NetName=NetQ8_4 Pin=T2-P$6
+Removed Pin From Net: NetName=VBAT Pin=T2-P$7
+Removed Pin From Net: NetName=VBAT Pin=T2-P$8
+Removed Pin From Net: NetName=VBAT Pin=T2-P$9
+Removed Pin From Net: NetName=VBAT Pin=T2-P$10
+Removed Pin From Net: NetName=NetC39_2 Pin=U5-1
+Removed Pin From Net: NetName=L_HV_FB Pin=U5-2
+Removed Pin From Net: NetName=FLYBACK_EN_L Pin=U5-9
+Removed Pin From Net: NetName=PGND Pin=U5-11
+Removed Pin From Net: NetName=R_HV_FB Pin=U6-2
+Removed Pin From Net: NetName=FLYBACK_EN_R Pin=U6-9
+Removed Pin From Net: NetName=PGND Pin=U6-11
+Removed Member From Class: ClassName=HV_power Member=C35
+Removed Member From Class: ClassName=HV_power Member=C36
+Removed Member From Class: ClassName=logic Member=C54
+Removed Member From Class: ClassName=logic Member=C55
+Removed Member From Class: ClassName=HV_power Member=D5
+Removed Member From Class: ClassName=HV_power Member=D6
+Removed Member From Class: ClassName=cd_switching Member=D11
+Removed Member From Class: ClassName=HV_power Member=R40
+Removed Member From Class: ClassName=HV_power Member=R41
+Removed Member From Class: ClassName=HV_power Member=R42
+Removed Member From Class: ClassName=HV_power Member=R43
+Removed Member From Class: ClassName=cd_switching Member=R66
+Removed Member From Class: ClassName=cd_switching Member=R67
+Removed Member From Class: ClassName=HV_NETS Member=NetD5_2
+Removed Member From Class: ClassName=HV_NETS Member=NetD7_2
+Removed Member From Class: ClassName=FB_NETS Member=NetR40_1
+Removed Member From Class: ClassName=FB_NETS Member=NetR41_1
+Removed Member From Class: ClassName=FB_NETS Member=NetR53_1
+Removed Member From Class: ClassName=FB_NETS Member=NetR54_1
+Change Component Footprint: Designator=R48 Old Footprint=0603_FP New Footprint=0805_FP
+Change Footprint: Footprint Not Found FP-CSRN2010-IPC_B
+Change Footprint: Footprint Not Found WCAP-FTBP_L13W5.5H11
+Change Component Footprint: Designator=R46 Old Footprint=0805_FP New Footprint=0603_FP
+Change Component Footprint: Designator=R47 Old Footprint=0805_FP New Footprint=0603_FP
+Change Component Footprint: Designator=T1 Old Footprint=DA2034-AL New Footprint=WE-FB3751_EFD20
+Change Component Footprint: Designator=T2 Old Footprint=DA2034-AL New Footprint=WE-FB3751_EFD20
+Change Component Footprint: Designator=R49 Old Footprint=FP-CSRN2010-IPC_B New Footprint=0805_FP
+Change Component Footprint: Designator=U5 Old Footprint=FP-DD-10-05-08-1699-IPC_B New Footprint=SOP50P490X110-10N
+Change Component Footprint: Designator=U6 Old Footprint=FP-DD-10-05-08-1699-IPC_B New Footprint=SOP50P490X110-10N
+Change Component Footprint: Designator=C37 Old Footprint=WCAP-FTBP_L13W5.5H11 New Footprint=0603_FP
+Change Component Comment : Designator=C37 Old Comment=890283323005CS New Comment=GRM21BR61C475KA88L
+Change Component Comment : Designator=C38 Old Comment=Capacitor_0603 New Comment=890283323005CS
+Change Component Comment : Designator=R49 Old Comment=CSRN2010FK20L0 New Comment=R_0805
+Change Component Comment : Designator=T1 Old Comment=DA2034-AL New Comment=750032052
+Change Component Comment : Designator=T2 Old Comment=DA2034-AL New Comment=750032052
+Change Component Comment : Designator=U5 Old Comment=LT3758EDD#PBF New Comment=LM3481MM
+Change Component Comment : Designator=U6 Old Comment=LT3758EDD#PBF New Comment=LM3481MM
+Change Component Comment : Designator=R46 Old Comment=R_0805 New Comment=Resistor_0603
+Change Component Comment : Designator=R47 Old Comment=R_0805 New Comment=Resistor_0603
+Change Component Comment : Designator=R52 Old Comment=Resistor_0603 New Comment=CSRN2010FK20L0
+Change Component Comment : Designator=R48 Old Comment=Resistor_0603 New Comment=R_0805
+Change Component Designator: OldDesignator=C28 NewDesignator=C30
+Change Component Designator: OldDesignator=C29 NewDesignator=C31
+Change Component Designator: OldDesignator=C30 NewDesignator=C32
+Change Component Designator: OldDesignator=C31 NewDesignator=C33
+Change Component Designator: OldDesignator=C32 NewDesignator=C34
+Change Component Designator: OldDesignator=C33 NewDesignator=C35
+Change Component Designator: OldDesignator=C34 NewDesignator=C36
+Change Component Designator: OldDesignator=C42 NewDesignator=C44
+Change Component Designator: OldDesignator=C45 NewDesignator=C48
+Change Component Designator: OldDesignator=C46 NewDesignator=C47
+Change Component Designator: OldDesignator=C47 NewDesignator=C49
+Change Component Designator: OldDesignator=C48 NewDesignator=C50
+Change Component Designator: OldDesignator=C49 NewDesignator=C51
+Change Component Designator: OldDesignator=C50 NewDesignator=C52
+Change Component Designator: OldDesignator=C51 NewDesignator=C53
+Change Component Designator: OldDesignator=C52 NewDesignator=C54
+Change Component Designator: OldDesignator=C53 NewDesignator=C55
+Change Component Designator: OldDesignator=C54 NewDesignator=C28
+Change Component Designator: OldDesignator=C55 NewDesignator=C29
+Change Component Designator: OldDesignator=D2 NewDesignator=D3
+Change Component Designator: OldDesignator=D3 NewDesignator=D7
+Change Component Designator: OldDesignator=D4 NewDesignator=D8
+Change Component Designator: OldDesignator=D7 NewDesignator=D12
+Change Component Designator: OldDesignator=D8 NewDesignator=D14
+Change Component Designator: OldDesignator=D9 NewDesignator=D5
+Change Component Designator: OldDesignator=D10 NewDesignator=D6
+Change Component Designator: OldDesignator=D11 NewDesignator=D2
+Change Component Designator: OldDesignator=D12 NewDesignator=D4
+Change Component Designator: OldDesignator=R7 NewDesignator=R9
+Change Component Designator: OldDesignator=R8 NewDesignator=R10
+Change Component Designator: OldDesignator=R9 NewDesignator=R11
+Change Component Designator: OldDesignator=R10 NewDesignator=R12
+Change Component Designator: OldDesignator=R11 NewDesignator=R13
+Change Component Designator: OldDesignator=R12 NewDesignator=R14
+Change Component Designator: OldDesignator=R13 NewDesignator=R15
+Change Component Designator: OldDesignator=R14 NewDesignator=R16
+Change Component Designator: OldDesignator=R15 NewDesignator=R17
+Change Component Designator: OldDesignator=R16 NewDesignator=R18
+Change Component Designator: OldDesignator=R17 NewDesignator=R19
+Change Component Designator: OldDesignator=R18 NewDesignator=R20
+Change Component Designator: OldDesignator=R19 NewDesignator=R21
+Change Component Designator: OldDesignator=R20 NewDesignator=R22
+Change Component Designator: OldDesignator=R21 NewDesignator=R23
+Change Component Designator: OldDesignator=R22 NewDesignator=R24
+Change Component Designator: OldDesignator=R23 NewDesignator=R25
+Change Component Designator: OldDesignator=R24 NewDesignator=R26
+Change Component Designator: OldDesignator=R25 NewDesignator=R27
+Change Component Designator: OldDesignator=R26 NewDesignator=R28
+Change Component Designator: OldDesignator=R27 NewDesignator=R29
+Change Component Designator: OldDesignator=R28 NewDesignator=R30
+Change Component Designator: OldDesignator=R29 NewDesignator=R31
+Change Component Designator: OldDesignator=R30 NewDesignator=R32
+Change Component Designator: OldDesignator=R31 NewDesignator=R33
+Change Component Designator: OldDesignator=R32 NewDesignator=R34
+Change Component Designator: OldDesignator=R33 NewDesignator=R35
+Change Component Designator: OldDesignator=R34 NewDesignator=R36
+Change Component Designator: OldDesignator=R35 NewDesignator=R37
+Change Component Designator: OldDesignator=R36 NewDesignator=R38
+Change Component Designator: OldDesignator=R37 NewDesignator=R39
+Change Component Designator: OldDesignator=R38 NewDesignator=R40
+Change Component Designator: OldDesignator=R39 NewDesignator=R41
+Change Component Designator: OldDesignator=R53 NewDesignator=R57
+Change Component Designator: OldDesignator=R54 NewDesignator=R58
+Change Component Designator: OldDesignator=R55 NewDesignator=R59
+Change Component Designator: OldDesignator=R56 NewDesignator=R60
+Change Component Designator: OldDesignator=R57 NewDesignator=R61
+Change Component Designator: OldDesignator=R58 NewDesignator=R62
+Change Component Designator: OldDesignator=R59 NewDesignator=R63
+Change Component Designator: OldDesignator=R60 NewDesignator=R64
+Change Component Designator: OldDesignator=R61 NewDesignator=R65
+Change Component Designator: OldDesignator=R62 NewDesignator=R69
+Change Component Designator: OldDesignator=R63 NewDesignator=R66
+Change Component Designator: OldDesignator=R64 NewDesignator=R67
+Change Component Designator: OldDesignator=R65 NewDesignator=R68
+Change Component Designator: OldDesignator=R66 NewDesignator=R7
+Change Component Designator: OldDesignator=R67 NewDesignator=R8
+Change Component Designator: OldDesignator=R68 NewDesignator=R42
+Change Component Designator: OldDesignator=R69 NewDesignator=R43
+Change Managed Component Library Link : Designator=C37 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=FC769DE3-4E10-4C8E-941A-1F6DC3F98CFA New ItemGUID= Old RevisionGUID=FBF6B360-C293-441C-8AC4-322806F0B08B New RevisionGUID=
+Change Managed Component Library Link : Designator=C38 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=FC769DE3-4E10-4C8E-941A-1F6DC3F98CFA Old RevisionGUID= New RevisionGUID=FBF6B360-C293-441C-8AC4-322806F0B08B
+Change Managed Component Library Link : Designator=R49 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=72BB7EBD-F9B0-4E6B-9689-006C14776349 New ItemGUID= Old RevisionGUID=0BDFE86F-1131-454B-AE6F-1D253617C43B New RevisionGUID=
+Change Managed Component Library Link : Designator=R52 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=72BB7EBD-F9B0-4E6B-9689-006C14776349 Old RevisionGUID= New RevisionGUID=0BDFE86F-1131-454B-AE6F-1D253617C43B
+Change Managed Component Library Link : Designator=U5 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=563CA9A5-48EB-4D91-B490-CD033CF7CA4B New ItemGUID= Old RevisionGUID=61C51442-9DD7-4F58-9980-EC468419F275 New RevisionGUID=
+Change Managed Component Library Link : Designator=U6 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=563CA9A5-48EB-4D91-B490-CD033CF7CA4B New ItemGUID= Old RevisionGUID=61C51442-9DD7-4F58-9980-EC468419F275 New RevisionGUID=
+Change component parameters: Designator = "R61" ("R65"); Footprint = "FP-CSRN2010-IPC_B"; UniqueID = "\NHWZNBFC" ("\NHWZNBFC")
+Change component parameters (AddParameter): Name = "Case Code (Imperial)"; Value = "2010"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code (Metric)"; Value = "5025"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "2010"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.03inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "0.197inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Power Dissipation"; Value = "1W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Terminations"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Rating"; Value = "1W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "18 mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistor Type"; Value = "Thick Film"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "CSRN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Size Code"; Value = "2010"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "250ppm/°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "0.097inch"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C39" ("C39"); Footprint = "0603_FP"; UniqueID = "\YMOODJAH" ("\YMOODJAH")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1 uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C40" ("C40"); Footprint = "0603_FP"; UniqueID = "\PNPIWYXA" ("\PNPIWYXA")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22 pF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C41" ("C41"); Footprint = "0603_FP"; UniqueID = "\JIEPRNDN" ("\JIEPRNDN")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10 nF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C45" ("C48"); Footprint = "0603_FP"; UniqueID = "\YQSYZPHN" ("\YQSYZPHN")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100 pF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C46" ("C47"); Footprint = "0603_FP"; UniqueID = "\DDDERCFL" ("\DDDERCFL")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10 nF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R50" ("R50"); Footprint = "0805_FP"; UniqueID = "\IGHUAAXG" ("\IGHUAAXG")
+Change component parameters (AddParameter): Name = "Value"; Value = "1 MO"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R51" ("R51"); Footprint = "0805_FP"; UniqueID = "\NDPSLOCE" ("\NDPSLOCE")
+Change component parameters (AddParameter): Name = "Value"; Value = "1 MO"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R62" ("R69"); Footprint = "0603_FP"; UniqueID = "\BPMFYETY" ("\BPMFYETY")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "180 kO"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R63" ("R66"); Footprint = "0805_FP"; UniqueID = "\PYLULPSL" ("\PYLULPSL")
+Change component parameters (AddParameter): Name = "Value"; Value = "11 kO"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R65" ("R68"); Footprint = "0603_FP"; UniqueID = "\ZXMKFBUF" ("\ZXMKFBUF")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10 kO"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R46" ("R46"); Footprint = "0805_FP"; UniqueID = "\ICYALMPZ" ("\ICYALMPZ")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22 O"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R47" ("R47"); Footprint = "0805_FP"; UniqueID = "\LDUFCFDS" ("\LDUFCFDS")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "470 kO"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R48" ("R48"); Footprint = "0603_FP"; UniqueID = "\XBWNXICA" ("\XBWNXICA")
+Change component parameters (AddParameter): Name = "Value"; Value = "1 MO"; VariantName = "[No Variations]"
+Change component parameters: Designator = "T1" ("T1"); Footprint = "DA2034-AL"; UniqueID = "\SAGZMORT" ("\SAGZMORT")
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/750032052/Wurth+Electronics/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Wurth Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "750032052"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/750032052/Wurth+Electronics/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "T2" ("T2"); Footprint = "DA2034-AL"; UniqueID = "\YWVOSEDC" ("\YWVOSEDC")
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/750032052/Wurth+Electronics/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Wurth Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "750032052"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/750032052/Wurth+Electronics/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C37" ("C37"); Footprint = "WCAP-FTBP_L13W5.5H11"; UniqueID = "\UIJQCJYM" ("\UIJQCJYM")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ".22 uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C38" ("C38"); Footprint = "0603_FP"; UniqueID = "\YATFRMSD" ("\YATFRMSD")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ESR (Equivalent Series Resistance)"; Value = "38.46mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "11mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Resistance"; Value = "30GO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "13mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Carton"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pin Length"; Value = "4mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "10mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "400V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "5.5mm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R49" ("R49"); Footprint = "FP-CSRN2010-IPC_B"; UniqueID = "\HKPDLQMA" ("\HKPDLQMA")
+Change component parameters (AddParameter): Name = "Value"; Value = "1 MO"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R52" ("R52"); Footprint = "0603_FP"; UniqueID = "\MYKGKUFS" ("\MYKGKUFS")
+Change component parameters (AddParameter): Name = "Case Code (Imperial)"; Value = "2010"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code (Metric)"; Value = "5025"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "2010"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.03inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "0.197inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Power Dissipation"; Value = "1W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Terminations"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Rating"; Value = "1W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "18 mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistor Type"; Value = "Thick Film"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "CSRN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Size Code"; Value = "2010"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "250ppm/°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "0.097inch"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U5" ("U5"); Footprint = "FP-DD-10-05-08-1699-IPC_B"; UniqueID = "\MVRMIJAK" ("\MVRMIJAK")
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/LM3481MM/NOPB/Texas+Instruments/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "LM3481MM/NOPB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "VSSOP-10 Texas Instruments"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/LM3481MM/NOPB/Texas+Instruments/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "U6" ("U6"); Footprint = "FP-DD-10-05-08-1699-IPC_B"; UniqueID = "\RYMEMPBU" ("\RYMEMPBU")
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/LM3481MM/NOPB/Texas+Instruments/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "LM3481MM/NOPB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "VSSOP-10 Texas Instruments"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/LM3481MM/NOPB/Texas+Instruments/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C42(0603_FP)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100 pF"; VariantName = "[No Variations]"
+Added Component: Designator=C45(0603_FP)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1 uF"; VariantName = "[No Variations]"
+Added Component: Designator=C46(0603_FP)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22 pF"; VariantName = "[No Variations]"
+Add component: Footprint Not Found FP-403AF-MFG
+Added Component: Designator=D10(DIO_BZT52B5V1SH_RRG)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/BZT52B5V1SH%20RRG/Taiwan+Semiconductor+Corporation/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Taiwan Semiconductor Corporation"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "BZT52B5V1SH RRG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOD-323-2 Taiwan Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/BZT52B5V1SH%20RRG/Taiwan+Semiconductor+Corporation/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D11(DIO_BZT52B15SH_RRG)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/BZT52B15SH%20RRG/Taiwan+Semiconductor+Corporation/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Taiwan Semiconductor Corporation"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "BZT52B15SH RRG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOD-323-2 Taiwan Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/BZT52B15SH%20RRG/Taiwan+Semiconductor+Corporation/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D13(DIO_BZT52B5V1SH_RRG)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/BZT52B5V1SH%20RRG/Taiwan+Semiconductor+Corporation/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Taiwan Semiconductor Corporation"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "BZT52B5V1SH RRG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOD-323-2 Taiwan Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/BZT52B5V1SH%20RRG/Taiwan+Semiconductor+Corporation/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R53(0805_FP)
+Add component (AddParameter): Name = "Value"; Value = "11 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R54(0805_FP)
+Add component (AddParameter): Name = "Value"; Value = "24 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R55(0603_FP)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R56(0603_FP)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "180 kO"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VBAT Pin=C37-1
+Added Pin To Net: NetName=PGND Pin=C37-2
+Added Pin To Net: NetName=L_HV Pin=C38-2
+Added Pin To Net: NetName=L_HV_FB Pin=C40-2
+Added Pin To Net: NetName=PGND Pin=C41-2
+Added Pin To Net: NetName=PGND Pin=C42-2
+Added Pin To Net: NetName=PGND Pin=C45-1
+Added Pin To Net: NetName=PGND Pin=C46-1
+Added Pin To Net: NetName=R_HV_FB Pin=C46-2
+Add Pin To Net: Unknown Pin: Pin D9-1
+Added Pin To Net: NetName=FLYBACK_EN_L Pin=D10-1
+Added Pin To Net: NetName=PGND Pin=D10-2
+Added Pin To Net: NetName=PGND Pin=D11-2
+Added Pin To Net: NetName=FLYBACK_EN_R Pin=D13-1
+Added Pin To Net: NetName=PGND Pin=D13-2
+Added Pin To Net: NetName=L_HV Pin=R44-2
+Added Pin To Net: NetName=L_HV Pin=R45-2
+Added Pin To Net: NetName=NetQ7_1 Pin=R46-2
+Added Pin To Net: NetName=VBAT Pin=R47-1
+Added Pin To Net: NetName=FLYBACK_EN_L Pin=R47-2
+Added Pin To Net: NetName=NetR44_1 Pin=R48-2
+Added Pin To Net: NetName=NetR45_1 Pin=R49-2
+Added Pin To Net: NetName=L_HV_FB Pin=R50-1
+Added Pin To Net: NetName=PGND Pin=R52-1
+Added Pin To Net: NetName=PGND Pin=R53-1
+Added Pin To Net: NetName=L_HV_FB Pin=R53-2
+Added Pin To Net: NetName=PGND Pin=R54-1
+Added Pin To Net: NetName=PGND Pin=R56-2
+Added Pin To Net: NetName=VBAT Pin=T1-4
+Added Pin To Net: NetName=VBAT Pin=T1-5
+Added Pin To Net: NetName=NetQ7_4 Pin=T1-6
+Added Pin To Net: NetName=NetQ7_4 Pin=T1-7
+Added Pin To Net: NetName=PGND Pin=T1-10
+Added Pin To Net: NetName=VBAT Pin=T2-4
+Added Pin To Net: NetName=VBAT Pin=T2-5
+Added Pin To Net: NetName=NetQ8_4 Pin=T2-6
+Added Pin To Net: NetName=NetQ8_4 Pin=T2-7
+Added Pin To Net: NetName=PGND Pin=T2-10
+Added Pin To Net: NetName=FLYBACK_EN_L Pin=U5-2
+Added Pin To Net: NetName=L_HV_FB Pin=U5-4
+Added Pin To Net: NetName=PGND Pin=U5-7
+Added Pin To Net: NetName=NetC39_2 Pin=U5-9
+Added Pin To Net: NetName=FLYBACK_EN_R Pin=U6-2
+Added Pin To Net: NetName=R_HV_FB Pin=U6-4
+Added Pin To Net: NetName=PGND Pin=U6-7
+Change Net Name : Old Net Name=NetC46_1 New Net Name=NetC47_1
+Change Net Name : Old Net Name=NetD2_1 New Net Name=NetD3_1
+Change Net Name : Old Net Name=NetD3_2 New Net Name=NetD7_2
+Change Net Name : Old Net Name=NetD4_2 New Net Name=NetD8_2
+Change Net Name : Old Net Name=NetD8_1 New Net Name=NetD14_1
+Change Net Name : Old Net Name=NetD9_1 New Net Name=NetD5_1
+Change Net Name : Old Net Name=NetD10_1 New Net Name=NetD6_1
+Change Net Name : Old Net Name=NetR11_2 New Net Name=NetR13_2
+Change Net Name : Old Net Name=NetR14_2 New Net Name=NetR16_2
+Change Net Name : Old Net Name=NetR39_1 New Net Name=NetR41_1
+Change Net Name : Old Net Name=NetR53_1 New Net Name=NetR57_1
+Change Net Name : Old Net Name=NetR54_1 New Net Name=NetR58_1
+Change Net Name : Old Net Name=NetR57_1 New Net Name=NetR61_1
+Change Net Name : Old Net Name=NetR58_1 New Net Name=NetR62_1
+Added Pin To Net: NetName=COMP_L Pin=C42-1
+Added Pin To Net: NetName=COMP_L Pin=R55-1
+Added Pin To Net: NetName=COMP_L Pin=U5-3
+Added Net: Name=COMP_L
+Added Pin To Net: NetName=COMP_R Pin=C48-1
+Added Pin To Net: NetName=COMP_R Pin=R68-1
+Added Pin To Net: NetName=COMP_R Pin=U6-3
+Added Net: Name=COMP_R
+Added Pin To Net: NetName=ISEN_L Pin=Q7-3
+Added Pin To Net: NetName=ISEN_L Pin=R52-2
+Added Pin To Net: NetName=ISEN_L Pin=U5-1
+Added Net: Name=ISEN_L
+Added Pin To Net: NetName=ISEN_R Pin=Q8-3
+Added Pin To Net: NetName=ISEN_R Pin=R65-2
+Added Pin To Net: NetName=ISEN_R Pin=U6-1
+Added Net: Name=ISEN_R
+Added Pin To Net: NetName=L_FB Pin=R56-1
+Added Pin To Net: NetName=L_FB Pin=U5-6
+Added Net: Name=L_FB
+Added Pin To Net: NetName=NetC41_1 Pin=C41-1
+Added Pin To Net: NetName=NetC41_1 Pin=R55-2
+Added Net: Name=NetC41_1
+Added Pin To Net: NetName=NetC45_2 Pin=C45-2
+Added Pin To Net: NetName=NetC45_2 Pin=U6-9
+Added Net: Name=NetC45_2
+Added Pin To Net: NetName=NetD9_2 Pin=T1-1
+Added Net: Name=NetD9_2
+Added Pin To Net: NetName=NetD11_1 Pin=D11-1
+Added Pin To Net: NetName=NetD11_1 Pin=R51-1
+Added Pin To Net: NetName=NetD11_1 Pin=R54-2
+Added Pin To Net: NetName=NetD11_1 Pin=U4-45
+Added Net: Name=NetD11_1
+Added Pin To Net: NetName=NetD12_2 Pin=D12-2
+Added Pin To Net: NetName=NetD12_2 Pin=T2-1
+Added Net: Name=NetD12_2
+Added Pin To Net: NetName=NetR46_1 Pin=R46-1
+Added Pin To Net: NetName=NetR46_1 Pin=U5-8
+Added Net: Name=NetR46_1
+Added Pin To Net: NetName=NetR48_1 Pin=R48-1
+Added Pin To Net: NetName=NetR48_1 Pin=R50-2
+Added Net: Name=NetR48_1
+Added Pin To Net: NetName=NetR49_1 Pin=R49-1
+Added Pin To Net: NetName=NetR49_1 Pin=R51-2
+Added Net: Name=NetR49_1
+Added Pin To Net: NetName=NetR59_1 Pin=R59-1
+Added Pin To Net: NetName=NetR59_1 Pin=U6-8
+Added Net: Name=NetR59_1
+Added Pin To Net: NetName=R_FB Pin=R69-1
+Added Pin To Net: NetName=R_FB Pin=U6-6
+Added Net: Name=R_FB
+Added Member To Class: ClassName=logic Member=Component C35 Capacitor_0603
+Added Member To Class: ClassName=logic Member=Component C36 Capacitor_0603
+Added Member To Class: ClassName=HV_power Member=Component C47 Capacitor_0603
+Added Member To Class: ClassName=HV_power Member=Component C48 Capacitor_0603
+Added Member To Class: ClassName=cd_switching Member=Component D3 BZT52B15SH_RRG
+Add Class Member: Failed to add class member : Component D9 S3JB
+Added Member To Class: ClassName=HV_power Member=Component D10 BZT52B5V1SH_RRG
+Added Member To Class: ClassName=HV_power Member=Component D11 BZT52B15SH_RRG
+Added Member To Class: ClassName=HV_power Member=Component D13 BZT52B5V1SH_RRG
+Added Member To Class: ClassName=cd_switching Member=Component R9 Resistor_0402
+Added Member To Class: ClassName=cd_switching Member=Component R10 Resistor_0402
+Added Member To Class: ClassName=HV_power Member=Component R66 R_0805
+Added Member To Class: ClassName=HV_power Member=Component R67 R_0805
+Added Member To Class: ClassName=HV_power Member=Component R68 Resistor_0603
+Added Member To Class: ClassName=HV_power Member=Component R69 Resistor_0603
+Added Member To Class: ClassName=HV_NETS Member=Wire NetD9_2
+Added Member To Class: ClassName=HV_NETS Member=Wire NetD12_2
+Added Member To Class: ClassName=FB_NETS Member=Wire NetR48_1
+Added Member To Class: ClassName=FB_NETS Member=Wire NetR49_1
+Added Member To Class: ClassName=FB_NETS Member=Wire NetR61_1
+Added Member To Class: ClassName=FB_NETS Member=Wire NetR62_1

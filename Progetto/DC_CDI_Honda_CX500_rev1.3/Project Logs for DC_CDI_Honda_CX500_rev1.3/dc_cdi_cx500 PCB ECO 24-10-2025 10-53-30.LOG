@@ -1,0 +1,8 @@
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Added Pin To Net: NetName=5V0 Pin=J4-4
+Change Net Name : Old Net Name=ANALOG_SENSOR_2 New Net Name=ANALOG_SENSOR_1
+Added Pin To Net: NetName=ANALOG_SENSOR_2 Pin=U8-17
+Added Net: Name=ANALOG_SENSOR_2
+Added Pin To Net: NetName=NetJ4_3 Pin=J4-3
+Added Pin To Net: NetName=NetJ4_3 Pin=R54-1
+Added Net: Name=NetJ4_3

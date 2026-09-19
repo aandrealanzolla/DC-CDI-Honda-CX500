@@ -1,0 +1,27 @@
+Removed Pin From Net: NetName=PGND Pin=D11-A
+Removed Pin From Net: NetName=L_HV Pin=D11-C
+Removed Pin From Net: NetName=PGND Pin=D12-A
+Removed Pin From Net: NetName=R_HV Pin=D12-C
+Change Footprint: Footprint Not Found FP-0402-SOD-923F-MFG
+Change Component Footprint: Designator=D11 Old Footprint=DIOM7959X262N New Footprint=DIOM5436X261N
+Change Component Footprint: Designator=D12 Old Footprint=DIOM7959X262N New Footprint=DIOM5436X261N
+Change Component Comment : Designator=D11 Old Comment=SMCJ400A New Comment=SMBJ400A
+Change Component Comment : Designator=D12 Old Comment=SMCJ400A New Comment=SMBJ400A
+Change component parameters: Designator = "D11" ("D11"); Footprint = "DIOM7959X262N"; UniqueID = "\VGIDWHED" ("\VGIDWHED")
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/SMBJ400A/Littelfuse/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Littelfuse"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "SMBJ400A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "DO-214 Littelfuse"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/SMBJ400A/Littelfuse/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "D12" ("D12"); Footprint = "DIOM7959X262N"; UniqueID = "\WQOLGOLJ" ("\WQOLGOLJ")
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/SMBJ400A/Littelfuse/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Littelfuse"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "SMBJ400A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "DO-214 Littelfuse"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/SMBJ400A/Littelfuse/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=L_HV Pin=D11-1
+Added Pin To Net: NetName=PGND Pin=D11-2
+Added Pin To Net: NetName=R_HV Pin=D12-1
+Added Pin To Net: NetName=PGND Pin=D12-2

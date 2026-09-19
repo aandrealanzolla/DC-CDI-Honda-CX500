@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=GND Pin=C46-1
+Removed Pin From Net: NetName=VBAT Pin=C46-2
+Added Component: Designator=C46(WCAP-ASLL_D16H17)
+Add component (AddParameter): Name = "Capacitance"; Value = "1mF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "Radial"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "16mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "17mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height - Seated (Max)"; Value = "16.9926mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Impedance"; Value = "66mO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Resistance"; Value = "100kO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Leakage Current"; Value = "350µA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "17mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Life (Hours)"; Value = "5000hours"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NexarPartId"; Value = "54202485"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarity"; Value = "Polar"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ripple Current"; Value = "1.8A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ripple Current (AC)"; Value = "1.8A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "35V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "35V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VBAT Pin=C46-1
+Added Pin To Net: NetName=GND Pin=C46-2
+Added Member To Class: ClassName=input_output Member=Component C46 865060563011

@@ -1,0 +1,8 @@
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Added Component: Designator=C52(0402_fp)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1 nF"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C52-1
+Added Pin To Net: NetName=ANALOG_SENSOR_1 Pin=C52-2
+Added Member To Class: ClassName=logic Member=Component C52 Capacitor_0402

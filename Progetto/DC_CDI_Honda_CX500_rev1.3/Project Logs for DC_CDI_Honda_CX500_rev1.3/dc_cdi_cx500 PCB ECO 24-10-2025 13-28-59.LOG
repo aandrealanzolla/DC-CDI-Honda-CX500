@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=EXT_SENSOR1_I2C_SDA Pin=J4-1
+Removed Pin From Net: NetName=EXT_SENSOR1_I2C_SCL Pin=J4-2
+Removed Pin From Net: NetName=EXT_SENSOR1_I2C_SDA Pin=U8-42
+Removed Pin From Net: NetName=EXT_SENSOR1_I2C_SCL Pin=U8-43
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Added Pin To Net: NetName=EXT_SENSOR1_I2C_SCL Pin=J4-1
+Added Pin To Net: NetName=EXT_SENSOR1_I2C_SDA Pin=J4-2
+Added Pin To Net: NetName=EXT_SENSOR1_I2C_SCL Pin=U8-42
+Added Pin To Net: NetName=EXT_SENSOR1_I2C_SDA Pin=U8-43

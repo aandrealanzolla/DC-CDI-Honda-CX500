@@ -1,0 +1,43 @@
+Change Component Footprint: Designator=C1 Old Footprint=FP-BFC233820225-MFG New Footprint=FP-ECQ-E10102KE-MFG
+Change Component Footprint: Designator=C4 Old Footprint=FP-BFC233820225-MFG New Footprint=FP-ECQ-E10102KE-MFG
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Change Component Comment : Designator=C1 Old Comment=BFC233820225 New Comment=ECQ-E10102KE
+Change Component Comment : Designator=C4 Old Comment=BFC233820225 New Comment=ECQ-E10102KE
+Change Managed Component Library Link : Designator=C1 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=EDC56531-585D-4A7A-8A42-D95139D9F954 New ItemGUID=48EC6484-CEFE-4D05-BB01-4D6F8C703662 Old RevisionGUID=8EC432CA-4813-482D-BAA4-2E3DE63AC39F New RevisionGUID=B75A93AD-48F5-4E96-A2BE-C094D2B0AAA6
+Change Managed Component Library Link : Designator=C4 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=EDC56531-585D-4A7A-8A42-D95139D9F954 New ItemGUID=48EC6484-CEFE-4D05-BB01-4D6F8C703662 Old RevisionGUID=8EC432CA-4813-482D-BAA4-2E3DE63AC39F New RevisionGUID=B75A93AD-48F5-4E96-A2BE-C094D2B0AAA6
+Change component parameters: Designator = "C1" ("C1"); Footprint = "FP-BFC233820225-MFG"; UniqueID = "\FKHXBPCV" ("\FKHXBPCV")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "1nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "Radial"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric Material"; Value = "Polyester"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height - Seated (Max)"; Value = "0.472inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Pitch"; Value = "12.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "0.61inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "1000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "ECQ-E(F)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "PC Pins"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating (DC)"; Value = "1kV"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "0.236inch"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C4" ("C4"); Footprint = "FP-BFC233820225-MFG"; UniqueID = "\EYCEXJPG" ("\EYCEXJPG")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "1nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "Radial"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric Material"; Value = "Polyester"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height - Seated (Max)"; Value = "0.472inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Pitch"; Value = "12.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "0.61inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "1000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "ECQ-E(F)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "PC Pins"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating (DC)"; Value = "1kV"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "0.236inch"; VariantName = "[No Variations]"

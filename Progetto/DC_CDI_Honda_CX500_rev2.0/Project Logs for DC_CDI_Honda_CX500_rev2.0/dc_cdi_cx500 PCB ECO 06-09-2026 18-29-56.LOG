@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=KILL_SWITCH Pin=U4-11
+Change Footprint: Footprint Not Found FP-0402-SOD-923F-MFG
+Added Pin To Net: NetName=KILL_SWITCH Pin=U4-28

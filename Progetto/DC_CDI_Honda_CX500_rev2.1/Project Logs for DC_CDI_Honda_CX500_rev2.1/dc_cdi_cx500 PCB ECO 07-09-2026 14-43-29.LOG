@@ -1,0 +1,10 @@
+Added Component: Designator=R52(2010_FP)
+Add component (AddParameter): Name = "Value"; Value = "18 mO"; VariantName = "[No Variations]"
+Added Component: Designator=R65(2010_FP)
+Add component (AddParameter): Name = "Value"; Value = "18 mO"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=ISEN_L Pin=R52-1
+Added Pin To Net: NetName=PGND Pin=R52-2
+Added Pin To Net: NetName=ISEN_R Pin=R65-1
+Added Pin To Net: NetName=PGND Pin=R65-2
+Added Member To Class: ClassName=HV_power Member=Component R52 2010_res
+Added Member To Class: ClassName=HV_power Member=Component R65 2010_res

@@ -1,0 +1,43 @@
+Removed Pin From Net: NetName=L_HV Pin=C12-1
+Removed Pin From Net: NetName=GND Pin=C12-2
+Removed Pin From Net: NetName=R_HV Pin=C17-1
+Removed Pin From Net: NetName=GND Pin=C17-2
+Removed Pin From Net: NetName=R_HV Pin=C42-1
+Removed Pin From Net: NetName=GND Pin=C43-2
+Removed Member From Class: ClassName=HV_power Member=C42
+Removed Member From Class: ClassName=HV_power Member=C43
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Change Component Footprint: Designator=C12 Old Footprint=WCAP-ATG5_D6.3H11 New Footprint=WCAP-FTBP_L13W5.5H11
+Change Component Footprint: Designator=C17 Old Footprint=WCAP-ATG5_D6.3H11 New Footprint=WCAP-FTBP_L13W5.5H11
+Change Component Comment : Designator=C12 Old Comment=860021373001 New Comment=890283323005CS
+Change Component Comment : Designator=C17 Old Comment=860021373001 New Comment=890283323005CS
+Change Managed Component Library Link : Designator=C12 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=DE9987E7-5F2A-4A7D-96EB-3B82D1DE9B15 New ItemGUID=FC769DE3-4E10-4C8E-941A-1F6DC3F98CFA Old RevisionGUID=C6369EEF-7D2F-4181-9B67-B06B62D81C87 New RevisionGUID=FBF6B360-C293-441C-8AC4-322806F0B08B
+Change Managed Component Library Link : Designator=C17 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=DE9987E7-5F2A-4A7D-96EB-3B82D1DE9B15 New ItemGUID=FC769DE3-4E10-4C8E-941A-1F6DC3F98CFA Old RevisionGUID=C6369EEF-7D2F-4181-9B67-B06B62D81C87 New RevisionGUID=FBF6B360-C293-441C-8AC4-322806F0B08B
+Change component parameters: Designator = "C12" ("C12"); Footprint = "WCAP-ATG5_D6.3H11"; UniqueID = "\NEGCKWMF" ("\NEGCKWMF")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ESR (Equivalent Series Resistance)"; Value = "38.46mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "11mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Resistance"; Value = "30GO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "13mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Carton"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pin Length"; Value = "4mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "10mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "400V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "5.5mm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C17" ("C17"); Footprint = "WCAP-ATG5_D6.3H11"; UniqueID = "\VLPCKDFK" ("\VLPCKDFK")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ESR (Equivalent Series Resistance)"; Value = "38.46mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "11mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Resistance"; Value = "30GO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "13mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Carton"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pin Length"; Value = "4mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "10mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "400V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "5.5mm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C12-1
+Added Pin To Net: NetName=L_HV Pin=C12-2
+Added Pin To Net: NetName=GND Pin=C17-1
+Added Pin To Net: NetName=R_HV Pin=C17-2

@@ -1,0 +1,161 @@
+Removed Pin From Net: NetName=GND Pin=C13-1
+Removed Pin From Net: NetName=VBAT Pin=C13-2
+Change Component DesignItemId : Designator=C13 Old DesignItemId= New DesignItemId=Capacitor_0603
+Change Component DesignItemId : Designator=C16 Old DesignItemId= New DesignItemId=Capacitor_0603
+Change Component DesignItemId : Designator=C19 Old DesignItemId= New DesignItemId=Capacitor_0603
+Change Component DesignItemId : Designator=C20 Old DesignItemId= New DesignItemId=Capacitor_0603
+Change Component DesignItemId : Designator=R1 Old DesignItemId= New DesignItemId=Resistor_0603
+Change Component DesignItemId : Designator=R2 Old DesignItemId= New DesignItemId=Resistor_0603
+Change Component DesignItemId : Designator=R16 Old DesignItemId= New DesignItemId=Resistor_0603
+Change Component DesignItemId : Designator=R17 Old DesignItemId= New DesignItemId=Resistor_0603
+Change Component DesignItemId : Designator=R18 Old DesignItemId= New DesignItemId=Resistor_0603
+Change Component DesignItemId : Designator=R19 Old DesignItemId= New DesignItemId=Resistor_0603
+Change Component DesignItemId : Designator=R20 Old DesignItemId= New DesignItemId=Resistor_0603
+Change Component DesignItemId : Designator=R22 Old DesignItemId= New DesignItemId=Resistor_0603
+Change Component DesignItemId : Designator=R23 Old DesignItemId= New DesignItemId=Resistor_0603
+Change Component DesignItemId : Designator=R24 Old DesignItemId= New DesignItemId=Resistor_0603
+Change Component DesignItemId : Designator=R25 Old DesignItemId= New DesignItemId=Resistor_0603
+Change Component DesignItemId : Designator=R26 Old DesignItemId= New DesignItemId=Resistor_0603
+Change Component DesignItemId : Designator=R27 Old DesignItemId= New DesignItemId=Resistor_0603
+Change Component DesignItemId : Designator=R29 Old DesignItemId= New DesignItemId=Resistor_0603
+Change Component DesignItemId : Designator=R30 Old DesignItemId= New DesignItemId=Resistor_0603
+Change Component DesignItemId : Designator=R31 Old DesignItemId= New DesignItemId=Resistor_0603
+Change Component DesignItemId : Designator=R32 Old DesignItemId= New DesignItemId=Resistor_0603
+Change Component DesignItemId : Designator=R33 Old DesignItemId= New DesignItemId=Resistor_0603
+Change Component DesignItemId : Designator=R41 Old DesignItemId= New DesignItemId=Resistor_0603
+Change Component DesignItemId : Designator=R42 Old DesignItemId= New DesignItemId=Resistor_0603
+Change Component DesignItemId : Designator=R44 Old DesignItemId= New DesignItemId=Resistor_0603
+Change Component DesignItemId : Designator=R46 Old DesignItemId= New DesignItemId=Resistor_0603
+Change Component DesignItemId : Designator=R49 Old DesignItemId= New DesignItemId=Resistor_0603
+Change Component DesignItemId : Designator=R50 Old DesignItemId= New DesignItemId=Resistor_0603
+Change Component Comment : Designator=C16 Old Comment=Capacitor_0402 New Comment=Capacitor_0603
+Change Component Comment : Designator=C19 Old Comment=Capacitor_0402 New Comment=Capacitor_0603
+Change Component Comment : Designator=C20 Old Comment=Capacitor_0402 New Comment=Capacitor_0603
+Change Component Comment : Designator=R1 Old Comment=Resistor_0402 New Comment=Resistor_0603
+Change Component Comment : Designator=R2 Old Comment=Resistor_0402 New Comment=Resistor_0603
+Change Component Comment : Designator=R16 Old Comment=Resistor_0402 New Comment=Resistor_0603
+Change Component Comment : Designator=R17 Old Comment=Resistor_0402 New Comment=Resistor_0603
+Change Component Comment : Designator=R18 Old Comment=Resistor_0402 New Comment=Resistor_0603
+Change Component Comment : Designator=R19 Old Comment=Resistor_0402 New Comment=Resistor_0603
+Change Component Comment : Designator=R20 Old Comment=Resistor_0402 New Comment=Resistor_0603
+Change Component Comment : Designator=R22 Old Comment=Resistor_0402 New Comment=Resistor_0603
+Change Component Comment : Designator=R23 Old Comment=Resistor_0402 New Comment=Resistor_0603
+Change Component Comment : Designator=R24 Old Comment=Resistor_0402 New Comment=Resistor_0603
+Change Component Comment : Designator=R25 Old Comment=Resistor_0402 New Comment=Resistor_0603
+Change Component Comment : Designator=R26 Old Comment=Resistor_0402 New Comment=Resistor_0603
+Change Component Comment : Designator=R27 Old Comment=Resistor_0402 New Comment=Resistor_0603
+Change Component Comment : Designator=R29 Old Comment=Resistor_0402 New Comment=Resistor_0603
+Change Component Comment : Designator=R30 Old Comment=Resistor_0402 New Comment=Resistor_0603
+Change Component Comment : Designator=R31 Old Comment=Resistor_0402 New Comment=Resistor_0603
+Change Component Comment : Designator=R32 Old Comment=Resistor_0402 New Comment=Resistor_0603
+Change Component Comment : Designator=R33 Old Comment=Resistor_0402 New Comment=Resistor_0603
+Change Component Comment : Designator=R41 Old Comment=Resistor_0402 New Comment=Resistor_0603
+Change Component Comment : Designator=R42 Old Comment=Resistor_0402 New Comment=Resistor_0603
+Change Component Comment : Designator=R44 Old Comment=Resistor_0402 New Comment=Resistor_0603
+Change Component Comment : Designator=R46 Old Comment=Resistor_0402 New Comment=Resistor_0603
+Change Component Comment : Designator=R49 Old Comment=Resistor_0402 New Comment=Resistor_0603
+Change Component Comment : Designator=R50 Old Comment=Resistor_0402 New Comment=Resistor_0603
+Change Component Description : Designator=C13 Old Description=Chip Capacitor, 4.7 uF, +/- 10%, 16 V, -55 to 85 degC, 0805 (2012 Metric), RoHS, Tape and Reel New Description=
+Change component parameters: Designator = "C13" ("C13"); Footprint = "0603_FP"; UniqueID = "\HYSUHOKY" ("\HYSUHOKY")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4.7 uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R1" ("R1"); Footprint = "0603_FP"; UniqueID = "\CDSDXRHG" ("\CDSDXRHG")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "47 Ohm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R2" ("R2"); Footprint = "0603_FP"; UniqueID = "\HVUKIQSR" ("\HVUKIQSR")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "47 Ohm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R16" ("R16"); Footprint = "0603_FP"; UniqueID = "\RTXOPEHE" ("\RTXOPEHE")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "50 kOhm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R17" ("R17"); Footprint = "0603_FP"; UniqueID = "\MVUAPCLH" ("\MVUAPCLH")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100 kOhm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R18" ("R18"); Footprint = "0603_FP"; UniqueID = "\SJXLDVGD" ("\SJXLDVGD")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "470 kOhm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R19" ("R19"); Footprint = "0603_FP"; UniqueID = "\SDWAHPKY" ("\SDWAHPKY")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "50 kOhm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R20" ("R20"); Footprint = "0603_FP"; UniqueID = "\VREXDHNH" ("\VREXDHNH")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100 kOhm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R22" ("R22"); Footprint = "0603_FP"; UniqueID = "\EFDTBKUF" ("\EFDTBKUF")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "56 kOhm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R23" ("R23"); Footprint = "0603_FP"; UniqueID = "\JVWYYENV" ("\JVWYYENV")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "24 kOhm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R24" ("R24"); Footprint = "0603_FP"; UniqueID = "\CRJGIXME" ("\CRJGIXME")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "165 kOhm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R25" ("R25"); Footprint = "0603_FP"; UniqueID = "\YMAKPJKT" ("\YMAKPJKT")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "120 kOhm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R26" ("R26"); Footprint = "0603_FP"; UniqueID = "\BUVPKBQQ" ("\BUVPKBQQ")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1 kOhm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R27" ("R27"); Footprint = "0603_FP"; UniqueID = "\GEGVRYQF" ("\GEGVRYQF")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "3.9 kOhm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R29" ("R29"); Footprint = "0603_FP"; UniqueID = "\OFMUGVMG" ("\OFMUGVMG")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10 kOhm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R30" ("R30"); Footprint = "0603_FP"; UniqueID = "\XICQCTTT" ("\XICQCTTT")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "50 kOhm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R31" ("R31"); Footprint = "0603_FP"; UniqueID = "\JQSDYNWO" ("\JQSDYNWO")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100 kOhm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R32" ("R32"); Footprint = "0603_FP"; UniqueID = "\RQHMASKU" ("\RQHMASKU")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10 kOhm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R33" ("R33"); Footprint = "0603_FP"; UniqueID = "\HUWDHZYQ" ("\HUWDHZYQ")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10 kOhm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R41" ("R41"); Footprint = "0603_FP"; UniqueID = "\DEPUGPIF" ("\DEPUGPIF")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "50 kOhm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R42" ("R42"); Footprint = "0603_FP"; UniqueID = "\MBJPPJUP" ("\MBJPPJUP")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100 kOhm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R44" ("R44"); Footprint = "0603_FP"; UniqueID = "\QCLPZWCN" ("\QCLPZWCN")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "24 kOhm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R46" ("R46"); Footprint = "0603_FP"; UniqueID = "\TTFHNYGL" ("\TTFHNYGL")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "165 kOhm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R49" ("R49"); Footprint = "0603_FP"; UniqueID = "\JKDSFCUD" ("\JKDSFCUD")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1 kOhm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R50" ("R50"); Footprint = "0603_FP"; UniqueID = "\NNXZLFLX" ("\NNXZLFLX")
+Change component parameters (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "3.90 kOhm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VBAT Pin=C13-1
+Added Pin To Net: NetName=GND Pin=C13-2
+Added Member To Class: ClassName=logic Member=Component R33 Resistor_0603

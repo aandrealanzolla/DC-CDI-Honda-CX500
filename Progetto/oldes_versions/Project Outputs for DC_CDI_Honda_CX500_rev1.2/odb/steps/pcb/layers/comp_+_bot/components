@@ -1,0 +1,1256 @@
+UNITS=MM
+#
+#Component attribute names
+#
+@0 .comp_mount_type
+@1 .comp_height
+@2 .no_pop
+@3 .comp_ignore
+@4 .comp_variant_list
+
+#
+#Component attribute text strings
+#
+
+# CMP 0
+CMP 13 60.198 56.388 0 N C36 C0402C104K8PACTU ;0=1,1=0.0000
+PRP Automotive 'No'
+PRP Capacitance '0.10 µF'
+PRP Category 'Cap'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf'
+PRP Device_Class_L1 'Passive Components'
+PRP Device_Class_L2 'Capacitors'
+PRP Device_Class_L3 'Ceramic Capacitors'
+PRP Digikey_Description 'CAP CER 0.1UF 10V X5R 0402'
+PRP Height '0.55mm'
+PRP Ipc_Land_Pattern_Name 'CAPC10050X50'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'Kemet'
+PRP Manufacturer_Part_Number 'C0402C104K8PACTU'
+PRP Material 'Ceramic'
+PRP Mouser_Description 'Capacitor 100 nF 10 VDC 0402'
+PRP Octopart 'https://octopart.com/c0402c104k8pactu-kemet-140039'
+PRP Package 'C0402-BB'
+PRP RoHS 'TRUE'
+PRP Temperature '-55°C to +125°C'
+PRP Temperature_Characteristic 'X5R'
+PRP Temperature_Coefficient '15%'
+PRP Temperature_Range_High '+125°C'
+PRP Temperature_Range_Low '-55°C'
+PRP Tolerance '0.1'
+PRP Value '0.10 µF'
+PRP Voltage_Rating '10 V'
+TOP 0 60.5979992 56.388 180 N 72 13 1
+TOP 1 59.7980008 56.388 180 N 69 62 2
+#
+# CMP 1
+CMP 3 91.948 52.705 0 N U4 AD8602DRM-REEL ;0=1,1=1.1000
+PRP Amplifiers_Per_Package '2'
+PRP Automotive_Qualified 'Yes'
+PRP Code_JEDEC 'MO-187-AA'
+PRP ComponentLink1Description 'Manufacturer URL'
+PRP ComponentLink1URL 'http://www.analog.com/en/index.html'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://www.analog.com/static/imported-files/data_sheets/AD8601_8602_8604.pdf'
+PRP ComponentLink3Description 'Package Specification'
+PRP ComponentLink3URL 'http://www.analog.com/static/imported-files/packages/PKG_PDF/MSOP%28RM%29/RM_8.pdf'
+PRP DatasheetVersion 'Rev. G'
+PRP Generic_Part_Number 'AD8602'
+PRP Input_Bias_Current '200fA'
+PRP Input_Offset_Voltage '500uV'
+PRP Iq/Amp '1.2mA'
+PRP Manufacturer 'Analog Devices'
+PRP Mounting_Technology 'Surface Mount'
+PRP PackageDescription '8-Pin Mini Small Outline Package, Body 3 x 3 mm, Pitch 0.65 mm'
+PRP PackageReference 'RM-8'
+PRP PartNumber 'AD8602DRM-REEL'
+PRP Slew_Rate '6V/us'
+PRP Small_Signal_Bandwidth '8.4MHz'
+PRP V_Span_Max '6V'
+PRP V_Span_Min '2.7V'
+TOP 0 94.07299956 53.67999932 270 N 13 0 1
+TOP 1 94.07299956 53.02999808 270 N 13 1 2
+TOP 2 94.07299956 52.37999938 270 N 54 2 3
+TOP 3 94.07299956 51.72999814 270 N 69 85 4
+TOP 4 89.82300044 51.72999814 270 N 53 2 5
+TOP 5 89.82300044 52.37999938 270 N 58 3 6
+TOP 6 89.82300044 53.02999808 270 N 58 2 7
+TOP 7 89.82300044 53.67999932 270 N 72 22 8
+#
+# CMP 2
+CMP 25 81.153 38.608 270 N R39 RC0402JR-074K7L ;0=1,1=0.0000
+PRP Case_Code_(Imperial) '0402'
+PRP Case/Package '0402'
+PRP Composition 'Thick Film'
+PRP Depth '500µm'
+PRP Features 'Moisture Resistant'
+PRP Height '350µm'
+PRP Lead_Free 'Lead Free'
+PRP Length '1mm'
+PRP Max_Operating_Temperature '155°C'
+PRP Max_Power_Dissipation '63mW'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Number_of_Pins '2'
+PRP Number_of_Terminations '2'
+PRP Packaging 'Tape & Reel'
+PRP Power_Rating '63mW'
+PRP REACH_SVHC 'No SVHC'
+PRP Resistance '4.7kO'
+PRP RoHS 'Compliant'
+PRP Schedule_B '8533210045, 8533210045'
+PRP Temperature_Coefficient '100ppm/°C'
+PRP Termination 'SMD/SMT'
+PRP Tolerance '5%'
+PRP Voltage_Rating '50V'
+PRP Voltage_Rating_(AC) '50V'
+PRP Voltage_Rating_(DC) '50V'
+PRP Width '500µm'
+TOP 0 81.153 38.108001 270 N 2 0 1
+TOP 1 81.153 39.107999 270 N 72 6 2
+#
+# CMP 3
+CMP 25 82.169 38.608 270 N R38 RC0402JR-074K7L ;0=1,1=0.0000
+PRP Case_Code_(Imperial) '0402'
+PRP Case/Package '0402'
+PRP Composition 'Thick Film'
+PRP Depth '500µm'
+PRP Features 'Moisture Resistant'
+PRP Height '350µm'
+PRP Lead_Free 'Lead Free'
+PRP Length '1mm'
+PRP Max_Operating_Temperature '155°C'
+PRP Max_Power_Dissipation '63mW'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Number_of_Pins '2'
+PRP Number_of_Terminations '2'
+PRP Packaging 'Tape & Reel'
+PRP Power_Rating '63mW'
+PRP REACH_SVHC 'No SVHC'
+PRP Resistance '4.7kO'
+PRP RoHS 'Compliant'
+PRP Schedule_B '8533210045, 8533210045'
+PRP Temperature_Coefficient '100ppm/°C'
+PRP Termination 'SMD/SMT'
+PRP Tolerance '5%'
+PRP Voltage_Rating '50V'
+PRP Voltage_Rating_(AC) '50V'
+PRP Voltage_Rating_(DC) '50V'
+PRP Width '500µm'
+TOP 0 82.169 38.108001 270 N 3 0 1
+TOP 1 82.169 39.107999 270 N 72 2 2
+#
+# CMP 4
+CMP 2 83.566 57.658 90 N U9 AD8031ARTZ-REEL7 ;0=1,1=1.4500
+PRP Amplifiers_Per_Package '1'
+PRP Code_JEDEC 'MO-178-AA'
+PRP ComponentLink1Description 'Manufacturer URL'
+PRP ComponentLink1URL 'http://www.analog.com/en/index.html'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://www.analog.com/static/imported-files/data_sheets/AD8031_8032.pdf'
+PRP ComponentLink3Description 'Package Specification'
+PRP ComponentLink3URL 'http://www.analog.com/static/imported-files/packages/PKG_PDF/SOT-23(RJ)/RJ_5.pdf'
+PRP ComponentLink4Description 'Reference Circuit'
+PRP ComponentLink4URL 'http://www.analog.com/en/all-operational-amplifiers-op-amps/operational-amplifiers-op-amps/ad8031/products/product.html#product-recommendations'
+PRP DatasheetVersion 'Rev. D'
+PRP Generic_Part_Number 'AD8031'
+PRP Input_Bias_Current '450nA'
+PRP Input_Offset_Voltage '1mV'
+PRP Iq/Amp '900uA'
+PRP Manufacturer 'Analog Devices'
+PRP Mounting_Technology 'Surface Mount'
+PRP PackageDescription '5-Pin Small Outline Transistor Package, Body 2.9 x 1.6 mm, Pitch 0.95 mm'
+PRP PackageReference 'RJ-5'
+PRP PackageVersion '121608-A'
+PRP Packing 'Reel'
+PRP PartNumber 'AD8031ARTZ-REEL7'
+PRP RevisionNote 'Reference Circuit URL fixed'
+PRP Slew_Rate '35V/us'
+PRP Small_Signal_Bandwidth '80MHz'
+PRP V_Span_Max '12V'
+PRP V_Span_Min '2.7V'
+TOP 0 82.61599936 58.85800014 180 N 4 0 1
+TOP 1 83.566 58.85800014 180 N 69 39 2
+TOP 2 84.5159981 58.85800014 180 N 46 0 3
+TOP 3 84.5159981 56.45799986 180 N 11 0 4
+TOP 4 82.61599936 56.45799986 180 N 72 11 5
+#
+# CMP 5
+CMP 23 68.707 49.657 0 N U8 STM32H750VBT6 ;0=1,1=0.0000
+PRP Ambient_Temperature_Range_High '+85°C'
+PRP Ambient_Temperature_Range_Low '-40°C'
+PRP Automotive 'No'
+PRP Category 'IC'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'https://www.st.com/resource/en/datasheet/stm32h750vb.pdf'
+PRP Core_Architecture 'ARM Cortex-M7'
+PRP Data_Bus_Width '32bits'
+PRP Device_Class_L1 'Integrated Circuits (ICs)'
+PRP Device_Class_L2 'Embedded Processors and Controllers'
+PRP Device_Class_L3 'Microcontrollers'
+PRP Digikey_Description 'IC MCU 32BIT 128KB FLASH 100LQFP'
+PRP Frequency '480MHz'
+PRP Height '1.6mm'
+PRP Interface 'I2C,SPI,UART,USART,CAN,USB,LIN,IrDA,Ethernet,I2S,Other'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'STMicroelectronics'
+PRP Manufacturer_Part_Number 'STM32H750VBT6'
+PRP Max_Junction_Temp '+125°C'
+PRP Max_Supply_Voltage '3.6V'
+PRP Memory_Size '128KBytes'
+PRP Memory_Type 'FLASH'
+PRP Min_Supply_Voltage '1.62V'
+PRP Mouser_Description 'MCU 32-Bit STM32H750VB ARM Cortex M7 RISC 128KB Flash 1.8V/2.5V/3.3V 100-Pin LQFP Tray'
+PRP Number_Of_A/D_Converters '3'
+PRP Number_Of_Adc_Channels '36'
+PRP Number_Of_Cores '1'
+PRP Number_Of_Ethernet_Channels '1'
+PRP Number_Of_I2C_Channels '4'
+PRP Number_Of_I/Os '82'
+PRP Number_Of_Pwm_Channels '42'
+PRP Number_Of_Spi_Channels '6'
+PRP Number_Of_Timers/Counters '20'
+PRP Number_Of_Uart_Channels '9'
+PRP Number_Of_Usb_Channels '2'
+PRP Octopart 'https://octopart.com/stm32h750vbt6-stmicroelectronics-94048547'
+PRP Package 'LQFP100-1L'
+PRP Ram_Size '1MBytes'
+PRP RoHS 'TRUE'
+PRP Standoff_Height '0.05mm'
+PRP Temperature '-40°C to +125°C'
+PRP Temperature_Range_High '+125°C'
+PRP Temperature_Range_Low '-40°C'
+TOP 0 76.45699974 55.6570007 180 N 0 23 1
+TOP 1 76.45699974 55.15699916 180 N 0 22 2
+TOP 2 76.45699974 54.65700016 180 N 0 24 3
+TOP 3 76.45699974 54.15700116 180 N 0 26 4
+TOP 4 76.45699974 53.65699962 180 N 0 25 5
+TOP 5 76.45699974 53.15700062 180 N 8 1 6
+TOP 6 76.45699974 52.65699908 180 N 0 32 7
+TOP 7 76.45699974 52.15700008 180 N 0 39 8
+TOP 8 76.45699974 51.65700108 180 N 0 38 9
+TOP 9 76.45699974 51.15699954 180 N 69 83 10
+TOP 10 76.45699974 50.65700054 180 N 72 21 11
+TOP 11 76.45699974 50.156999 180 N 0 40 12
+TOP 12 76.45699974 49.657 180 N 0 42 13
+TOP 13 76.45699974 49.157001 180 N 36 1 14
+TOP 14 76.45699974 48.65699946 180 N 0 41 15
+TOP 15 76.45699974 48.15700046 180 N 0 34 16
+TOP 16 76.45699974 47.65699892 180 N 0 33 17
+TOP 17 76.45699974 47.15699992 180 N 0 35 18
+TOP 18 76.45699974 46.65700092 180 N 69 88 19
+TOP 19 76.45699974 46.15699938 180 N 7 1 20
+TOP 20 76.45699974 45.65700038 180 N 72 19 21
+TOP 21 76.45699974 45.15699884 180 N 1 1 22
+TOP 22 76.45699974 44.65699984 180 N 0 37 23
+TOP 23 76.45699974 44.15700084 180 N 0 36 24
+TOP 24 76.45699974 43.6569993 180 N 0 21 25
+TOP 25 74.7070007 41.90700026 180 N 69 86 26
+TOP 26 74.20699916 41.90700026 180 N 72 12 27
+TOP 27 73.70700016 41.90700026 180 N 0 14 28
+TOP 28 73.20700116 41.90700026 180 N 0 43 29
+TOP 29 72.70699962 41.90700026 180 N 58 0 30
+TOP 30 72.20700062 41.90700026 180 N 52 0 31
+TOP 31 71.70699908 41.90700026 180 N 0 70 32
+TOP 32 71.20700008 41.90700026 180 N 0 69 33
+TOP 33 70.70700108 41.90700026 180 N 0 72 34
+TOP 34 70.20699954 41.90700026 180 N 0 71 35
+TOP 35 69.70700054 41.90700026 180 N 0 68 36
+TOP 36 69.206999 41.90700026 180 N 0 65 37
+TOP 37 68.707 41.90700026 180 N 0 64 38
+TOP 38 68.207001 41.90700026 180 N 5 1 39
+TOP 39 67.70699946 41.90700026 180 N 0 67 40
+TOP 40 67.20700046 41.90700026 180 N 0 66 41
+TOP 41 66.70699892 41.90700026 180 N 0 73 42
+TOP 42 66.20699992 41.90700026 180 N 0 80 43
+TOP 43 65.70700092 41.90700026 180 N 0 79 44
+TOP 44 65.20699938 41.90700026 180 N 0 82 45
+TOP 45 64.70700038 41.90700026 180 N 0 81 46
+TOP 46 64.20699884 41.90700026 180 N 0 76 47
+TOP 47 63.70699984 41.90700026 180 N 44 1 48
+TOP 48 63.20700084 41.90700026 180 N 69 87 49
+TOP 49 62.7069993 41.90700026 180 N 72 4 50
+TOP 50 60.95700026 43.6569993 180 N 0 6 51
+TOP 51 60.95700026 44.15700084 180 N 0 5 52
+TOP 52 60.95700026 44.65699984 180 N 34 0 53
+TOP 53 60.95700026 45.15699884 180 N 35 0 54
+TOP 54 60.95700026 45.65700038 180 N 0 7 55
+TOP 55 60.95700026 46.15699938 180 N 0 9 56
+TOP 56 60.95700026 46.65700092 180 N 0 8 57
+TOP 57 60.95700026 47.15699992 180 N 0 1 58
+TOP 58 60.95700026 47.65699892 180 N 0 0 59
+TOP 59 60.95700026 48.15700046 180 N 0 2 60
+TOP 60 60.95700026 48.65699946 180 N 0 4 61
+TOP 61 60.95700026 49.157001 180 N 0 3 62
+TOP 62 60.95700026 49.657 180 N 0 10 63
+TOP 63 60.95700026 50.156999 180 N 0 17 64
+TOP 64 60.95700026 50.65700054 180 N 0 16 65
+TOP 65 60.95700026 51.15699954 180 N 0 18 66
+TOP 66 60.95700026 51.65700108 180 N 0 20 67
+TOP 67 60.95700026 52.15700008 180 N 0 19 68
+TOP 68 60.95700026 52.65699908 180 N 0 12 69
+TOP 69 60.95700026 53.15700062 180 N 0 11 70
+TOP 70 60.95700026 53.65699962 180 N 0 13 71
+TOP 71 60.95700026 54.15700116 180 N 0 15 72
+TOP 72 60.95700026 54.65700016 180 N 45 1 73
+TOP 73 60.95700026 55.15699916 180 N 69 89 74
+TOP 74 60.95700026 55.6570007 180 N 72 20 75
+TOP 75 62.7069993 57.40699974 180 N 39 0 76
+TOP 76 63.20700084 57.40699974 180 N 38 0 77
+TOP 77 63.70699984 57.40699974 180 N 0 77 78
+TOP 78 64.20699884 57.40699974 180 N 0 74 79
+TOP 79 64.70700038 57.40699974 180 N 0 75 80
+TOP 80 65.20699938 57.40699974 180 N 0 78 81
+TOP 81 65.70700092 57.40699974 180 N 0 63 82
+TOP 82 66.20699992 57.40699974 180 N 0 50 83
+TOP 83 66.70699892 57.40699974 180 N 0 49 84
+TOP 84 67.20700046 57.40699974 180 N 10 0 85
+TOP 85 67.70699946 57.40699974 180 N 9 0 86
+TOP 86 68.207001 57.40699974 180 N 0 52 87
+TOP 87 68.707 57.40699974 180 N 0 51 88
+TOP 88 69.206999 57.40699974 180 N 0 48 89
+TOP 89 69.70700054 57.40699974 180 N 0 45 90
+TOP 90 70.20699954 57.40699974 180 N 0 44 91
+TOP 91 70.70700108 57.40699974 180 N 3 1 92
+TOP 92 71.20700008 57.40699974 180 N 2 1 93
+TOP 93 71.70699908 57.40699974 180 N 6 1 94
+TOP 94 72.20700062 57.40699974 180 N 0 47 95
+TOP 95 72.70699962 57.40699974 180 N 0 46 96
+TOP 96 73.20700116 57.40699974 180 N 0 53 97
+TOP 97 73.70700016 57.40699974 180 N 0 60 98
+TOP 98 74.20699916 57.40699974 180 N 69 76 99
+TOP 99 74.7070007 57.40699974 180 N 72 5 100
+#
+# CMP 6
+CMP 10 94.107 41.91 180 N U7 AMS1117-3.3 ;0=1,1=0.0000
+PRP Automotive 'No'
+PRP Category 'IC'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://www.advanced-monolithic.com/pdf/ds1117.pdf'
+PRP Device_Class_L1 'Integrated Circuits (ICs)'
+PRP Device_Class_L2 'Power Management ICs'
+PRP Device_Class_L3 'Voltage Regulators - Linear'
+PRP Dropout_Voltage '1.1V'
+PRP Height '1.8mm'
+PRP Ipc_Land_Pattern_Name 'SOT229P700X180-4'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'Advanced Monolithic Systems'
+PRP Manufacturer_Part_Number 'AMS1117-3.3'
+PRP Max_Junction_Temp '+125°C'
+PRP Max_Power_Dissipation '1.2W'
+PRP Max_Supply_Voltage '15V'
+PRP Nominal_Supply_Current '5mA'
+PRP Number_of_Outputs '1'
+PRP Octopart 'https://octopart.com/ams1117-3.3-advanced+monolithic+systems-25899300'
+PRP Output_Current '1A'
+PRP Output_Type 'Fixed'
+PRP Output_Voltage '3.3V'
+PRP Package 'AMS1117'
+PRP RoHS 'TRUE'
+PRP Standoff_Height '0.64mm'
+PRP Temperature '-40°C to +125°C'
+PRP Temperature_Range_High '+125°C'
+PRP Temperature_Range_Low '-40°C'
+TOP 0 90.81200024 39.6199995 0 N 69 37 1
+TOP 1 90.81200024 41.91 0 N 72 7 2
+TOP 2 90.81200024 44.2000005 0 N 70 6 3
+TOP 3 97.40199976 41.91 0 N 72 9 4
+#
+# CMP 7
+CMP 3 90.932 56.896 0 N U5 AD8602DRM-REEL ;0=1,1=1.1000
+PRP Amplifiers_Per_Package '2'
+PRP Automotive_Qualified 'Yes'
+PRP Code_JEDEC 'MO-187-AA'
+PRP ComponentLink1Description 'Manufacturer URL'
+PRP ComponentLink1URL 'http://www.analog.com/en/index.html'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://www.analog.com/static/imported-files/data_sheets/AD8601_8602_8604.pdf'
+PRP ComponentLink3Description 'Package Specification'
+PRP ComponentLink3URL 'http://www.analog.com/static/imported-files/packages/PKG_PDF/MSOP%28RM%29/RM_8.pdf'
+PRP DatasheetVersion 'Rev. G'
+PRP Generic_Part_Number 'AD8602'
+PRP Input_Bias_Current '200fA'
+PRP Input_Offset_Voltage '500uV'
+PRP Iq/Amp '1.2mA'
+PRP Manufacturer 'Analog Devices'
+PRP Mounting_Technology 'Surface Mount'
+PRP PackageDescription '8-Pin Mini Small Outline Package, Body 3 x 3 mm, Pitch 0.65 mm'
+PRP PackageReference 'RM-8'
+PRP PartNumber 'AD8602DRM-REEL'
+PRP Slew_Rate '6V/us'
+PRP Small_Signal_Bandwidth '8.4MHz'
+PRP V_Span_Max '6V'
+PRP V_Span_Min '2.7V'
+TOP 0 93.05699956 57.87099932 270 N 12 2 1
+TOP 1 93.05699956 57.22099808 270 N 12 3 2
+TOP 2 93.05699956 56.57099938 270 N 48 2 3
+TOP 3 93.05699956 55.92099814 270 N 69 82 4
+TOP 4 88.80700044 55.92099814 270 N 47 2 5
+TOP 5 88.80700044 56.57099938 270 N 52 3 6
+TOP 6 88.80700044 57.22099808 270 N 52 2 7
+TOP 7 88.80700044 57.87099932 270 N 72 23 8
+#
+# CMP 8
+CMP 27 66.08100068 84.98185696 270 N U2 ADP3654ARHZ-RL ;0=1,1=0.0000
+PRP Case/Package 'MSOP'
+PRP Channel_Type 'Independent'
+PRP Fall_Time '25ns'
+PRP Lead_Free 'Contains Lead'
+PRP Max_Input_Voltage '18V'
+PRP Max_Operating_Temperature '125°C'
+PRP Max_Output_Current '4A'
+PRP Max_Supply_Current '3mA'
+PRP Max_Supply_Voltage '18V'
+PRP Min_Input_Voltage '4.5V'
+PRP Min_Operating_Temperature '-40°C'
+PRP Min_Supply_Voltage '4.5V'
+PRP Mount 'Surface Mount'
+PRP Nominal_Supply_Current '3mA'
+PRP Number_of_Drivers '2'
+PRP Number_of_Outputs '2'
+PRP Number_of_Pins '8'
+PRP Output_Current '4A'
+PRP Package_Quantity '3000'
+PRP Packaging 'Tape and Reel'
+PRP Propagation_Delay '35ns'
+PRP Rise_Time '14ns'
+PRP RoHS_Compliant 'Yes'
+PRP Series '-'
+PRP Supply_Current '3mA'
+PRP Turn-On_Delay_Time '35ns'
+TOP 0 67.056 82.931 270 N 0 59 1
+TOP 1 66.4060013 82.931 270 N 1 0 2
+TOP 2 65.75600006 82.931 270 N 69 75 3
+TOP 3 65.10600136 82.931 270 N 5 0 4
+TOP 4 65.10600136 87.03271392 270 N 21 0 5
+TOP 5 65.75600006 87.03271392 270 N 70 8 6
+TOP 6 66.4060013 87.03271392 270 N 15 0 7
+TOP 7 67.056 87.03271392 270 N 0 62 8
+TOP 8 66.08100068 84.98185696 270 N 0 61 9
+#
+# CMP 9
+CMP 32 71.755 59.817 90 N R37 RC0402FR-0710KL ;0=1,1=0.4000
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402FR-0710KL'
+TOP 0 71.755 60.19200052 180 N 69 78 1
+TOP 1 71.755 59.44199948 180 N 6 0 2
+#
+# CMP 10
+CMP 34 77.851 45.593 270 N R36 RC0402JR-070RL ;0=1,1=0.4000
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402JR-070RL'
+TOP 0 77.851 45.16799958 0 N 72 3 1
+TOP 1 77.851 46.01800042 0 N 7 0 2
+#
+# CMP 11
+CMP 34 77.724 52.578 270 N R35 RC0402JR-070RL ;0=1,1=0.4000
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402JR-070RL'
+TOP 0 77.724 52.15299958 0 N 72 1 1
+TOP 1 77.724 53.00300042 0 N 8 0 2
+#
+# CMP 12
+CMP 32 44.704 54.47700052 270 N R34 RC0402FR-0710KL ;0=1,1=0.4000
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402FR-0710KL'
+TOP 0 44.704 54.102 0 N 69 79 1
+TOP 1 44.704 54.85200104 0 N 37 0 2
+#
+# CMP 13
+CMP 32 41.402 45.212 270 N R33 RC0402FR-07510RL ;0=1,1=0.4000
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402FR-07510RL'
+TOP 0 41.402 44.83699948 0 N 40 0 1
+TOP 1 41.402 45.58700052 0 N 9 1 2
+#
+# CMP 14
+CMP 32 39.497 45.212 270 N R32 RC0402FR-07510RL ;0=1,1=0.4000
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402FR-07510RL'
+TOP 0 39.497 44.83699948 0 N 41 0 1
+TOP 1 39.497 45.58700052 0 N 10 1 2
+#
+# CMP 15
+CMP 32 85.725 58.41400052 90 N R31 RC0402FR-0710KL ;0=1,1=0.4000
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402FR-0710KL'
+TOP 0 85.725 58.78900104 180 N 46 1 1
+TOP 1 85.725 58.039 180 N 69 36 2
+#
+# CMP 16
+CMP 32 85.725 59.93800052 90 N R30 RC0402FR-0710KL ;0=1,1=0.4000
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402FR-0710KL'
+TOP 0 85.725 60.31300104 180 N 72 10 1
+TOP 1 85.725 59.563 180 N 46 2 2
+#
+# CMP 17
+CMP 32 84.963 55.499 0 N R29 RC0402FR-0710KL ;0=1,1=0.4000
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402FR-0710KL'
+TOP 0 85.33800052 55.499 270 N 4 1 1
+TOP 1 84.58799948 55.499 270 N 11 1 2
+#
+# CMP 18
+CMP 34 93.472 60.833 90 N R28 RC0402FR-071M5L ;0=1,1=0.4000
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402FR-071M5L'
+TOP 0 93.472 61.25800042 180 N 4 6 1
+TOP 1 93.472 60.40799958 180 N 48 0 2
+#
+# CMP 19
+CMP 33 94.2765704 60.85515896 90 N R27 RC0402FR-072M2L ;0=1,1=0.4000
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402FR-072M2L'
+TOP 0 94.2765704 61.33015928 180 N 69 38 1
+TOP 1 94.2765704 60.38015864 180 N 50 0 2
+#
+# CMP 20
+CMP 34 92.964 59.563 180 N R26 RC0402FR-0722KL ;0=1,1=0.4000
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402FR-0722KL'
+TOP 0 92.53899958 59.563 90 N 32 0 1
+TOP 1 93.38900042 59.563 90 N 50 1 2
+#
+# CMP 21
+CMP 34 87.71299958 55.118 180 N R25 RC0402FR-0722KL ;0=1,1=0.4000
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402FR-0722KL'
+TOP 0 87.28799916 55.118 90 N 51 1 1
+TOP 1 88.138 55.118 90 N 47 0 2
+#
+# CMP 22
+CMP 34 91.26899958 59.563 0 N R24 RC0402FR-0722KL ;0=1,1=0.4000
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402FR-0722KL'
+TOP 0 91.694 59.563 270 N 12 1 1
+TOP 1 90.84399916 59.563 270 N 51 0 2
+#
+# CMP 23
+CMP 32 89.154 58.928 180 N R23 RC0402FR-07560KL ;0=1,1=0.4000
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402FR-07560KL'
+TOP 0 88.77899948 58.928 90 N 49 0 1
+TOP 1 89.52900052 58.928 90 N 12 0 2
+#
+# CMP 24
+CMP 34 90.17 49.911 180 N R22 RC0402FR-071M5L ;0=1,1=0.4000
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402FR-071M5L'
+TOP 0 89.74499958 49.911 90 N 4 2 1
+TOP 1 90.59500042 49.911 90 N 54 1 2
+#
+# CMP 25
+CMP 33 93.853 47.625 270 N R21 RC0402FR-072M2L ;0=1,1=0.4000
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402FR-072M2L'
+TOP 0 93.853 47.14999968 0 N 69 26 1
+TOP 1 93.853 48.10000032 0 N 56 1 2
+#
+# CMP 26
+CMP 34 88.646 48.895 180 N R20 RC0402FR-0722KL ;0=1,1=0.4000
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402FR-0722KL'
+TOP 0 88.22099958 48.895 90 N 33 0 1
+TOP 1 89.07100042 48.895 90 N 56 2 2
+#
+# CMP 27
+CMP 34 88.646 51.054 180 N R19 RC0402FR-0722KL ;0=1,1=0.4000
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402FR-0722KL'
+TOP 0 88.22099958 51.054 90 N 57 1 1
+TOP 1 89.07100042 51.054 90 N 53 0 2
+#
+# CMP 28
+CMP 34 94.615 49.911 0 N R18 RC0402FR-0722KL ;0=1,1=0.4000
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402FR-0722KL'
+TOP 0 95.04000042 49.911 270 N 13 2 1
+TOP 1 94.18999958 49.911 270 N 57 2 2
+#
+# CMP 29
+CMP 32 94.996 50.673 180 N R17 RC0402FR-07560KL ;0=1,1=0.4000
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402FR-07560KL'
+TOP 0 94.62099948 50.673 90 N 55 2 1
+TOP 1 95.37100052 50.673 90 N 13 3 2
+#
+# CMP 30
+CMP 19 39.751 54.73999974 180 N J1 FTSH-107-01-L-DV-K ;0=1,1=0.0000
+PRP Contact_Material 'Bronze'
+PRP Contact_Plating 'Gold'
+PRP Depth '5.84mm'
+PRP Gender 'Male'
+PRP Housing_Color 'Black'
+PRP Housing_Material 'Polymer'
+PRP Lead_Free 'Lead Free'
+PRP Length '8.89mm'
+PRP Max_Operating_Temperature '125°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Number_of_Contacts '14'
+PRP Number_of_Rows '2'
+PRP Orientation 'Straight'
+PRP Packaging 'Rail/Tube'
+PRP Pitch '1.27mm'
+PRP Radiation_Hardening 'No'
+PRP RoHS_Compliant 'Yes'
+PRP Termination 'Solder'
+TOP 0 35.941 56.77499948 0 N 0 28 1
+TOP 1 35.941 52.705 0 N 0 27 2
+TOP 2 37.211 56.77499948 0 N 72 17 3
+TOP 3 37.211 52.705 0 N 39 1 4
+TOP 4 38.481 56.77499948 0 N 69 59 5
+TOP 5 38.481 52.705 0 N 38 1 6
+TOP 6 39.751 56.77499948 0 N 69 60 7
+TOP 7 39.751 52.705 0 N 0 29 8
+TOP 8 41.021 56.77499948 0 N 0 31 9
+TOP 9 41.021 52.705 0 N 0 30 10
+TOP 10 42.291 56.77499948 0 N 37 1 11
+TOP 11 42.291 52.705 0 N 36 0 12
+TOP 12 43.561 56.77499948 0 N 35 1 13
+TOP 13 43.561 52.705 0 N 34 1 14
+#
+# CMP 31
+CMP 40 41.402 42.672 270 N led1 150080SS75000 ;0=1,1=0.7000
+PRP Case_Code_(Imperial) '0805'
+PRP Case_Code_(Metric) '2012'
+PRP Case/Package '0805'
+PRP Color 'Red'
+PRP Dominant_Wavelength '630nm'
+PRP Forward_Current '100mA'
+PRP Forward_Voltage '1.9V'
+PRP Height '700µm'
+PRP Length '2mm'
+PRP Lens_Style 'Clear, Rectangular'
+PRP Luminous_Intensity '60mcd'
+PRP Max_Junction_Temperature_(Tj) '95°C'
+PRP Max_Operating_Temperature '85°C'
+PRP Max_Reverse_Voltage_(DC) '5V'
+PRP Min_Operating_Temperature '-40°C'
+PRP Mount 'Surface Mount'
+PRP Packaging 'Tape and Reel'
+PRP Peak_Wavelength '645nm'
+PRP Power_Dissipation '72mW'
+PRP REACH_SVHC 'Unknown'
+PRP Reverse_Voltage '5V'
+PRP RoHS 'Compliant'
+PRP Test_Current '20mA'
+PRP Viewing_Angle '140°'
+PRP Wavelength '630nm'
+PRP Width '1.25mm'
+TOP 0 41.402 41.62199956 270 N 69 69 1
+TOP 1 41.402 43.72200044 270 N 40 1 2
+#
+# CMP 32
+CMP 40 39.497 42.672 270 N LED2 150080SS75000 ;0=1,1=0.7000
+PRP Case_Code_(Imperial) '0805'
+PRP Case_Code_(Metric) '2012'
+PRP Case/Package '0805'
+PRP Color 'Red'
+PRP Dominant_Wavelength '630nm'
+PRP Forward_Current '100mA'
+PRP Forward_Voltage '1.9V'
+PRP Height '700µm'
+PRP Length '2mm'
+PRP Lens_Style 'Clear, Rectangular'
+PRP Luminous_Intensity '60mcd'
+PRP Max_Junction_Temperature_(Tj) '95°C'
+PRP Max_Operating_Temperature '85°C'
+PRP Max_Reverse_Voltage_(DC) '5V'
+PRP Min_Operating_Temperature '-40°C'
+PRP Mount 'Surface Mount'
+PRP Packaging 'Tape and Reel'
+PRP Peak_Wavelength '645nm'
+PRP Power_Dissipation '72mW'
+PRP REACH_SVHC 'Unknown'
+PRP Reverse_Voltage '5V'
+PRP RoHS 'Compliant'
+PRP Test_Current '20mA'
+PRP Viewing_Angle '140°'
+PRP Wavelength '630nm'
+PRP Width '1.25mm'
+TOP 0 39.497 41.62199956 270 N 69 57 1
+TOP 1 39.497 43.72200044 270 N 41 1 2
+#
+# CMP 33
+CMP 13 77.978 49.784 90 N C37 C0402C104K8PACTU ;0=1,1=0.0000
+PRP Automotive 'No'
+PRP Capacitance '0.10 µF'
+PRP Category 'Cap'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf'
+PRP Device_Class_L1 'Passive Components'
+PRP Device_Class_L2 'Capacitors'
+PRP Device_Class_L3 'Ceramic Capacitors'
+PRP Digikey_Description 'CAP CER 0.1UF 10V X5R 0402'
+PRP Height '0.55mm'
+PRP Ipc_Land_Pattern_Name 'CAPC10050X50'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'Kemet'
+PRP Manufacturer_Part_Number 'C0402C104K8PACTU'
+PRP Material 'Ceramic'
+PRP Mouser_Description 'Capacitor 100 nF 10 VDC 0402'
+PRP Octopart 'https://octopart.com/c0402c104k8pactu-kemet-140039'
+PRP Package 'C0402-BB'
+PRP RoHS 'TRUE'
+PRP Temperature '-55°C to +125°C'
+PRP Temperature_Characteristic 'X5R'
+PRP Temperature_Coefficient '15%'
+PRP Temperature_Range_High '+125°C'
+PRP Temperature_Range_Low '-55°C'
+PRP Tolerance '0.1'
+PRP Value '0.10 µF'
+PRP Voltage_Rating '10 V'
+TOP 0 77.978 50.1839992 90 N 72 14 1
+TOP 1 77.978 49.3840008 90 N 69 73 2
+#
+# CMP 34
+CMP 13 74.168 39.497 90 N C35 C0402C104K8PACTU ;0=1,1=0.0000
+PRP Automotive 'No'
+PRP Capacitance '0.10 µF'
+PRP Category 'Cap'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf'
+PRP Device_Class_L1 'Passive Components'
+PRP Device_Class_L2 'Capacitors'
+PRP Device_Class_L3 'Ceramic Capacitors'
+PRP Digikey_Description 'CAP CER 0.1UF 10V X5R 0402'
+PRP Height '0.55mm'
+PRP Ipc_Land_Pattern_Name 'CAPC10050X50'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'Kemet'
+PRP Manufacturer_Part_Number 'C0402C104K8PACTU'
+PRP Material 'Ceramic'
+PRP Mouser_Description 'Capacitor 100 nF 10 VDC 0402'
+PRP Octopart 'https://octopart.com/c0402c104k8pactu-kemet-140039'
+PRP Package 'C0402-BB'
+PRP RoHS 'TRUE'
+PRP Temperature '-55°C to +125°C'
+PRP Temperature_Characteristic 'X5R'
+PRP Temperature_Coefficient '15%'
+PRP Temperature_Range_High '+125°C'
+PRP Temperature_Range_Low '-55°C'
+PRP Tolerance '0.1'
+PRP Value '0.10 µF'
+PRP Voltage_Rating '10 V'
+TOP 0 74.168 39.8969992 90 N 72 18 1
+TOP 1 74.168 39.0970008 90 N 69 84 2
+#
+# CMP 35
+CMP 21 64.262 40.894 180 N C34 GRM155R61A225KE95D ;0=1,1=0.0000
+PRP Capacitance '2.2uF'
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Depth '0.5mm'
+PRP Dielectric 'X5R'
+PRP Height '0.5mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '1mm'
+PRP Material 'Ceramic'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Package_Quantity '10000'
+PRP Packaging 'Tape and Reel'
+PRP REACH_SVHC 'No SVHC'
+PRP RoHS_Compliant 'Yes'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.022inch'
+PRP Tolerance '10%'
+PRP Voltage_Rating '10V'
+PRP Voltage_Rating_(DC) '10V'
+PRP Weight '0.000212oz'
+PRP Width '0.5mm'
+TOP 0 63.78699968 40.894 0 N 44 0 1
+TOP 1 64.73700032 40.894 0 N 69 81 2
+#
+# CMP 36
+CMP 21 59.309 54.61 0 N C33 GRM155R61A225KE95D ;0=1,1=0.0000
+PRP Capacitance '2.2uF'
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Depth '0.5mm'
+PRP Dielectric 'X5R'
+PRP Height '0.5mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '1mm'
+PRP Material 'Ceramic'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Package_Quantity '10000'
+PRP Packaging 'Tape and Reel'
+PRP REACH_SVHC 'No SVHC'
+PRP RoHS_Compliant 'Yes'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.022inch'
+PRP Tolerance '10%'
+PRP Voltage_Rating '10V'
+PRP Voltage_Rating_(DC) '10V'
+PRP Weight '0.000212oz'
+PRP Width '0.5mm'
+TOP 0 59.78400032 54.61 180 N 45 0 1
+TOP 1 58.83399968 54.61 180 N 69 80 2
+#
+# CMP 37
+CMP 13 88.773 40.6589992 90 N C32 C0402C104K8PACTU ;0=1,1=0.0000
+PRP Automotive 'No'
+PRP Capacitance '0.10 µF'
+PRP Category 'Cap'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf'
+PRP Device_Class_L1 'Passive Components'
+PRP Device_Class_L2 'Capacitors'
+PRP Device_Class_L3 'Ceramic Capacitors'
+PRP Digikey_Description 'CAP CER 0.1UF 10V X5R 0402'
+PRP Height '0.55mm'
+PRP Ipc_Land_Pattern_Name 'CAPC10050X50'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'Kemet'
+PRP Manufacturer_Part_Number 'C0402C104K8PACTU'
+PRP Material 'Ceramic'
+PRP Mouser_Description 'Capacitor 100 nF 10 VDC 0402'
+PRP Octopart 'https://octopart.com/c0402c104k8pactu-kemet-140039'
+PRP Package 'C0402-BB'
+PRP RoHS 'TRUE'
+PRP Temperature '-55°C to +125°C'
+PRP Temperature_Characteristic 'X5R'
+PRP Temperature_Coefficient '15%'
+PRP Temperature_Range_High '+125°C'
+PRP Temperature_Range_Low '-55°C'
+PRP Tolerance '0.1'
+PRP Value '0.10 µF'
+PRP Voltage_Rating '10 V'
+TOP 0 88.773 41.0589984 90 N 72 16 1
+TOP 1 88.773 40.259 90 N 69 70 2
+#
+# CMP 38
+CMP 16 89.662 40.6589992 90 N C31 CL05A106MP5NUNC ;0=1,1=0.0000
+PRP Automotive 'No'
+PRP Capacitance '10uF'
+PRP Category 'Cap'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL05A106MP5NUNC.pdf'
+PRP Device_Class_L1 'Passive Components'
+PRP Device_Class_L2 'Capacitors'
+PRP Device_Class_L3 'Ceramic Capacitors'
+PRP Digikey_Description 'CAP CER 10UF 10V X5R 0402'
+PRP Height '0.7mm'
+PRP Ipc_Land_Pattern_Name 'CAPC10050X50'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'Samsung'
+PRP Manufacturer_Part_Number 'CL05A106MP5NUNC'
+PRP Material 'Ceramic'
+PRP Octopart 'https://octopart.com/cl05a106mp5nunc-samsung-22457395'
+PRP Package 'CL05A106MP5NUNC'
+PRP RoHS 'TRUE'
+PRP Temperature '-55°C to +85°C'
+PRP Temperature_Characteristic 'X5R'
+PRP Temperature_Coefficient '15%'
+PRP Temperature_Range_High '+85°C'
+PRP Temperature_Range_Low '-55°C'
+PRP Tolerance '20%'
+PRP Value '10uF'
+PRP Voltage_Rating '10V'
+TOP 0 89.662 41.12150018 90 N 72 15 1
+TOP 1 89.662 40.19649822 90 N 69 58 2
+#
+# CMP 39
+CMP 13 92.3796349 45.74899664 180 N C30 C0402C104K8PACTU ;0=1,1=0.0000
+PRP Automotive 'No'
+PRP Capacitance '0.10 µF'
+PRP Category 'Cap'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf'
+PRP Device_Class_L1 'Passive Components'
+PRP Device_Class_L2 'Capacitors'
+PRP Device_Class_L3 'Ceramic Capacitors'
+PRP Digikey_Description 'CAP CER 0.1UF 10V X5R 0402'
+PRP Height '0.55mm'
+PRP Ipc_Land_Pattern_Name 'CAPC10050X50'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'Kemet'
+PRP Manufacturer_Part_Number 'C0402C104K8PACTU'
+PRP Material 'Ceramic'
+PRP Mouser_Description 'Capacitor 100 nF 10 VDC 0402'
+PRP Octopart 'https://octopart.com/c0402c104k8pactu-kemet-140039'
+PRP Package 'C0402-BB'
+PRP RoHS 'TRUE'
+PRP Temperature '-55°C to +125°C'
+PRP Temperature_Characteristic 'X5R'
+PRP Temperature_Coefficient '15%'
+PRP Temperature_Range_High '+125°C'
+PRP Temperature_Range_Low '-55°C'
+PRP Tolerance '0.1'
+PRP Value '0.10 µF'
+PRP Voltage_Rating '10 V'
+TOP 0 91.9796357 45.74899664 0 N 70 22 1
+TOP 1 92.7796341 45.74899664 0 N 69 63 2
+#
+# CMP 40
+CMP 16 92.329 46.609 180 N C29 CL05A106MP5NUNC ;0=1,1=0.0000
+PRP Automotive 'No'
+PRP Capacitance '10uF'
+PRP Category 'Cap'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL05A106MP5NUNC.pdf'
+PRP Device_Class_L1 'Passive Components'
+PRP Device_Class_L2 'Capacitors'
+PRP Device_Class_L3 'Ceramic Capacitors'
+PRP Digikey_Description 'CAP CER 10UF 10V X5R 0402'
+PRP Height '0.7mm'
+PRP Ipc_Land_Pattern_Name 'CAPC10050X50'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'Samsung'
+PRP Manufacturer_Part_Number 'CL05A106MP5NUNC'
+PRP Material 'Ceramic'
+PRP Octopart 'https://octopart.com/cl05a106mp5nunc-samsung-22457395'
+PRP Package 'CL05A106MP5NUNC'
+PRP RoHS 'TRUE'
+PRP Temperature '-55°C to +85°C'
+PRP Temperature_Characteristic 'X5R'
+PRP Temperature_Coefficient '15%'
+PRP Temperature_Range_High '+85°C'
+PRP Temperature_Range_Low '-55°C'
+PRP Tolerance '20%'
+PRP Value '10uF'
+PRP Voltage_Rating '10V'
+TOP 0 91.86649902 46.609 0 N 70 23 1
+TOP 1 92.79150098 46.609 0 N 69 64 2
+#
+# CMP 41
+CMP 13 84.0929992 60.706 0 N C28 C0402C104K8PACTU ;0=1,1=0.0000
+PRP Automotive 'No'
+PRP Capacitance '0.10 µF'
+PRP Category 'Cap'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf'
+PRP Device_Class_L1 'Passive Components'
+PRP Device_Class_L2 'Capacitors'
+PRP Device_Class_L3 'Ceramic Capacitors'
+PRP Digikey_Description 'CAP CER 0.1UF 10V X5R 0402'
+PRP Height '0.55mm'
+PRP Ipc_Land_Pattern_Name 'CAPC10050X50'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'Kemet'
+PRP Manufacturer_Part_Number 'C0402C104K8PACTU'
+PRP Material 'Ceramic'
+PRP Mouser_Description 'Capacitor 100 nF 10 VDC 0402'
+PRP Octopart 'https://octopart.com/c0402c104k8pactu-kemet-140039'
+PRP Package 'C0402-BB'
+PRP RoHS 'TRUE'
+PRP Temperature '-55°C to +125°C'
+PRP Temperature_Characteristic 'X5R'
+PRP Temperature_Coefficient '15%'
+PRP Temperature_Range_High '+125°C'
+PRP Temperature_Range_Low '-55°C'
+PRP Tolerance '0.1'
+PRP Value '0.10 µF'
+PRP Voltage_Rating '10 V'
+TOP 0 84.4929984 60.706 180 N 46 4 1
+TOP 1 83.693 60.706 180 N 69 35 2
+#
+# CMP 42
+CMP 16 84.074 59.944 0 N C27 CL05A106MP5NUNC ;0=1,1=0.0000
+PRP Automotive 'No'
+PRP Capacitance '10uF'
+PRP Category 'Cap'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL05A106MP5NUNC.pdf'
+PRP Device_Class_L1 'Passive Components'
+PRP Device_Class_L2 'Capacitors'
+PRP Device_Class_L3 'Ceramic Capacitors'
+PRP Digikey_Description 'CAP CER 10UF 10V X5R 0402'
+PRP Height '0.7mm'
+PRP Ipc_Land_Pattern_Name 'CAPC10050X50'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'Samsung'
+PRP Manufacturer_Part_Number 'CL05A106MP5NUNC'
+PRP Material 'Ceramic'
+PRP Octopart 'https://octopart.com/cl05a106mp5nunc-samsung-22457395'
+PRP Package 'CL05A106MP5NUNC'
+PRP RoHS 'TRUE'
+PRP Temperature '-55°C to +85°C'
+PRP Temperature_Characteristic 'X5R'
+PRP Temperature_Coefficient '15%'
+PRP Temperature_Range_High '+85°C'
+PRP Temperature_Range_Low '-55°C'
+PRP Tolerance '20%'
+PRP Value '10uF'
+PRP Voltage_Rating '10V'
+TOP 0 84.53650098 59.944 180 N 46 3 1
+TOP 1 83.61149902 59.944 180 N 69 34 2
+#
+# CMP 43
+CMP 13 82.042 60.706 0 N C26 C0402C104K8PACTU ;0=1,1=0.0000
+PRP Automotive 'No'
+PRP Capacitance '0.10 µF'
+PRP Category 'Cap'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf'
+PRP Device_Class_L1 'Passive Components'
+PRP Device_Class_L2 'Capacitors'
+PRP Device_Class_L3 'Ceramic Capacitors'
+PRP Digikey_Description 'CAP CER 0.1UF 10V X5R 0402'
+PRP Height '0.55mm'
+PRP Ipc_Land_Pattern_Name 'CAPC10050X50'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'Kemet'
+PRP Manufacturer_Part_Number 'C0402C104K8PACTU'
+PRP Material 'Ceramic'
+PRP Mouser_Description 'Capacitor 100 nF 10 VDC 0402'
+PRP Octopart 'https://octopart.com/c0402c104k8pactu-kemet-140039'
+PRP Package 'C0402-BB'
+PRP RoHS 'TRUE'
+PRP Temperature '-55°C to +125°C'
+PRP Temperature_Characteristic 'X5R'
+PRP Temperature_Coefficient '15%'
+PRP Temperature_Range_High '+125°C'
+PRP Temperature_Range_Low '-55°C'
+PRP Tolerance '0.1'
+PRP Value '0.10 µF'
+PRP Voltage_Rating '10 V'
+TOP 0 82.4419992 60.706 180 N 4 4 1
+TOP 1 81.6420008 60.706 180 N 69 33 2
+#
+# CMP 44
+CMP 16 82.08749902 59.944 0 N C25 CL05A106MP5NUNC ;0=1,1=0.0000
+PRP Automotive 'No'
+PRP Capacitance '10uF'
+PRP Category 'Cap'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL05A106MP5NUNC.pdf'
+PRP Device_Class_L1 'Passive Components'
+PRP Device_Class_L2 'Capacitors'
+PRP Device_Class_L3 'Ceramic Capacitors'
+PRP Digikey_Description 'CAP CER 10UF 10V X5R 0402'
+PRP Height '0.7mm'
+PRP Ipc_Land_Pattern_Name 'CAPC10050X50'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'Samsung'
+PRP Manufacturer_Part_Number 'CL05A106MP5NUNC'
+PRP Material 'Ceramic'
+PRP Octopart 'https://octopart.com/cl05a106mp5nunc-samsung-22457395'
+PRP Package 'CL05A106MP5NUNC'
+PRP RoHS 'TRUE'
+PRP Temperature '-55°C to +85°C'
+PRP Temperature_Characteristic 'X5R'
+PRP Temperature_Coefficient '15%'
+PRP Temperature_Range_High '+85°C'
+PRP Temperature_Range_Low '-55°C'
+PRP Tolerance '20%'
+PRP Value '10uF'
+PRP Voltage_Rating '10V'
+TOP 0 82.55 59.944 180 N 4 5 1
+TOP 1 81.62499804 59.944 180 N 69 32 2
+#
+# CMP 45
+CMP 22 83.6740008 53.213 0 N C24 GRM1555C1H331JA01D ;0=1,1=0.0000
+PRP Capacitance '330pF'
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Depth '0.5mm'
+PRP Dielectric 'C0G'
+PRP Height '0.5mm'
+PRP Insulation_Resistance '10GR'
+PRP Lead_Free 'Lead Free'
+PRP Length '1mm'
+PRP Material 'Ceramic'
+PRP Max_Operating_Temperature '125°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Number_of_Pins '2'
+PRP Package_Quantity '1'
+PRP Packaging 'Tape and Reel'
+PRP Radiation_Hardening 'No'
+PRP REACH_SVHC 'No SVHC'
+PRP Temperature_Coefficient '30ppm/°C'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.022inch'
+PRP Tolerance '5%'
+PRP Voltage '50V'
+PRP Voltage_Rating '50V'
+PRP Voltage_Rating_(DC) '50V'
+PRP Width '0.5mm'
+TOP 0 84.074 53.213 180 N 47 1 1
+TOP 1 83.2740016 53.213 180 N 4 7 2
+#
+# CMP 46
+CMP 4 94.869 56.007 270 N C23 GRM155R61A334KE15D ;0=1,1=0.5500
+PRP Manufacturer 'Murata'
+PRP Part_Number 'GRM155R61A334KE15D'
+TOP 0 94.869 55.51700098 0 N 49 2 1
+TOP 1 94.869 56.49700156 0 N 48 1 2
+#
+# CMP 47
+CMP 4 95.758 56.007 90 N C22 GRM155R61A334KE15D ;0=1,1=0.5500
+PRP Manufacturer 'Murata'
+PRP Part_Number 'GRM155R61A334KE15D'
+TOP 0 95.758 56.49699902 180 N 50 2 1
+TOP 1 95.758 55.51699844 180 N 49 1 2
+#
+# CMP 48
+CMP 20 87.249 58.547 270 N C21 GRM1555C1H102JA01D ;0=1,1=0.0000
+PRP Capacitance '1nF'
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Depth '0.5mm'
+PRP Dielectric 'C0G'
+PRP Dielectric_Material 'Ceramic'
+PRP Height '0.5mm'
+PRP Insulation_Resistance '10GR'
+PRP Lead_Free 'Lead Free'
+PRP Length '1mm'
+PRP Material 'Ceramic'
+PRP Max_Operating_Temperature '125°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Number_of_Pins '2'
+PRP Package_Quantity '1'
+PRP Packaging 'Tape and Reel'
+PRP Radiation_Hardening 'No'
+PRP REACH_SVHC 'No SVHC'
+PRP Temperature_Coefficient '30ppm/°C'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.022inch'
+PRP Tolerance '5%'
+PRP Voltage '50V'
+PRP Voltage_Rating '50V'
+PRP Voltage_Rating_(DC) '50V'
+PRP Width '0.5mm'
+TOP 0 87.249 58.1184385 270 N 52 1 1
+TOP 1 87.249 58.97556404 270 N 51 2 2
+#
+# CMP 49
+CMP 22 87.757 50.292 0 N C20 GRM1555C1H331JA01D ;0=1,1=0.0000
+PRP Capacitance '330pF'
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Depth '0.5mm'
+PRP Dielectric 'C0G'
+PRP Height '0.5mm'
+PRP Insulation_Resistance '10GR'
+PRP Lead_Free 'Lead Free'
+PRP Length '1mm'
+PRP Material 'Ceramic'
+PRP Max_Operating_Temperature '125°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Number_of_Pins '2'
+PRP Package_Quantity '1'
+PRP Packaging 'Tape and Reel'
+PRP Radiation_Hardening 'No'
+PRP REACH_SVHC 'No SVHC'
+PRP Temperature_Coefficient '30ppm/°C'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.022inch'
+PRP Tolerance '5%'
+PRP Voltage '50V'
+PRP Voltage_Rating '50V'
+PRP Voltage_Rating_(DC) '50V'
+PRP Width '0.5mm'
+TOP 0 88.1569992 50.292 180 N 53 1 1
+TOP 1 87.3570008 50.292 180 N 4 3 2
+#
+# CMP 50
+CMP 4 91.948 49.911 270 N C19 GRM155R61A334KE15D ;0=1,1=0.5500
+PRP Manufacturer 'Murata'
+PRP Part_Number 'GRM155R61A334KE15D'
+TOP 0 91.948 49.42100098 0 N 55 1 1
+TOP 1 91.948 50.40100156 0 N 54 0 2
+#
+# CMP 51
+CMP 4 93.345 48.895 0 N C18 GRM155R61A334KE15D ;0=1,1=0.5500
+PRP Manufacturer 'Murata'
+PRP Part_Number 'GRM155R61A334KE15D'
+TOP 0 93.83499902 48.895 270 N 56 0 1
+TOP 1 92.85499844 48.895 270 N 55 0 2
+#
+# CMP 52
+CMP 20 87.70718552 52.63569356 0 N C17 GRM1555C1H102JA01D ;0=1,1=0.0000
+PRP Capacitance '1nF'
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Depth '0.5mm'
+PRP Dielectric 'C0G'
+PRP Dielectric_Material 'Ceramic'
+PRP Height '0.5mm'
+PRP Insulation_Resistance '10GR'
+PRP Lead_Free 'Lead Free'
+PRP Length '1mm'
+PRP Material 'Ceramic'
+PRP Max_Operating_Temperature '125°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Number_of_Pins '2'
+PRP Package_Quantity '1'
+PRP Packaging 'Tape and Reel'
+PRP Radiation_Hardening 'No'
+PRP REACH_SVHC 'No SVHC'
+PRP Temperature_Coefficient '30ppm/°C'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.022inch'
+PRP Tolerance '5%'
+PRP Voltage '50V'
+PRP Voltage_Rating '50V'
+PRP Voltage_Rating_(DC) '50V'
+PRP Width '0.5mm'
+TOP 0 88.13574702 52.63569356 180 N 58 1 1
+TOP 1 87.27862148 52.63569356 180 N 57 0 2
+#
+# CMP 53
+CMP 7 52.197 58.42 180 N C9 GRM21BR61C475KA88L ;0=1,1=1.3500
+PRP Capacitance '4.7 uF'
+PRP Case_Code_(Imperial) '0805'
+PRP Case_Code_(Metric) '2012'
+PRP Case\/Package '0805'
+PRP ComponentLink1Description 'Manufacturer URL'
+PRP ComponentLink1URL 'http://www.murata.com/'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61C475KA88-01.pdf'
+PRP DatasheetVersion '03/2016'
+PRP Height '1.25 mm'
+PRP Length '2 mm'
+PRP Max_Operating_Temperature '85 degC'
+PRP Min_Operating_Temperature '-55 degC'
+PRP Mount 'Surface Mount'
+PRP Mounting_Technology 'Surface Mount'
+PRP Package_Quantity '3000'
+PRP PackageDescription '2-Pin Surface Mount Device, Body 2 x 1.25 mm'
+PRP PackageReference '0805'
+PRP Packaging 'Tape and Reel'
+PRP PartNumber 'GRM21BR61C475KA88L'
+PRP Pins '2'
+PRP Radiation_Hardening 'No'
+PRP REACH_SVHC 'No SVHC'
+PRP RoHSCompliant 'true'
+PRP Tolerance '10%'
+PRP Type_(Capacitors) 'X5R'
+PRP Voltage_Rating '16 V'
+PRP Voltage_Rating_(DC) '16 V'
+PRP Width '1.25 mm'
+TOP 0 51.24699936 58.42 90 N 69 61 1
+TOP 1 53.1469981 58.42 90 N 70 16 2
+#
+# CMP 54
+CMP 5 69.30200008 85.852 0 N C7 C0603C475K8PACTU ;0=1,1=0.8700
+PRP Manufacturer 'Kemet'
+PRP Part_Number 'C0603C475K8PACTU'
+TOP 0 69.977 85.852 270 N 69 77 1
+TOP 1 68.62700016 85.852 270 N 70 9 2
+#
+# CMP 55
+CMP 6 69.342 87.2594521 180 N C5 06035C104KAT4A ;0=1,1=0.9000
+PRP Manufacturer 'AVX Interconnect / Elco'
+PRP Part_Number '06035C104KAT4A'
+TOP 0 68.69199876 87.2594521 90 N 70 10 1
+TOP 1 69.9919987 87.2594521 90 N 69 74 2
+#

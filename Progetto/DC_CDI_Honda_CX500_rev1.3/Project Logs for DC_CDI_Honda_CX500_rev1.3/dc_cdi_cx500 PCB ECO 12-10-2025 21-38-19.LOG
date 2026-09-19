@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=DGND Pin=T1-1
+Removed Pin From Net: NetName=DGND Pin=T1-2
+Removed Pin From Net: NetName=DGND Pin=T2-1
+Removed Pin From Net: NetName=DGND Pin=T2-2
+Removed Pin From Net: NetName=DGND Pin=U5-11
+Added Pin To Net: NetName=GND Pin=U5-11
+Added Member To Class: ClassName=LV_power Member=Component U6 ISL85009FRZ-T
+Added Rule: Name=Schematic Supply Nets_8

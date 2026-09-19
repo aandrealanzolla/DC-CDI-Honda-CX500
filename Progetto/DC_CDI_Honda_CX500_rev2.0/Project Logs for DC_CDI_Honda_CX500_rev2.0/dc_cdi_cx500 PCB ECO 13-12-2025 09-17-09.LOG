@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=VBAT_0 Pin=F1-2
+Change Component Footprint: Designator=F1 Old Footprint=FP-0155-MFG New Footprint=FUSE_3588TR
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Change Component Comment : Designator=F1 Old Comment=01550900M New Comment=3588TR
+Change Managed Component Library Link : Designator=F1 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=B4D4840A-1324-45B7-A70D-32340C6E511E New ItemGUID= Old RevisionGUID=68263B6A-0611-468B-86BF-5DF8B8BC6D34 New RevisionGUID=
+Change component parameters: Designator = "F1" ("F1"); Footprint = "FP-0155-MFG"; UniqueID = "\XVNRRKJP" ("\XVNRRKJP")
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/3588TR/Keystone/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "3588TR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "2616 Keystone Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/3588TR/Keystone/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VBAT_0 Pin=F1-2_1
+Added Pin To Net: NetName=VBAT_0 Pin=F1-2_2
+Added Pin To Net: NetName=NetF1_1_1 Pin=F1-1_1
+Added Pin To Net: NetName=NetF1_1_1 Pin=F1-1_2
+Added Pin To Net: NetName=NetF1_1_1 Pin=J2-1
+Added Net: Name=NetF1_1_1

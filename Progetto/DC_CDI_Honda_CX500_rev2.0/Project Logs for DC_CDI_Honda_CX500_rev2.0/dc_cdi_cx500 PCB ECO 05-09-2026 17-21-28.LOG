@@ -1,0 +1,6 @@
+Change Net Name : Old Net Name=NetT3_4 New Net Name=in-
+Change Net Name : Old Net Name=NetT3_6 New Net Name=in+
+Added Pin To Net: NetName=out- Pin=T3-10
+Added Net: Name=out-
+Added Pin To Net: NetName=out+ Pin=T3-1
+Added Net: Name=out+

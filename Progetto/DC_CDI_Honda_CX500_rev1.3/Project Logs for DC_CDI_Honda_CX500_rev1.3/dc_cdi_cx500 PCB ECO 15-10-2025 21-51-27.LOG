@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=R1 Old Footprint=0402_FP_R New Footprint=0402_fp
+Change component parameters: Designator = "R1" ("R1"); Footprint = "0402_FP_R"; UniqueID = "\CDSDXRHG" ("\CDSDXRHG")
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "0 Ohm"; VariantName = "[No Variations]"

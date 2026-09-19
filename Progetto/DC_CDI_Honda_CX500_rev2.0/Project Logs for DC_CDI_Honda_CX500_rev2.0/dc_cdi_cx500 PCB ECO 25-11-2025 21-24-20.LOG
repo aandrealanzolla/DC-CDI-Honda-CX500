@@ -1,0 +1,15 @@
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Added Component: Designator=R22(0402_fp)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 kOhm"; VariantName = "[No Variations]"
+Added Component: Designator=R43(0402_fp)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 kOhm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=R22-1
+Added Pin To Net: NetName=FLYBACK_EN_L_3V3 Pin=R22-2
+Added Pin To Net: NetName=GND Pin=R43-1
+Added Pin To Net: NetName=FLYBACK_EN_R_3V3 Pin=R43-2
+Added Member To Class: ClassName=logic Member=Component R22 Resistor_0402
+Added Member To Class: ClassName=logic Member=Component R43 Resistor_0402

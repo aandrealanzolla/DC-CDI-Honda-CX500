@@ -1,0 +1,44 @@
+Add component: Footprint Not Found WCAP-FTBP_L13W5.5H11
+Added Component: Designator=Q1(DPAK228P987X240-3N)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Infineon Technologies"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Order Number"; Value = "IPD60R180P7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "PG-TO252-3-342"; VariantName = "[No Variations]"
+Added Component: Designator=Q2(DPAK228P987X240-3N)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Infineon Technologies"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Order Number"; Value = "IPD60R180P7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "PG-TO252-3-342"; VariantName = "[No Variations]"
+Added Component: Designator=Q7(DPAK228P987X240-3N)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Infineon Technologies"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Order Number"; Value = "IPD60R180P7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "PG-TO252-3-342"; VariantName = "[No Variations]"
+Added Component: Designator=Q8(DPAK228P987X240-3N)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Infineon Technologies"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Order Number"; Value = "IPD60R180P7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "PG-TO252-3-342"; VariantName = "[No Variations]"
+Add component: Footprint Not Found FP-CSRN2010-IPC_B
+Add component: Footprint Not Found FP-CSRN2010-IPC_B
+Add Pin To Net: Unknown Pin: Pin C38-1
+Add Pin To Net: Unknown Pin: Pin C38-2
+Added Pin To Net: NetName=L_COIL_MOSFET_GATE Pin=Q1-1
+Added Pin To Net: NetName=L_HV Pin=Q1-2
+Added Pin To Net: NetName=PGND Pin=Q1-3
+Added Pin To Net: NetName=R_COIL_MOSFET_GATE Pin=Q2-1
+Added Pin To Net: NetName=R_HV Pin=Q2-2
+Added Pin To Net: NetName=PGND Pin=Q2-3
+Added Pin To Net: NetName=NetQ7_1 Pin=Q7-1
+Added Pin To Net: NetName=NetQ7_2 Pin=Q7-2
+Added Pin To Net: NetName=ISEN_L Pin=Q7-3
+Added Pin To Net: NetName=NetQ8_1 Pin=Q8-1
+Added Pin To Net: NetName=NetQ8_2 Pin=Q8-2
+Added Pin To Net: NetName=ISEN_R Pin=Q8-3
+Add Pin To Net: Unknown Pin: Pin R52-1
+Add Pin To Net: Unknown Pin: Pin R52-2
+Add Pin To Net: Unknown Pin: Pin R65-1
+Add Pin To Net: Unknown Pin: Pin R65-2
+Add Class Member: Failed to add class member : Component C38 890283323005CS
+Added Member To Class: ClassName=cd_switching Member=Component Q1 IPD60R180P7
+Added Member To Class: ClassName=cd_switching Member=Component Q2 IPD60R180P7
+Added Member To Class: ClassName=HV_power Member=Component Q7 IPD60R180P7
+Added Member To Class: ClassName=HV_power Member=Component Q8 IPD60R180P7
+Add Class Member: Failed to add class member : Component R52 CSRN2010FK20L0
+Add Class Member: Failed to add class member : Component R65 CSRN2010FK20L0

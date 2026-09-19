@@ -1,0 +1,25 @@
+Change Footprint: Footprint Not Found FP-0402-SOD-923F-MFG
+Change component parameters: Designator = "R51" ("R51"); Footprint = "0805_FP"; UniqueID = "\NMNDENYM" ("\NMNDENYM")
+Change component parameters (AddParameter): Name = "Value"; Value = "24 kO"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R64" ("R64"); Footprint = "0805_FP"; UniqueID = "\OOAYAOGB" ("\OOAYAOGB")
+Change component parameters (AddParameter): Name = "Value"; Value = "24 kO"; VariantName = "[No Variations]"
+Added Component: Designator=D11(DIOM7959X262N)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/SMCJ400A/Littelfuse/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Littelfuse Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "SMCJ400A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "DO-214 Littelfuse Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/SMCJ400A/Littelfuse/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D12(DIOM7959X262N)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/SMCJ400A/Littelfuse/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Littelfuse Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "SMCJ400A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "DO-214 Littelfuse Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/SMCJ400A/Littelfuse/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=PGND Pin=D11-A
+Added Pin To Net: NetName=L_HV Pin=D11-C
+Added Pin To Net: NetName=PGND Pin=D12-A
+Added Pin To Net: NetName=R_HV Pin=D12-C
+Added Member To Class: ClassName=cd_switching Member=Component D11 SMCJ400A
+Added Member To Class: ClassName=cd_switching Member=Component D12 SMCJ400A

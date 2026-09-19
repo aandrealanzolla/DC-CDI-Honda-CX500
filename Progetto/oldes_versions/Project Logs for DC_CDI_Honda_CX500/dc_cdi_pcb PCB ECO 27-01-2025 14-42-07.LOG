@@ -1,0 +1,11 @@
+Added Component: Designator=T2(T_DIP09_74087_21X21_MYR)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Myrra"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=T2-4
+Added Pin To Net: NetName=NetD2_2 Pin=T2-5
+Added Pin To Net: NetName=NetQ3_2 Pin=T2-6
+Added Pin To Net: NetName=NetT2_7 Pin=T2-7
+Added Pin To Net: NetName=NetQ3_2 Pin=T2-9
+Added Pin To Net: NetName=NetT2_7 Pin=T2-10
+Added Member To Class: ClassName=power_side Member=Component T2 74087

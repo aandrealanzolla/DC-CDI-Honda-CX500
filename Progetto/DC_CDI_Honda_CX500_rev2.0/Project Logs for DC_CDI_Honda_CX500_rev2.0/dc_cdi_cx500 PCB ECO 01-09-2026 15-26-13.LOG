@@ -1,0 +1,7 @@
+Add component: Footprint Not Found ONSC-SOT-23-3-318-08_V
+Add Pin To Net: Unknown Pin: Pin Q8-2
+Add Pin To Net: Unknown Pin: Pin Q8-3
+Added Pin To Net: NetName=KILL_SWITCH Pin=J2-17
+Added Pin To Net: NetName=KILL_SWITCH Pin=R59-2
+Added Net: Name=KILL_SWITCH
+Add Class Member: Failed to add class member : Component Q8 MGSF1N03LT1G

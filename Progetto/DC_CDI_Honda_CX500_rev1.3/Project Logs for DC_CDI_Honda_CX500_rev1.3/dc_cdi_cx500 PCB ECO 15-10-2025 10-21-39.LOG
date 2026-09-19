@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=IGNT_TRIG_L Pin=R37-1
+Removed Pin From Net: NetName=IGNT_TRIG_R Pin=R38-1
+Added Pin To Net: NetName=NetC35_2 Pin=R37-1
+Added Pin To Net: NetName=NetC36_2 Pin=R38-1

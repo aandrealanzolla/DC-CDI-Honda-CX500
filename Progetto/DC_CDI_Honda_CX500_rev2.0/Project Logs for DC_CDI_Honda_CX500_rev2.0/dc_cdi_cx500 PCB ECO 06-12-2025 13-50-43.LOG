@@ -1,0 +1,45 @@
+Removed Pin From Net: NetName=1V65 Pin=C5-1
+Removed Pin From Net: NetName=NetQ3_1 Pin=U4-7
+Removed Pin From Net: NetName=NetQ4_1 Pin=U5-7
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Change component parameters: Designator = "R4" ("R4"); Footprint = "0402_fp"; UniqueID = "\WKGDDMJD" ("\WKGDDMJD")
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "0 O"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R6" ("R6"); Footprint = "0402_fp"; UniqueID = "\LGDESLOA" ("\LGDESLOA")
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "33 kO"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R12" ("R12"); Footprint = "0402_fp"; UniqueID = "\ONPMPHER" ("\ONPMPHER")
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "0 O"; VariantName = "[No Variations]"
+Added Component: Designator=C53(0402_fp)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1 uF"; VariantName = "[No Variations]"
+Added Component: Designator=R57(0603_FP)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47"; VariantName = "[No Variations]"
+Added Component: Designator=R58(0603_FP)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=1V65 Pin=C53-2
+Added Pin To Net: NetName=NetQ3_1 Pin=R57-2
+Added Pin To Net: NetName=NetQ4_1 Pin=R58-2
+Change Net Name : Old Net Name=1V65 New Net Name=VREF_COMP
+Added Pin To Net: NetName=1V65 Pin=C5-1
+Added Net: Name=1V65
+Added Pin To Net: NetName=NetC53_1 Pin=C53-1
+Added Pin To Net: NetName=NetC53_1 Pin=R10-2
+Added Pin To Net: NetName=NetC53_1 Pin=U3-4
+Added Net: Name=NetC53_1
+Added Pin To Net: NetName=NetR57_1 Pin=R57-1
+Added Pin To Net: NetName=NetR57_1 Pin=U4-7
+Added Net: Name=NetR57_1
+Added Pin To Net: NetName=NetR58_1 Pin=R58-1
+Added Pin To Net: NetName=NetR58_1 Pin=U5-7
+Added Net: Name=NetR58_1
+Added Member To Class: ClassName=input_signal_conditioning Member=Component C53 Capacitor_0402
+Added Member To Class: ClassName=HV_power Member=Component R57 Resistor_0603
+Added Member To Class: ClassName=HV_power Member=Component R58 Resistor_0603
+Added Rule: Name=Schematic Supply Nets_3

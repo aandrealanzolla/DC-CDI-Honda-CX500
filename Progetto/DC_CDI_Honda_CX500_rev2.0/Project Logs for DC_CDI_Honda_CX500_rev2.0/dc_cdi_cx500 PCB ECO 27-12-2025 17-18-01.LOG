@@ -1,0 +1,95 @@
+Removed Pin From Net: NetName=L_HV Pin=Q1-2
+Removed Pin From Net: NetName=R_HV Pin=Q2-2
+Change Component Footprint: Designator=C1 Old Footprint=FP-ECQ-E10102KE-MFG New Footprint=WCAP-FTBP_L31W14H23.5
+Change Component Footprint: Designator=C4 Old Footprint=FP-ECQ-E10102KE-MFG New Footprint=WCAP-FTBP_L31W14H23.5
+Change Component Footprint: Designator=Q1 Old Footprint=INF-PG-TO252-3-11_A_N New Footprint=FP-PG-TO252-3-MFG
+Change Component Footprint: Designator=Q2 Old Footprint=INF-PG-TO252-3-11_A_N New Footprint=FP-PG-TO252-3-MFG
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Change Component Comment : Designator=C1 Old Comment=ECQ-E10102KE New Comment=890273327007CS
+Change Component Comment : Designator=C4 Old Comment=ECQ-E10102KE New Comment=890273327007CS
+Change Component Comment : Designator=Q1 Old Comment=IPD600N25N3 G New Comment=IPD60R180C7ATMA1
+Change Component Comment : Designator=Q2 Old Comment=IPD600N25N3 G New Comment=IPD60R180C7ATMA1
+Change Managed Component Library Link : Designator=C1 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=48EC6484-CEFE-4D05-BB01-4D6F8C703662 New ItemGUID=CE469A4B-28A6-49D0-8161-F2A83752FF96 Old RevisionGUID=B75A93AD-48F5-4E96-A2BE-C094D2B0AAA6 New RevisionGUID=D92C8F9B-CCE8-4655-A3AA-39B96957F80A
+Change Managed Component Library Link : Designator=C4 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=48EC6484-CEFE-4D05-BB01-4D6F8C703662 New ItemGUID=CE469A4B-28A6-49D0-8161-F2A83752FF96 Old RevisionGUID=B75A93AD-48F5-4E96-A2BE-C094D2B0AAA6 New RevisionGUID=D92C8F9B-CCE8-4655-A3AA-39B96957F80A
+Change Managed Component Library Link : Designator=Q1 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=6848822E-5F86-492E-A6FB-4B49669152E3 New ItemGUID=38F9A892-9509-47F0-B26A-DCACF74F14E8 Old RevisionGUID=801882FB-0D17-443F-ADBF-0AB6F494A9D3 New RevisionGUID=A6B349B2-8F7B-4B79-9DA7-399CFEF34A1B
+Change Managed Component Library Link : Designator=Q2 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=6848822E-5F86-492E-A6FB-4B49669152E3 New ItemGUID=38F9A892-9509-47F0-B26A-DCACF74F14E8 Old RevisionGUID=801882FB-0D17-443F-ADBF-0AB6F494A9D3 New RevisionGUID=A6B349B2-8F7B-4B79-9DA7-399CFEF34A1B
+Change component parameters: Designator = "C1" ("C1"); Footprint = "FP-ECQ-E10102KE-MFG"; UniqueID = "\UTHYCDKF" ("\UTHYCDKF")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "4.7µF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ESR (Equivalent Series Resistance)"; Value = "14.53mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "23.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "31mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Carton"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pin Length"; Value = "4mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "27.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "250V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "14mm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C4" ("C4"); Footprint = "FP-ECQ-E10102KE-MFG"; UniqueID = "\BBOFKNAC" ("\BBOFKNAC")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "4.7µF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ESR (Equivalent Series Resistance)"; Value = "14.53mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "23.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "31mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Carton"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pin Length"; Value = "4mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "27.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "250V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "14mm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q1" ("Q1"); Footprint = "INF-PG-TO252-3-11_A_N"; UniqueID = "\ELAPHFDS" ("\ELAPHFDS")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "TO-252-3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Continuous Drain Current (ID)"; Value = "13A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Drain to Source Breakdown Voltage"; Value = "600V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Drain to Source Resistance"; Value = "155mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Drain to Source Voltage (Vdss)"; Value = "600V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Gate to Source Voltage (Vgs)"; Value = "20V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Halogen Free"; Value = "Halogen Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "2.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Input Capacitance"; Value = "1.08nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Contains Lead"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lifecycle Status"; Value = "Production"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Dual Supply Voltage"; Value = "600V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Junction Temperature (Tj)"; Value = "150°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "150°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Power Dissipation"; Value = "68W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "NexarPartId"; Value = "57372565"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Channels"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "On-State Resistance"; Value = "180mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "2500"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape & Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Dissipation"; Value = "68W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rds On Max"; Value = "180mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Turn-Off Delay Time"; Value = "50ns"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Turn-On Delay Time"; Value = "9.3ns"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q2" ("Q2"); Footprint = "INF-PG-TO252-3-11_A_N"; UniqueID = "\ESQSVBAE" ("\ESQSVBAE")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "TO-252-3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Continuous Drain Current (ID)"; Value = "13A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Drain to Source Breakdown Voltage"; Value = "600V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Drain to Source Resistance"; Value = "155mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Drain to Source Voltage (Vdss)"; Value = "600V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Gate to Source Voltage (Vgs)"; Value = "20V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Halogen Free"; Value = "Halogen Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "2.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Input Capacitance"; Value = "1.08nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Contains Lead"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lifecycle Status"; Value = "Production"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Dual Supply Voltage"; Value = "600V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Junction Temperature (Tj)"; Value = "150°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "150°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Power Dissipation"; Value = "68W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "NexarPartId"; Value = "57372565"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Channels"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "On-State Resistance"; Value = "180mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "2500"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape & Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Dissipation"; Value = "68W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rds On Max"; Value = "180mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Turn-Off Delay Time"; Value = "50ns"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Turn-On Delay Time"; Value = "9.3ns"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=L_HV Pin=Q1-4
+Added Pin To Net: NetName=R_HV Pin=Q2-4

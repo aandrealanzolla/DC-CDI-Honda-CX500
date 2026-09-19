@@ -1,0 +1,31 @@
+Change Component DesignItemId : Designator=C44 Old DesignItemId=CMP-03913-89437304-2 New DesignItemId=WCAP-FTBP_P10
+Change Component Footprint: Designator=C44 Old Footprint=WCAP-FTBP_L13W5.5H11 New Footprint=WCAP-FTBP_10X13X5.5X11(PXLXWXH)
+Change Component Comment : Designator=C44 Old Comment=890283323005CS New Comment=WCAP-FTBP_P10
+Change Component Description : Designator=C44 Old Description=Cap, 0.1Uf, 400V, Film, Radial Rohs Compliant: Yes New Description=MPPP010104J400DCPP55004; THT Boxed; 100 nF ± 5 %; 400V (DC); RIso ≥ 30 GΩ; pitch 10; Climate category 40/105/56
+Change Component Library : Designator=C44 Old Library=Altium Content Vault New Library=WCAP-FTBP_P10.IntLib
+Change Managed Component Library Link : Designator=C44 Old VaultGUID= New VaultGUID= Old ItemGUID=FC769DE3-4E10-4C8E-941A-1F6DC3F98CFA New ItemGUID= Old RevisionGUID=FBF6B360-C293-441C-8AC4-322806F0B08B New RevisionGUID=
+Change component parameters: Designator = "C44" ("C44"); Footprint = "WCAP-FTBP_L13W5.5H11"; UniqueID = "\VLPCKDFK" ("\VLPCKDFK")
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/890283323005CS/Wurth+Electronics/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "890283323005CS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/890283323005CS/Wurth+Electronics/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C38(WCAP-FTBP_10X13X5.5X11(PXLXWXH))
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/890283323005CS/Wurth+Electronics/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "890283323005CS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/890283323005CS/Wurth+Electronics/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component: Footprint Not Found FP-CSRN2010-IPC_B
+Add component: Footprint Not Found FP-CSRN2010-IPC_B
+Added Pin To Net: NetName=PGND Pin=C38-1
+Added Pin To Net: NetName=L_HV Pin=C38-2
+Add Pin To Net: Unknown Pin: Pin R52-1
+Add Pin To Net: Unknown Pin: Pin R52-2
+Add Pin To Net: Unknown Pin: Pin R65-1
+Add Pin To Net: Unknown Pin: Pin R65-2
+Added Member To Class: ClassName=HV_power Member=Component C38 WCAP-FTBP_P10
+Add Class Member: Failed to add class member : Component R52 CSRN2010FK20L0
+Add Class Member: Failed to add class member : Component R65 CSRN2010FK20L0

@@ -1,0 +1,25 @@
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Add component: Footprint Not Found DA2034-AL
+Add component: Footprint Not Found DA2034-AL
+Add Pin To Net: Unknown Pin: Pin J5-P$1
+Add Pin To Net: Unknown Pin: Pin J5-P$3
+Add Pin To Net: Unknown Pin: Pin J5-P$4
+Add Pin To Net: Unknown Pin: Pin J5-P$5
+Add Pin To Net: Unknown Pin: Pin J5-P$6
+Add Pin To Net: Unknown Pin: Pin J5-P$7
+Add Pin To Net: Unknown Pin: Pin J5-P$8
+Add Pin To Net: Unknown Pin: Pin J5-P$9
+Add Pin To Net: Unknown Pin: Pin J5-P$10
+Add Pin To Net: Unknown Pin: Pin J5-P$12
+Add Pin To Net: Unknown Pin: Pin J7-P$1
+Add Pin To Net: Unknown Pin: Pin J7-P$3
+Add Pin To Net: Unknown Pin: Pin J7-P$4
+Add Pin To Net: Unknown Pin: Pin J7-P$5
+Add Pin To Net: Unknown Pin: Pin J7-P$6
+Add Pin To Net: Unknown Pin: Pin J7-P$7
+Add Pin To Net: Unknown Pin: Pin J7-P$8
+Add Pin To Net: Unknown Pin: Pin J7-P$9
+Add Pin To Net: Unknown Pin: Pin J7-P$10
+Add Pin To Net: Unknown Pin: Pin J7-P$12
+Add Class Member: Failed to add class member : Component J5 DA2034-AL
+Add Class Member: Failed to add class member : Component J7 DA2034-AL

@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=ANALOG_SENSOR_2 Pin=J4-4
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Added Component: Designator=R54(0402_fp)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "20 kO"; VariantName = "[No Variations]"
+Added Component: Designator=R55(0402_fp)
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "39 kO"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=ANALOG_SENSOR_2 Pin=R54-2
+Added Pin To Net: NetName=GND Pin=R55-1
+Added Pin To Net: NetName=ANALOG_SENSOR_2 Pin=R55-2
+Added Pin To Net: NetName=NetJ4_4 Pin=J4-4
+Added Net: Name=NetJ4_4
+Added Member To Class: ClassName=logic Member=Component R54 Resistor_0402
+Added Member To Class: ClassName=logic Member=Component R55 Resistor_0402

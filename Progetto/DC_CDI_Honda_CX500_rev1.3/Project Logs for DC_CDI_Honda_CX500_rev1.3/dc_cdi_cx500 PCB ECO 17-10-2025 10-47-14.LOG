@@ -1,0 +1,8 @@
+Change Component DesignItemId : Designator=R1 Old DesignItemId=Resistor_0402 New DesignItemId=
+Change Component DesignItemId : Designator=R2 Old DesignItemId=Resistor_0402 New DesignItemId=
+Change Component Footprint: Designator=R1 Old Footprint=0402_fp New Footprint=0603_FP
+Change Component Footprint: Designator=R2 Old Footprint=0402_fp New Footprint=0603_FP
+Change Component Library : Designator=R1 Old Library=0402_sch.SchLib New Library=RC_sch.SchLib
+Change Component Library : Designator=R2 Old Library=0402_sch.SchLib New Library=RC_sch.SchLib
+Add Net: Net with name "NetR18_1" already exists
+Added Member To Class: ClassName=HV_power Member=Component R18 Resistor_0402

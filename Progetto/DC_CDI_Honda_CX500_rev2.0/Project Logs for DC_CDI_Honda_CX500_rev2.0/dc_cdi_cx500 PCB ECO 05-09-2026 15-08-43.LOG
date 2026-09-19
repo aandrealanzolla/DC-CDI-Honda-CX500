@@ -1,0 +1,36 @@
+Add component: Footprint Not Found CAPC1608X90X35NL15T15
+Add component: Footprint Not Found CAPC1608X90X35NL15T15
+Add component: Footprint Not Found CAPC1608X90X35NL15T15
+Add component: Footprint Not Found CAPC1608X90X35NL15T15
+Added Component: Designator=D1(DIO_BZT52B15SH_RRG)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/BZT52B15SH%20RRG/Taiwan+Semiconductor+Corporation/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Taiwan Semiconductor Corporation"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "BZT52B15SH RRG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOD-323-2 Taiwan Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/BZT52B15SH%20RRG/Taiwan+Semiconductor+Corporation/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D8(DIO_BZT52B15SH_RRG)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/BZT52B15SH%20RRG/Taiwan+Semiconductor+Corporation/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Taiwan Semiconductor Corporation"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "BZT52B15SH RRG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOD-323-2 Taiwan Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/BZT52B15SH%20RRG/Taiwan+Semiconductor+Corporation/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin C2-1
+Add Pin To Net: Unknown Pin: Pin C2-2
+Add Pin To Net: Unknown Pin: Pin C3-1
+Add Pin To Net: Unknown Pin: Pin C3-2
+Add Pin To Net: Unknown Pin: Pin C52-1
+Add Pin To Net: Unknown Pin: Pin C52-2
+Add Pin To Net: Unknown Pin: Pin C53-1
+Add Pin To Net: Unknown Pin: Pin C53-2
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=PGND Pin=D1-2
+Added Pin To Net: NetName=NetD8_1 Pin=D8-1
+Added Pin To Net: NetName=PGND Pin=D8-2
+Add Class Member: Failed to add class member : Component C2 06035C104KAT4A
+Add Class Member: Failed to add class member : Component C3 06035C104KAT4A
+Add Class Member: Failed to add class member : Component C52 06035C104KAT4A
+Add Class Member: Failed to add class member : Component C53 06035C104KAT4A
+Added Member To Class: ClassName=cd_switching Member=Component D1 BZT52B15SH_RRG
+Added Member To Class: ClassName=cd_switching Member=Component D8 BZT52B15SH_RRG

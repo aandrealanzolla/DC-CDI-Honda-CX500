@@ -1,0 +1,9 @@
+Change Component Footprint: Designator=C7 Old Footprint=FP-FTG-MFG New Footprint=FP-EEH-F-MFG
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Change Component Comment : Designator=C7 Old Comment=EEE-FT1E102UP New Comment=EEHZT1E221P
+Change Managed Component Library Link : Designator=C7 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=BED3C73E-565E-4D7C-A39A-3FA7E44A47CB New ItemGUID=C48D61F0-D6FA-4BDE-8055-C4C571843E5F Old RevisionGUID=CBE577F2-EC51-4382-8D72-4E5B6203E13F New RevisionGUID=FD87FDEE-A4FA-4FC3-A04B-38CD816A4423
+Added Component: Designator=C44(FP-EEH-F-MFG)
+Added Pin To Net: NetName=GND Pin=C44-1
+Added Pin To Net: NetName=VBAT Pin=C44-2
+Added Member To Class: ClassName=input_output Member=Component C44 EEHZT1E221P
+Added Member To Class: ClassName=logic Member=Component R16 Resistor_0402

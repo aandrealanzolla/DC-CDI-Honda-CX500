@@ -1,0 +1,11 @@
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:ONSC-DPAK-3-369C-01_V
+Added Component: Designator=C44(0402_fp)
+Add component (AddParameter): Name = "Format"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100 nF"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=C44-1
+Added Pin To Net: NetName=GND Pin=C44-2
+Added Pin To Net: NetName=3V3 Pin=U8-1
+Change Net Name : Old Net Name=3V3 New Net Name=VBAT
+Added Member To Class: ClassName=logic Member=Component C44 Capacitor_0402
+Added Rule: Name=Schematic Supply Nets_1

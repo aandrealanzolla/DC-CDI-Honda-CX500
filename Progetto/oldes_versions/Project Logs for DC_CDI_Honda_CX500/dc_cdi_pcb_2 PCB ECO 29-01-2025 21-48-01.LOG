@@ -1,0 +1,119 @@
+Removed Member From Class: ClassName=power_side Member=R21
+Removed Member From Class: ClassName=logic Member=R38
+Removed Member From Class: ClassName=power_side Member=R38
+Removed Member From Class: ClassName=logic Member=R41
+Change Component Designator: OldDesignator=LED1 NewDesignator=D11
+Change Component Designator: OldDesignator=LED2 NewDesignator=D12
+Added Component: Designator=C50(FP-C1608-080-0_1-MFG)
+Add component (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "1608"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Construction"; Value = "Flat"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "0.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric Material"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "1.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Type"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness"; Value = "0.035inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "7.1E-05oz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.8mm"; VariantName = "[No Variations]"
+Added Component: Designator=R49(RESC1608X55X25ML10T15)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "1608"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Composition"; Value = "ThickFilm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_5.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. 5, 10/2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "0.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.45mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "LeadFree"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "1.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.yageo.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Military Standard"; Value = "Not"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.8 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "5000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeandReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Rating"; Value = "100mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "NoSVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "0mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "200ppm/degreesC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.8mm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C50-1
+Added Pin To Net: NetName=+3V3 Pin=R49-2
+Added Pin To Net: NetName=GND Pin=U6-37
+Added Pin To Net: NetName=GND Pin=U6-158
+Added Pin To Net: NetName=NetC50_2 Pin=C50-2
+Added Pin To Net: NetName=NetC50_2 Pin=U6-38
+Added Net: Name=NetC50_2
+Added Pin To Net: NetName=NetR49_1 Pin=R49-1
+Added Pin To Net: NetName=NetR49_1 Pin=U6-6
+Added Net: Name=NetR49_1
+Added Member To Class: ClassName=logic Member=Component C50 C1608X5R1A106K080AC
+Added Member To Class: ClassName=power_side Member=Component R1 CRCW251210R0FKEG
+Added Member To Class: ClassName=power_side Member=Component R3 ERJ-3EKF1243V
+Added Member To Class: ClassName=power_side Member=Component R5 RC0603FR-071KL
+Added Member To Class: ClassName=power_side Member=Component R7 RC0603FR-07100RL
+Added Member To Class: ClassName=power_side Member=Component R9 RC0603FR-0710KL
+Added Member To Class: ClassName=power_side Member=Component R10 CRCW251210R0FKEG
+Added Member To Class: ClassName=power_side Member=Component R11 RC0603FR-07470KL
+Added Member To Class: ClassName=power_side Member=Component R12 ERJ-3EKF1243V
+Added Member To Class: ClassName=power_side Member=Component R13 RC0603FR-0756KL
+Added Member To Class: ClassName=power_side Member=Component R14 RC0603FR-071KL
+Added Member To Class: ClassName=power_side Member=Component R15 CSRF2512FT15L0
+Added Member To Class: ClassName=power_side Member=Component R16 RC0603FR-07100RL
+Added Member To Class: ClassName=power_side Member=Component R17 RC0603FR-07120KL
+Added Member To Class: ClassName=power_side Member=Component R18 RC0603FR-0710KL
+Added Member To Class: ClassName=logic Member=Component R19 RC0805JR-0710KL
+Added Member To Class: ClassName=logic Member=Component R20 CRCW0603510RFKEA
+Added Member To Class: ClassName=logic Member=Component R22 RC0603FR-0710KL
+Added Member To Class: ClassName=logic Member=Component R23 RC0603FR-071KL
+Added Member To Class: ClassName=input_filter Member=Component R24 820K 5% 0603(1608)
+Added Member To Class: ClassName=input_filter Member=Component R25 RC0603FR-07150KL
+Added Member To Class: ClassName=input_filter Member=Component R26 CRCW06032M20FKEA
+Added Member To Class: ClassName=input_filter Member=Component R27 RC0603FR-0768KL
+Added Member To Class: ClassName=input_filter Member=Component R28 CRCW06032M20FKEA
+Added Member To Class: ClassName=input_filter Member=Component R29 RC0603FR-0712KL
+Added Member To Class: ClassName=input_filter Member=Component R30 RC0603FR-07100RL
+Added Member To Class: ClassName=input_filter Member=Component R31 RC0603FR-0710KL
+Added Member To Class: ClassName=input_filter Member=Component R32 10M 5% 0603(1608)
+Added Member To Class: ClassName=input_filter Member=Component R33 RC0603FR-072K2L
+Added Member To Class: ClassName=input_filter Member=Component R34 CRCW06032M20FKEA
+Added Member To Class: ClassName=input_filter Member=Component R35 820K 5% 0603(1608)
+Added Member To Class: ClassName=input_filter Member=Component R36 RC0603FR-07150KL
+Added Member To Class: ClassName=input_filter Member=Component R37 CRCW06032M20FKEA
+Added Member To Class: ClassName=input_filter Member=Component R39 CRCW06032M20FKEA
+Added Member To Class: ClassName=input_filter Member=Component R40 RC0603FR-0712KL
+Added Member To Class: ClassName=input_filter Member=Component R44 RC0603FR-072K2L
+Added Member To Class: ClassName=input_filter Member=Component R45 CRCW06032M20FKEA
+Added Member To Class: ClassName=input_filter Member=Component R46 RC0603FR-0710KL
+Added Member To Class: ClassName=logic Member=Component R49 RC0603JR-070RL
