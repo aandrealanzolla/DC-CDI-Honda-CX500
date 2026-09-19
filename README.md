@@ -11,7 +11,7 @@ STM32-based custom DC-CDI for a Honda CX500, V-twin wasted-spark with variable r
 - **Rev 2.2** — IN PRODUCTION. Migration to STM32F410CBU6 for PCBA cost reduction (pin remapping required). SMPS voltage increased from 290V to 400V. CDI capacitance decreased from 2.2uF to 1.5uF. 
 
 ⚠️ **Use**: hobby project, intended for vintage or racing motorcycles. No EMC or road-use certification. See `docs/` for the regulatory considerations evaluated.
-![Scheda rev1 montata](hardware/rev1/photos/board_assembled.jpg)
+![Scheda rev1 montata](IMG_7243.HEIC)
 ## Hardware architecture
 
 ### Rev 1.x (STM32F411CEU6)
