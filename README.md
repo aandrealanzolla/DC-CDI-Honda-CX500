@@ -11,7 +11,7 @@ STM32-based custom DC-CDI for a Honda CX500, V-twin wasted-spark with variable r
 - **Rev 2.2** — IN PRODUCTION. Migration to STM32F410CBU6 for PCBA cost reduction (pin remapping required). SMPS voltage increased from 290V to 400V. CDI capacitance decreased from 2.2uF to 1.5uF. 
 
 ⚠️ **Use**: hobby project, intended for vintage or racing motorcycles. No EMC or road-use certification. See `docs/` for the regulatory considerations evaluated.
-![Scheda rev1 montata](hardware/rev1/photos/board_assembled.jpg)
+![Scheda rev1 montata](IMG_7243.HEIC)
 ## Hardware architecture
 
 ### Rev 1.x (STM32F411CEU6)
@@ -55,16 +55,26 @@ Added external connector: JAE MX23A18 (waterproof) with UART access for engine m
 ## Repository structure
 
 ```
-firmware/
-  rev1_stm32f411/    - main.c, working, road-tested
-  rev2_stm32f410/    - migration in progress
-hardware/
-  rev1/              - PCB STEP file
-  rev2/
-tools/
-  cdi_calibration_tool.py  - Python GUI to write new maps over serial
-docs/
-  - technical notes, design decisions, regulatory considerations
+Progetto/
+  DC_CDI_Honda_CX500_rev1.3/         - Altium project, rev 1.3 (working - with some rework, road-tested)
+  DC_CDI_Honda_CX500_rev2.0/         - Altium project, rev 2.0 (SUPERSEDED)
+  DC_CDI_Honda_CX500_rev2.1/         - Altium project, rev 2.1 (SUPERSEDED)
+  DC_CDI_Honda_CX500_rev2.2/         - Altium project, rev 2.2 (IN PRODUCTION)
+  DC_CDI_Honda_CX500_daughter_board_1/ - MAX9927 pickup daughter board
+  Housing/
+    rev1.3/                          - STEP/STL/OBJ enclosure models
+    rev2.0/
+  Documentazione/                    - PDFs
+  simulazioni_LTspice/               - LTSpice simulation files
+  firmware/                          - firmware version notes
+  oldes_versions/                    - pre-rev1.3 Altium history
+  smps_dimensionamento.xlsx
+  stm32f411xx_RegisterMap.pdf
+Video-Foto/                          - photos/videos of the build
+Log_fw/                              - firmware telemetry logs
+Misure/                              - oscilloscope captures
+Sim/                                 - misc simulation files
+
 ```
 
 ## Main milestones (timeline)
