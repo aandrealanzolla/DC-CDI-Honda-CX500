@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=SMPS_SW_NODE_R Pin=Q7-2
+Removed Pin From Net: NetName=SMPS_SW_NODE_R Pin=T1-6
+Removed Pin From Net: NetName=SMPS_SW_NODE_R Pin=T1-7
+Added Pin To Net: NetName=SMPS_SW_NODE_L Pin=Q7-2
+Added Pin To Net: NetName=SMPS_SW_NODE_L Pin=T1-6
+Added Pin To Net: NetName=SMPS_SW_NODE_L Pin=T1-7
+Added Member To Class: ClassName=HV_NETS Member=Wire SMPS_SW_NODE_L
