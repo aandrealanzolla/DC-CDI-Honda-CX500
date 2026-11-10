@@ -24,6 +24,7 @@ STM32-based custom DC-CDI for a Honda CX500, V-twin wasted-spark with variable r
 | Spark coil output | TIM2 CH1 | TIM1 CH1 |
 
 ### Rev 2.x (STM32F410CBU6)
+![rev2.2 pcb assembled](IMG_7787.HEIC)
 
 STM32F410 lacks TIM2/TIM3/TIM4 (value-line part), timers remapped as follows. TIM1 now
 carries both right-channel output and left-channel capture on independent channels of the
