@@ -8,7 +8,7 @@ STM32-based custom DC-CDI for a Honda CX500, V-twin wasted-spark with variable r
 - **Rev 1.3.1** — Added a daughter board with MAX9927 IC for VR pickup reading. Replaced old step-up transformers with DA2034. Almost fully working and road-tested.
 - **Rev 2.0** — SUPERSEDED. Improved routing, transformer footprint update, added JAE 18-pin automotive connector.
 - **Rev 2.1** — SUPERSEDED. SMPS controller change: from LT3758 (Analog Devices) to LM3481 (TI). Transformer change: from Coilcraft DA2034 to Würth 750032052.
-- **Rev 2.2** — IN PRODUCTION. Migration to STM32F410CBU6 for PCBA cost reduction (pin remapping required). SMPS voltage increased from 290V to 400V. CDI capacitance decreased from 2.2uF to 1.5uF. 
+- **Rev 2.2** — TESTING. Migration to STM32F410CBU6 for PCBA cost reduction (pin remapping required). SMPS voltage increased from 290V to 350V. CDI capacitance decreased from 2.2uF to 1.5uF. 
 
 ⚠️ **Use**: hobby project, intended for vintage or racing motorcycles. No EMC or road-use certification. See `docs/` for the regulatory considerations evaluated.
 
